@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "codelijst-verwaarlozing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/nodejs/01_codelijst_skos_from_csv.js",
+  "scripts": {
+    "create_metadata": "cd src && node 02_metadata.js"
+  },
+  "keywords": [
+    "milieuinfo",
+    "linked data",
+    "skos",
+    "rdfjs",
+    "dcat",
+    "n3-reasoning",
+    "maven"
+  ],
+  "author": "Geert Van Haute",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.0",
+    "maven-metadata-generator-npm": "^0.2.69",
+    "package.json": "^0.0.0"
+  }
+}

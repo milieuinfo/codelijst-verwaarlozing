@@ -1,0 +1,607 @@
+{
+    "@context": {
+        "sparql-service-description-graph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#graph",
+            "@type": "@id"
+        },
+        "defaultGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultGraph",
+            "@type": "@id"
+        },
+        "collections": {
+            "@type": "@id",
+            "@reverse": "member"
+        },
+        "id": "@id",
+        "type": {
+            "@id": "@type",
+            "@type": "@id"
+        },
+        "source": {
+            "@id": "http://purl.org/dc/terms/source",
+            "@type": "@id"
+        },
+        "sparql-service-description-name": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#name",
+            "@type": "@id"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier",
+            "@type": "@id"
+        },
+        "hasVersion": {
+            "@id": "http://purl.org/dc/terms/hasVersion",
+            "@type": "@id"
+        },
+        "isVersionOf": {
+            "@id": "http://purl.org/dc/terms/isVersionOf",
+            "@type": "@id"
+        },
+        "label": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@language": "nl"
+        },
+        "distribution": {
+            "@id": "http://www.w3.org/ns/dcat#distribution",
+            "@type": "@id"
+        },
+        "alternative": {
+            "@id": "http://purl.org/dc/terms/alternative",
+            "@language": "nl"
+        },
+        "description": {
+            "@id": "http://purl.org/dc/terms/description",
+            "@language": "nl"
+        },
+        "spatial": {
+            "@id": "http://purl.org/dc/terms/spatial",
+            "@type": "@id"
+        },
+        "page": {
+            "@id": "http://xmlns.com/foaf/0.1/page",
+            "@type": "@id"
+        },
+        "theme": {
+            "@id": "http://www.w3.org/ns/dcat#theme",
+            "@type": "@id"
+        },
+        "title": {
+            "@id": "http://purl.org/dc/terms/title",
+            "@language": "nl"
+        },
+        "landingPage": {
+            "@id": "http://www.w3.org/ns/dcat#landingPage",
+            "@type": "@id"
+        },
+        "rightsHolder": {
+            "@id": "http://purl.org/dc/terms/rightsHolder",
+            "@type": "@id"
+        },
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "accrualPeriodicity": {
+            "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+            "@type": "@id"
+        },
+        "publisher": {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "@id"
+        },
+        "dct.language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contactPoint": {
+            "@id": "http://www.w3.org/ns/dcat#contactPoint",
+            "@type": "@id"
+        },
+        "temporal": {
+            "@id": "http://purl.org/dc/terms/temporal",
+            "@type": "@id"
+        },
+        "issued": {
+            "@id": "http://purl.org/dc/terms/issued",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "accessRights": {
+            "@id": "http://purl.org/dc/terms/accessRights",
+            "@type": "@id"
+        },
+        "license": {
+            "@id": "http://purl.org/dc/terms/license",
+            "@type": "@id"
+        },
+        "accessURL": {
+            "@id": "http://www.w3.org/ns/dcat#accessURL",
+            "@type": "@id"
+        },
+        "compressFormat": {
+            "@id": "http://www.w3.org/ns/dcat#compressFormat",
+            "@type": "@id"
+        },
+        "downloadURL": {
+            "@id": "http://www.w3.org/ns/dcat#downloadURL",
+            "@type": "@id"
+        },
+        "mediaType": {
+            "@id": "http://www.w3.org/ns/dcat#mediaType",
+            "@type": "@id"
+        },
+        "format": {
+            "@id": "http://purl.org/dc/terms/format",
+            "@type": "@id"
+        },
+        "versionInfo": {
+            "@id": "http://spdx.org/rdf/terms#versionInfo"
+        },
+        "packageName": {
+            "@id": "http://spdx.org/rdf/terms#packageName"
+        },
+        "packageFileName": {
+            "@id": "http://spdx.org/rdf/terms#packageFileName"
+        },
+        "downloadLocation": {
+            "@id": "http://spdx.org/rdf/terms#downloadLocation",
+            "@type": "@id"
+        },
+        "relationshipType_packageOf": {
+            "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
+            "@type": "@id"
+        },
+        "availableGraphs": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+            "@type": "@id"
+        },
+        "resultFormat": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "@type": "@id"
+        },
+        "feature": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#feature",
+            "@type": "@id"
+        },
+        "supportedLanguage": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "@type": "@id"
+        },
+        "url": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#url",
+            "@type": "@id"
+        },
+        "comment": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "@language": "nl"
+        },
+        "defaultDataset": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+            "@type": "@id"
+        },
+        "endpoint": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "@type": "@id"
+        },
+        "namedGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+            "@type": "@id"
+        },
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        },
+        "service": {
+            "@id": "http://www.w3.org/ns/dcat#service",
+            "@type": "@id"
+        },
+        "rootResource": {
+            "@id": "http://rdfs.org/ns/void#rootResource",
+            "@type": "@id"
+        },
+        "dataset": {
+            "@id": "http://www.w3.org/ns/dcat#dataset",
+            "@type": "@id"
+        },
+        "servesDataset": {
+            "@id": "http://www.w3.org/ns/dcat#servesDataset",
+            "@type": "@id"
+        },
+        "endpointDescription": {
+            "@id": "http://www.w3.org/ns/dcat#endpointDescription",
+            "@type": "@id"
+        },
+        "endpointURL": {
+            "@id": "http://www.w3.org/ns/dcat#endpointURL",
+            "@type": "@id"
+        },
+        "conformsTo": {
+            "@id": "http://purl.org/dc/terms/conformsTo",
+            "@type": "@id"
+        },
+        "dc.identifier": {
+            "@id": "http://purl.org/dc/elements/1.1/identifier"
+        },
+        "dc.language": {
+            "@id": "http://purl.org/dc/elements/1.1/language",
+            "@language": "nl"
+        },
+        "dc.source": {
+            "@id": "http://purl.org/dc/elements/1.1/source"
+        },
+        "version": {
+            "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+        },
+        "name": {
+            "@id": "http://spdx.org/rdf/terms#name"
+        },
+        "seeAlso": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inScheme": {
+            "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "@type": "@id"
+        },
+        "topConceptOf": {
+            "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "@type": "@id"
+        },
+        "hasTopConcept": {
+            "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "uri": {
+            "@id": "@id",
+            "@type": "@id"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "nl"
+        },
+        "notation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "nl"
+        },
+        "note": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "nl"
+        },
+        "definition": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "nl"
+        },
+        "member": {
+            "@id": "http://www.w3.org/2004/02/skos/core#member",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "references": {
+            "@id": "http://purl.org/dc/terms/references",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "isReferencedBy": {
+            "@id": "http://purl.org/dc/terms/isReferencedBy",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "relation": {
+            "@id": "http://purl.org/dc/terms/relation",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "broaderTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "broadMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "closeMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "memberOf": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/algemeen#memberOf",
+            "@type": "@id"
+        },
+        "exactMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "mappingRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "broader": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "narrowerTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "narrowMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "@type": "@id"
+        },
+        "semanticRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "belongsTo": {
+            "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+            "@type": "@id"
+        },
+        "related": {
+            "@id": "http://www.w3.org/2004/02/skos/core#related",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "dc_elements_identifier": {
+            "@id": "http://purl.org/dc/elements/1.1/identifier"
+        }
+    },
+    "graph": [
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+            "type": "http://www.w3.org/2004/02/skos/core#Collection",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+            "member": [
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid",
+                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing"
+            ],
+            "notation": "co_verwaarlozing",
+            "prefLabel": "Collectie van concepten die gebruikt worden binnen de applicatie verwaarlozing en leegstand.",
+            "theme": "http://www.eionet.europa.eu/gemet/theme/5"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+            "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
+            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+            "hasTopConcept": [
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                    "narrower": [
+                        {
+                            "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren",
+                            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                            "broaderTransitive": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                            "notation": "buitenmuren",
+                            "prefLabel": "Gebrek aan de toestand van buitenmuren.",
+                            "semanticRelation": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                        },
+                        {
+                            "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk",
+                            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                            "broaderTransitive": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                            "notation": "buitentimmerwerk",
+                            "prefLabel": "Gebrek aan de toestand van het buitentimmerwerk.",
+                            "semanticRelation": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                        },
+                        {
+                            "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking",
+                            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                            "broaderTransitive": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                            "notation": "dakbedekking",
+                            "prefLabel": "Gebrek aan de toestand van de dakbedekking.",
+                            "semanticRelation": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                        },
+                        {
+                            "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte",
+                            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                            "broaderTransitive": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                            "notation": "dakgebinte",
+                            "prefLabel": "Gebrek aan de toestand van het dakgebinte.",
+                            "semanticRelation": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                        },
+                        {
+                            "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten",
+                            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                            "broaderTransitive": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                            "notation": "dakgoten",
+                            "prefLabel": "Gebrek aan de toestand van de dakgoten.",
+                            "semanticRelation": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                        },
+                        {
+                            "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst",
+                            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                            "broaderTransitive": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                            "notation": "kroonlijst",
+                            "prefLabel": "Gebrek aan de toestand van de kroonlijst.",
+                            "semanticRelation": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                        },
+                        {
+                            "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften",
+                            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                            "broaderTransitive": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                            "notation": "liften",
+                            "prefLabel": "Gebrek aan de toestand van de liften.",
+                            "semanticRelation": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                        },
+                        {
+                            "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen",
+                            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                            "broaderTransitive": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                            "notation": "schoorstenen",
+                            "prefLabel": "Gebrek aan de toestand van schoorstenen.",
+                            "semanticRelation": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                        },
+                        {
+                            "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen",
+                            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
+                            "broaderTransitive": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                            "notation": "trappen",
+                            "prefLabel": "Gebrek aan de toestand van de trappen.",
+                            "semanticRelation": [
+                                "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
+                            ],
+                            "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                        }
+                    ],
+                    "narrowerTransitive": [
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen"
+                    ],
+                    "notation": "gebouwonderdeel",
+                    "prefLabel": "Gebrek aan de toestand van een gebouwonderdeel.",
+                    "semanticRelation": [
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen",
+                        "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen"
+                    ],
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                    "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                    "notation": "stabiliteit",
+                    "prefLabel": "Gebrek dat stabiliteit in het gedrang brengt.",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                    "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                    "notation": "veiligheid",
+                    "prefLabel": "Gebrek dat veiligheid in het gedrang brengt.",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                    "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                    "notation": "vochtindringing",
+                    "prefLabel": "Gebrek dat leidt tot vochtindringing.",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
+                    "theme": "http://www.eionet.europa.eu/gemet/theme/5",
+                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                }
+            ],
+            "notation": "cs_verwaarlozing",
+            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+            "theme": "http://www.eionet.europa.eu/gemet/theme/5"
+        }
+    ]
+}

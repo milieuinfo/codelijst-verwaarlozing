@@ -1,4 +1,5 @@
 target/
+temp/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -15,3 +16,7 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+src/.env
+src/utils/setenv.js
+src/utils/setenv2.js
+codelijst-verwaarlozing.iml

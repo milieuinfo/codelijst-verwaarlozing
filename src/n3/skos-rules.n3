@@ -1,0 +1,19 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix log:  <http://www.w3.org/2000/10/swap/log#>.
+@prefix list: <http://www.w3.org/2000/10/swap/list#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix func: <http://www.w3.org/2007/rif-builtin-function#>.
+@prefix dce:  <http://purl.org/dc/elements/1.1/>.
+@prefix a:  <https://data.omgeving.vlaanderen.be/ns/algemeen#>.
+
+
+
+{ ?x skos:broader  ?y } => { ?y skos:narrower ?x }.
+{ ?y skos:broader ?x } => { ?x skos:narrowerTransitive ?y }.
+{ ?x skos:narrowerTransitive ?y. ?y skos:narrowerTransitive ?z } => { ?x skos:narrowerTransitive ?z }.
+{ ?x skos:broader  ?y } => { ?x skos:broaderTransitive ?y  }.
+{ ?x skos:narrower ?y } => { ?y skos:broader  ?x }.
+{ ?x skos:narrower ?y } => { ?x skos:narrowerTransitive ?y }.
+{ ?x skos:broaderTransitive  ?y. ?y skos:broaderTransitive  ?z } => { ?x skos:broaderTransitive  ?z }.
+{ ?x skos:member ?y } => { ?y a:memberOf ?x } .
