@@ -300,6 +300,11 @@
     "@type" : "@id",
     "@container": "@set"
   },
+
+  "gekoppelde_eigenschap" : {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap",
+    "@type" : "@id"
+  },
   "broadMatch" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
     "@type" : "@id",

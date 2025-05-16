@@ -43,6 +43,7 @@
 @prefix omg_vcard: <https://data.omgeving.vlaanderen.be/id/vcard/>.
 @prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix prop: <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#>.
 @prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
@@ -71,7 +72,8 @@ verwaarlozing:buitenmuren a skos:Concept;
     skos:notation "buitenmuren";
     skos:prefLabel "Gebrek aan de toestand van buitenmuren."@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_buitenmuren.
 verwaarlozing:buitentimmerwerk a skos:Concept;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
@@ -79,7 +81,8 @@ verwaarlozing:buitentimmerwerk a skos:Concept;
     skos:notation "buitentimmerwerk";
     skos:prefLabel "Gebrek aan de toestand van het buitentimmerwerk."@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_buitentimmerwerk.
 verwaarlozing:dakbedekking a skos:Concept;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
@@ -87,7 +90,8 @@ verwaarlozing:dakbedekking a skos:Concept;
     skos:notation "dakbedekking";
     skos:prefLabel "Gebrek aan de toestand van de dakbedekking."@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakbedekking.
 verwaarlozing:dakgebinte a skos:Concept;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
@@ -95,7 +99,8 @@ verwaarlozing:dakgebinte a skos:Concept;
     skos:notation "dakgebinte";
     skos:prefLabel "Gebrek aan de toestand van het dakgebinte."@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakgebinte.
 verwaarlozing:dakgoten a skos:Concept;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
@@ -103,7 +108,8 @@ verwaarlozing:dakgoten a skos:Concept;
     skos:notation "dakgoten";
     skos:prefLabel "Gebrek aan de toestand van de dakgoten."@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakgoten.
 verwaarlozing:gebouwonderdeel a skos:Concept;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:narrower verwaarlozing:buitenmuren, verwaarlozing:buitentimmerwerk, verwaarlozing:dakbedekking, verwaarlozing:dakgebinte, verwaarlozing:dakgoten, verwaarlozing:kroonlijst, verwaarlozing:liften, verwaarlozing:schoorstenen, verwaarlozing:trappen;
@@ -112,7 +118,8 @@ verwaarlozing:gebouwonderdeel a skos:Concept;
     skos:prefLabel "Gebrek aan de toestand van een gebouwonderdeel."@nl;
     skos:semanticRelation verwaarlozing:buitenmuren, verwaarlozing:buitentimmerwerk, verwaarlozing:dakbedekking, verwaarlozing:dakgebinte, verwaarlozing:dakgoten, verwaarlozing:kroonlijst, verwaarlozing:liften, verwaarlozing:schoorstenen, verwaarlozing:trappen;
     skos:topConceptOf conceptscheme:verwaarlozing;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_gebouwonderdeel.
 verwaarlozing:kroonlijst a skos:Concept;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
@@ -120,7 +127,8 @@ verwaarlozing:kroonlijst a skos:Concept;
     skos:notation "kroonlijst";
     skos:prefLabel "Gebrek aan de toestand van de kroonlijst."@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_kroonlijst.
 verwaarlozing:liften a skos:Concept;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
@@ -128,7 +136,8 @@ verwaarlozing:liften a skos:Concept;
     skos:notation "liften";
     skos:prefLabel "Gebrek aan de toestand van de liften."@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_liften.
 verwaarlozing:schoorstenen a skos:Concept;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
@@ -136,13 +145,15 @@ verwaarlozing:schoorstenen a skos:Concept;
     skos:notation "schoorstenen";
     skos:prefLabel "Gebrek aan de toestand van schoorstenen."@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_schoorstenen.
 verwaarlozing:stabiliteit a skos:Concept;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "stabiliteit";
     skos:prefLabel "Gebrek dat stabiliteit in het gedrang brengt."@nl;
     skos:topConceptOf conceptscheme:verwaarlozing;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_stabiliteit.
 verwaarlozing:trappen a skos:Concept;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
@@ -150,19 +161,22 @@ verwaarlozing:trappen a skos:Concept;
     skos:notation "trappen";
     skos:prefLabel "Gebrek aan de toestand van de trappen."@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_trappen.
 verwaarlozing:veiligheid a skos:Concept;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "veiligheid";
     skos:prefLabel "Gebrek dat veiligheid in het gedrang brengt."@nl;
     skos:topConceptOf conceptscheme:verwaarlozing;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_veiligheid.
 verwaarlozing:vochtindringing a skos:Concept;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "vochtindringing";
     skos:prefLabel "Gebrek dat leidt tot vochtindringing."@nl;
     skos:topConceptOf conceptscheme:verwaarlozing;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_vochtindringing.
 conceptscheme:verwaarlozing xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
     skos:definition "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
@@ -171,3 +185,16 @@ conceptscheme:verwaarlozing xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     skos:note "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
     skos:prefLabel "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+prop:vertoont_gebrek_ivm_buitenmuren a rdf:Property.
+prop:vertoont_gebrek_ivm_buitentimmerwerk a rdf:Property.
+prop:vertoont_gebrek_ivm_dakbedekking a rdf:Property.
+prop:vertoont_gebrek_ivm_dakgebinte a rdf:Property.
+prop:vertoont_gebrek_ivm_dakgoten a rdf:Property.
+prop:vertoont_gebrek_ivm_gebouwonderdeel a rdf:Property.
+prop:vertoont_gebrek_ivm_kroonlijst a rdf:Property.
+prop:vertoont_gebrek_ivm_liften a rdf:Property.
+prop:vertoont_gebrek_ivm_schoorstenen a rdf:Property.
+prop:vertoont_gebrek_ivm_stabiliteit a rdf:Property.
+prop:vertoont_gebrek_ivm_trappen a rdf:Property.
+prop:vertoont_gebrek_ivm_veiligheid a rdf:Property.
+prop:vertoont_gebrek_ivm_vochtindringing a rdf:Property.

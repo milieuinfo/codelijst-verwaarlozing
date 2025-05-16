@@ -3,6 +3,7 @@ skos:
   rules :
     skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
     dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
+    parameter_rules : /n3/parameter-rules.n3
   prefixes :
     concept : https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/
@@ -140,6 +141,7 @@ prefixes :
   omg_vcard: https://data.omgeving.vlaanderen.be/id/vcard/
   ovo: http://data.vlaanderen.be/id/organisatie/
   owl: http://www.w3.org/2002/07/owl#
+  prop: https://data.omgeving.vlaanderen.be/ns/verwaarlozing#
   repo: https://repo.omgeving.vlaanderen.be/artifactory/release/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

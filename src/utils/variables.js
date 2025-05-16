@@ -34,7 +34,10 @@ const frame_concept_via_conceptscheme = {
         "@type": "http://www.w3.org/2004/02/skos/core#Concept",
         "@embed": "@always",
         "@omitDefault": true,
-
+        "gekoppelde_eigenschap" : {
+            "@embed": "@never",
+            "@omitDefault": true
+        },
         "closeMatch" : {
             "@type": "http://www.w3.org/2004/02/skos/core#Concept",
             "@embed": "@never",
@@ -93,6 +96,10 @@ const frame_concept_via_conceptscheme = {
             "@type": "http://www.w3.org/2004/02/skos/core#Concept",
             "@embed": "@always",
             "@omitDefault": true,
+            "gekoppelde_eigenschap" : {
+                "@embed": "@never",
+                "@omitDefault": true
+            },
             "memberOf": {
                 "@embed": "@never",
                 "@omitDefault": true
@@ -152,6 +159,10 @@ const frame_concept_via_conceptscheme = {
                 "@type": "http://www.w3.org/2004/02/skos/core#Concept",
                 "@embed": "@always",
                 "@omitDefault": true,
+                "gekoppelde_eigenschap" : {
+                    "@embed": "@never",
+                    "@omitDefault": true
+                },
                 "memberOf": {
                     "@embed": "@never",
                     "@omitDefault": true
@@ -211,6 +222,10 @@ const frame_concept_via_conceptscheme = {
                     "@type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "@embed": "@always",
                     "@omitDefault": true,
+                    "gekoppelde_eigenschap" : {
+                        "@embed": "@never",
+                        "@omitDefault": true
+                    },
                     "memberOf": {
                         "@embed": "@never",
                         "@omitDefault": true
@@ -271,6 +286,10 @@ const frame_concept_via_conceptscheme = {
                         "@type": "http://www.w3.org/2004/02/skos/core#Concept",
                         "@embed": "@always",
                         "@omitDefault": true,
+                        "gekoppelde_eigenschap" : {
+                            "@embed": "@never",
+                            "@omitDefault": true
+                        },
                         "closeMatch" : {
                             "@type": "http://www.w3.org/2004/02/skos/core#Concept",
                             "@embed": "@never",
@@ -330,6 +349,10 @@ const frame_concept_via_conceptscheme = {
                             "@type": "http://www.w3.org/2004/02/skos/core#Concept",
                             "@embed": "@always",
                             "@omitDefault": true,
+                            "gekoppelde_eigenschap" : {
+                                "@embed": "@never",
+                                "@omitDefault": true
+                            },
                             "memberOf": {
                                 "@embed": "@never",
                                 "@omitDefault": true
@@ -462,6 +485,11 @@ const frame_concept_via_collectie = {
             "@embed": "@never",
             "@omitDefault": true
         },
+        "gekoppelde_eigenschap" : {
+            "@embed": "@never",
+            "@omitDefault": true
+        },
+
     },
 
     "isDefinedBy":{
@@ -657,6 +685,10 @@ const frame_skos_no_prefixes = {
     "@type": ["http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/2004/02/skos/core#Collection", "http://www.w3.org/2004/02/skos/core#Concept"],
     "member": {
         "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "gekoppelde_eigenschap" : {
         "@embed": "@never",
         "@omitDefault": true
     },

@@ -1,0 +1,3 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+{ ?x <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap>  ?y } => { ?y a rdf:Property }.

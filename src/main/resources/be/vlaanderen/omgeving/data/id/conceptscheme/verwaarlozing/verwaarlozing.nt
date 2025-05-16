@@ -24,6 +24,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek aan de toestand van buitenmuren."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitenmuren> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
@@ -32,6 +33,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek aan de toestand van het buitentimmerwerk."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitentimmerwerk> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
@@ -40,6 +42,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek aan de toestand van de dakbedekking."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakbedekking> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
@@ -48,6 +51,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek aan de toestand van het dakgebinte."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgebinte> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
@@ -56,6 +60,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek aan de toestand van de dakgoten."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgoten> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren> .
@@ -89,6 +94,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
@@ -97,6 +103,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek aan de toestand van de kroonlijst."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_kroonlijst> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
@@ -105,6 +112,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek aan de toestand van de liften."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_liften> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
@@ -113,12 +121,14 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek aan de toestand van schoorstenen."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_schoorstenen> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit> <http://www.w3.org/2004/02/skos/core#notation> "stabiliteit" .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek dat stabiliteit in het gedrang brengt."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_stabiliteit> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
@@ -127,18 +137,21 @@
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek aan de toestand van de trappen."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_trappen> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid> <http://www.w3.org/2004/02/skos/core#notation> "veiligheid" .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek dat veiligheid in het gedrang brengt."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_veiligheid> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing> <http://www.w3.org/2004/02/skos/core#notation> "vochtindringing" .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek dat leidt tot vochtindringing."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_vochtindringing> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> <http://www.w3.org/2004/02/skos/core#definition> "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl .
@@ -150,3 +163,16 @@
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> <http://www.w3.org/2004/02/skos/core#note> "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitenmuren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitentimmerwerk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakbedekking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgebinte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgoten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_gebouwonderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_kroonlijst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_liften> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_schoorstenen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_stabiliteit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_trappen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_veiligheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_vochtindringing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .

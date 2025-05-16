@@ -299,6 +299,10 @@
             "@type": "@id",
             "@container": "@set"
         },
+        "gekoppelde_eigenschap": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap",
+            "@type": "@id"
+        },
         "broadMatch": {
             "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
             "@type": "@id",
@@ -408,7 +412,8 @@
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitenmuren"
                         },
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk",
@@ -424,7 +429,8 @@
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitentimmerwerk"
                         },
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking",
@@ -440,7 +446,8 @@
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakbedekking"
                         },
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte",
@@ -456,7 +463,8 @@
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgebinte"
                         },
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten",
@@ -472,7 +480,8 @@
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgoten"
                         },
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst",
@@ -488,7 +497,8 @@
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_kroonlijst"
                         },
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften",
@@ -504,7 +514,8 @@
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_liften"
                         },
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen",
@@ -520,7 +531,8 @@
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_schoorstenen"
                         },
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen",
@@ -536,7 +548,8 @@
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                            "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_trappen"
                         }
                     ],
                     "narrowerTransitive": [
@@ -565,7 +578,8 @@
                     ],
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                    "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_gebouwonderdeel"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit",
@@ -575,7 +589,8 @@
                     "prefLabel": "Gebrek dat stabiliteit in het gedrang brengt.",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                    "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_stabiliteit"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid",
@@ -585,7 +600,8 @@
                     "prefLabel": "Gebrek dat veiligheid in het gedrang brengt.",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                    "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_veiligheid"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing",
@@ -595,7 +611,8 @@
                     "prefLabel": "Gebrek dat leidt tot vochtindringing.",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing"
+                    "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
+                    "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_vochtindringing"
                 }
             ],
             "notation": "cs_verwaarlozing",
