@@ -1,59 +1,59 @@
-uri,notation,prefLabel,definition,collections,inScheme,topConceptOf,broader,exactMatch,belongsTo,theme,gekoppelde_eigenschap
-collectie:verwaarlozing,co_verwaarlozing,Collectie van concepten die gebruikt worden binnen de applicatie verwaarlozing en leegstand.,,,conceptscheme:verwaarlozing,,,,,thema:5,
-conceptscheme:verwaarlozing,cs_verwaarlozing,Conceptschema over kenmerken van verwaarlozing aan gebouwen.,"Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,
-verwaarlozing:gebouwonderdeel,gebouwonderdeel,Gebrek aan de toestand van een gebouwonderdeel.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,prop:vertoont_gebrek_ivm_gebouwonderdeel
-verwaarlozing:buitenmuren,buitenmuren,Gebrek aan de toestand van buitenmuren.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_buitenmuren
-verwaarlozing:schoorstenen,schoorstenen,Gebrek aan de toestand van schoorstenen.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_schoorstenen
-verwaarlozing:dakbedekking,dakbedekking,Gebrek aan de toestand van de dakbedekking.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_dakbedekking
-verwaarlozing:dakgebinte,dakgebinte,Gebrek aan de toestand van het dakgebinte.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_dakgebinte
-verwaarlozing:buitentimmerwerk,buitentimmerwerk,Gebrek aan de toestand van het buitentimmerwerk.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_buitentimmerwerk
-verwaarlozing:kroonlijst,kroonlijst,Gebrek aan de toestand van de kroonlijst.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_kroonlijst
-verwaarlozing:dakgoten,dakgoten,Gebrek aan de toestand van de dakgoten.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_dakgoten
-verwaarlozing:trappen,trappen,Gebrek aan de toestand van de trappen.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_trappen
-verwaarlozing:liften,liften,Gebrek aan de toestand van de liften.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_liften
-verwaarlozing:stabiliteit,stabiliteit,Gebrek dat stabiliteit in het gedrang brengt.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,prop:vertoont_gebrek_ivm_stabiliteit
-verwaarlozing:veiligheid,veiligheid,Gebrek dat veiligheid in het gedrang brengt.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,prop:vertoont_gebrek_ivm_veiligheid
-verwaarlozing:vochtindringing,vochtindringing,Gebrek dat leidt tot vochtindringing.,,collectie:verwaarlozing,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,prop:vertoont_gebrek_ivm_vochtindringing
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-collectie:verwaarlozing,co_verwaarlozing,Collectie van concepten die gebruikt worden binnen de applicatie verwaarlozing en leegstand.,,,conceptscheme:verwaarlozing,,,,,thema:5,
-conceptscheme:verwaarlozing,cs_verwaarlozing,,"Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,
-verwaarlozing:gebouwonderdeel,gebouwonderdeel,Gebrek aan de toestand van een gebouwonderdeel.,,,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,
-verwaarlozing:buitenmuren,buitenmuren,Gebrek aan de toestand van buitenmuren.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,
-verwaarlozing:schoorstenen,schoorstenen,Gebrek aan de toestand van schoorstenen.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,
-verwaarlozing:dakbedekking,dakbedekking,Gebrek aan de toestand van de dakbedekking.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,
-verwaarlozing:dakgebinte,dakgebinte,Gebrek aan de toestand van het dakgebinte.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,
-verwaarlozing:buitentimmerwerk,buitentimmerwerk,Gebrek aan de toestand van het buitentimmerwerk.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,
-verwaarlozing:kroonlijst,kroonlijst,Gebrek aan de toestand van de kroonlijst.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,
-verwaarlozing:dakgoten,dakgoten,Gebrek aan de toestand van de dakgoten.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,
-verwaarlozing:trappen,trappen,Gebrek aan de toestand van de trappen.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,
-verwaarlozing:liften,liften,Gebrek aan de toestand van de liften.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,
-verwaarlozing:stabiliteit,stabiliteit,Gebrek dat stabiliteit in het gedrang brengt.,,,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,
-verwaarlozing:veiligheid,veiligheid,Gebrek dat veiligheid in het gedrang brengt.,,,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,
-verwaarlozing:vochtindringing,vochtindringing,Gebrek dat leidt tot vochtindringing.,,,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,
+uri,notation,prefLabel,definition,collections,inScheme,topConceptOf,broader,exactMatch,belongsTo,theme,gekoppelde_eigenschap,altLabel
+collectie:verwaarlozing,co_verwaarlozing,Collectie van concepten die gebruikt worden binnen de applicatie verwaarlozing en leegstand.,,,conceptscheme:verwaarlozing,,,,,thema:5,,
+conceptscheme:verwaarlozing,cs_verwaarlozing,Conceptschema over kenmerken van verwaarlozing aan gebouwen.,"Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,,
+verwaarlozing:gebouwonderdeel,gebouwonderdeel,Gebrek aan de toestand van een gebouwonderdeel,,collectie:verwaarlozing,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,prop:vertoont_gebrek_ivm_gebouwonderdeel,Gebrek aan de toestand van een gebouwonderdeel
+verwaarlozing:buitenmuren,buitenmuren,Gebrek aan de toestand van buitenmuren,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_buitenmuren,Buitenmuren
+verwaarlozing:schoorstenen,schoorstenen,Gebrek aan de toestand van schoorstenen,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_schoorstenen,Schoorstenen
+verwaarlozing:dakbedekking,dakbedekking,Gebrek aan de toestand van de dakbedekking,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_dakbedekking,Dakbedekking
+verwaarlozing:dakgebinte,dakgebinte,Gebrek aan de toestand van het dakgebinte,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_dakgebinte,Dakgebinte
+verwaarlozing:buitentimmerwerk,buitentimmerwerk,Gebrek aan de toestand van het buitentimmerwerk,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_buitentimmerwerk,Buitentimmerwerk
+verwaarlozing:kroonlijst,kroonlijst,Gebrek aan de toestand van de kroonlijst,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_kroonlijst,Kroonlijst
+verwaarlozing:dakgoten,dakgoten,Gebrek aan de toestand van de dakgoten,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_dakgoten,Dakgoten
+verwaarlozing:trappen,trappen,Gebrek aan de toestand van de trappen,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_trappen,Trappen
+verwaarlozing:liften,liften,Gebrek aan de toestand van de liften,,collectie:verwaarlozing,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,prop:vertoont_gebrek_ivm_liften,Liften
+verwaarlozing:stabiliteit,stabiliteit,Gebrek dat stabiliteit in het gedrang brengt,,collectie:verwaarlozing,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,prop:vertoont_gebrek_ivm_stabiliteit,Gebrek dat stabiliteit in het gedrang brengt
+verwaarlozing:veiligheid,veiligheid,Gebrek dat veiligheid in het gedrang brengt,,collectie:verwaarlozing,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,prop:vertoont_gebrek_ivm_veiligheid,Gebrek dat veiligheid in het gedrang brengt
+verwaarlozing:vochtindringing,vochtindringing,Gebrek dat leidt tot vochtindringing,,collectie:verwaarlozing,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,prop:vertoont_gebrek_ivm_vochtindringing,Gebrek dat leidt tot vochtindringing
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+collectie:verwaarlozing,co_verwaarlozing,Collectie van concepten die gebruikt worden binnen de applicatie verwaarlozing en leegstand.,,,conceptscheme:verwaarlozing,,,,,thema:5,,
+conceptscheme:verwaarlozing,cs_verwaarlozing,,"Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,,
+verwaarlozing:gebouwonderdeel,gebouwonderdeel,Gebrek aan de toestand van een gebouwonderdeel.,,,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,,
+verwaarlozing:buitenmuren,buitenmuren,Gebrek aan de toestand van buitenmuren.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,,
+verwaarlozing:schoorstenen,schoorstenen,Gebrek aan de toestand van schoorstenen.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,,
+verwaarlozing:dakbedekking,dakbedekking,Gebrek aan de toestand van de dakbedekking.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,,
+verwaarlozing:dakgebinte,dakgebinte,Gebrek aan de toestand van het dakgebinte.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,,
+verwaarlozing:buitentimmerwerk,buitentimmerwerk,Gebrek aan de toestand van het buitentimmerwerk.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,,
+verwaarlozing:kroonlijst,kroonlijst,Gebrek aan de toestand van de kroonlijst.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,,
+verwaarlozing:dakgoten,dakgoten,Gebrek aan de toestand van de dakgoten.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,,
+verwaarlozing:trappen,trappen,Gebrek aan de toestand van de trappen.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,,
+verwaarlozing:liften,liften,Gebrek aan de toestand van de liften.,,,conceptscheme:verwaarlozing,,verwaarlozing:gebouwonderdeel,,,thema:5,,
+verwaarlozing:stabiliteit,stabiliteit,Gebrek dat stabiliteit in het gedrang brengt.,,,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,,
+verwaarlozing:veiligheid,veiligheid,Gebrek dat veiligheid in het gedrang brengt.,,,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,,
+verwaarlozing:vochtindringing,vochtindringing,Gebrek dat leidt tot vochtindringing.,,,conceptscheme:verwaarlozing,conceptscheme:verwaarlozing,,,,thema:5,,
