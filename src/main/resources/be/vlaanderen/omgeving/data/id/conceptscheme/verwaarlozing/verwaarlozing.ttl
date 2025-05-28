@@ -66,114 +66,127 @@ collectie:verwaarlozing a skos:Collection;
     skos:prefLabel "Collectie van concepten die gebruikt worden binnen de applicatie verwaarlozing en leegstand."@nl;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
 verwaarlozing:buitenmuren a skos:Concept;
+    skos:altLabel "Buitenmuren"@nl;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "buitenmuren";
-    skos:prefLabel "Gebrek aan de toestand van buitenmuren."@nl;
+    skos:prefLabel "Gebrek aan de toestand van buitenmuren"@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_buitenmuren.
 verwaarlozing:buitentimmerwerk a skos:Concept;
+    skos:altLabel "Buitentimmerwerk"@nl;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "buitentimmerwerk";
-    skos:prefLabel "Gebrek aan de toestand van het buitentimmerwerk."@nl;
+    skos:prefLabel "Gebrek aan de toestand van het buitentimmerwerk"@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_buitentimmerwerk.
 verwaarlozing:dakbedekking a skos:Concept;
+    skos:altLabel "Dakbedekking"@nl;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "dakbedekking";
-    skos:prefLabel "Gebrek aan de toestand van de dakbedekking."@nl;
+    skos:prefLabel "Gebrek aan de toestand van de dakbedekking"@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakbedekking.
 verwaarlozing:dakgebinte a skos:Concept;
+    skos:altLabel "Dakgebinte"@nl;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "dakgebinte";
-    skos:prefLabel "Gebrek aan de toestand van het dakgebinte."@nl;
+    skos:prefLabel "Gebrek aan de toestand van het dakgebinte"@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakgebinte.
 verwaarlozing:dakgoten a skos:Concept;
+    skos:altLabel "Dakgoten"@nl;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "dakgoten";
-    skos:prefLabel "Gebrek aan de toestand van de dakgoten."@nl;
+    skos:prefLabel "Gebrek aan de toestand van de dakgoten"@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakgoten.
 verwaarlozing:gebouwonderdeel a skos:Concept;
+    skos:altLabel "Gebrek aan de toestand van een gebouwonderdeel"@nl;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:narrower verwaarlozing:buitenmuren, verwaarlozing:buitentimmerwerk, verwaarlozing:dakbedekking, verwaarlozing:dakgebinte, verwaarlozing:dakgoten, verwaarlozing:kroonlijst, verwaarlozing:liften, verwaarlozing:schoorstenen, verwaarlozing:trappen;
     skos:narrowerTransitive verwaarlozing:buitenmuren, verwaarlozing:buitentimmerwerk, verwaarlozing:dakbedekking, verwaarlozing:dakgebinte, verwaarlozing:dakgoten, verwaarlozing:kroonlijst, verwaarlozing:liften, verwaarlozing:schoorstenen, verwaarlozing:trappen;
     skos:notation "gebouwonderdeel";
-    skos:prefLabel "Gebrek aan de toestand van een gebouwonderdeel."@nl;
+    skos:prefLabel "Gebrek aan de toestand van een gebouwonderdeel"@nl;
     skos:semanticRelation verwaarlozing:buitenmuren, verwaarlozing:buitentimmerwerk, verwaarlozing:dakbedekking, verwaarlozing:dakgebinte, verwaarlozing:dakgoten, verwaarlozing:kroonlijst, verwaarlozing:liften, verwaarlozing:schoorstenen, verwaarlozing:trappen;
     skos:topConceptOf conceptscheme:verwaarlozing;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_gebouwonderdeel.
 verwaarlozing:kroonlijst a skos:Concept;
+    skos:altLabel "Kroonlijst"@nl;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "kroonlijst";
-    skos:prefLabel "Gebrek aan de toestand van de kroonlijst."@nl;
+    skos:prefLabel "Gebrek aan de toestand van de kroonlijst"@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_kroonlijst.
 verwaarlozing:liften a skos:Concept;
+    skos:altLabel "Liften"@nl;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "liften";
-    skos:prefLabel "Gebrek aan de toestand van de liften."@nl;
+    skos:prefLabel "Gebrek aan de toestand van de liften"@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_liften.
 verwaarlozing:schoorstenen a skos:Concept;
+    skos:altLabel "Schoorstenen"@nl;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "schoorstenen";
-    skos:prefLabel "Gebrek aan de toestand van schoorstenen."@nl;
+    skos:prefLabel "Gebrek aan de toestand van schoorstenen"@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_schoorstenen.
 verwaarlozing:stabiliteit a skos:Concept;
+    skos:altLabel "Gebrek dat stabiliteit in het gedrang brengt"@nl;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "stabiliteit";
-    skos:prefLabel "Gebrek dat stabiliteit in het gedrang brengt."@nl;
+    skos:prefLabel "Gebrek dat stabiliteit in het gedrang brengt"@nl;
     skos:topConceptOf conceptscheme:verwaarlozing;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_stabiliteit.
 verwaarlozing:trappen a skos:Concept;
+    skos:altLabel "Trappen"@nl;
     skos:broader verwaarlozing:gebouwonderdeel;
     skos:broaderTransitive verwaarlozing:gebouwonderdeel;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "trappen";
-    skos:prefLabel "Gebrek aan de toestand van de trappen."@nl;
+    skos:prefLabel "Gebrek aan de toestand van de trappen"@nl;
     skos:semanticRelation verwaarlozing:gebouwonderdeel;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_trappen.
 verwaarlozing:veiligheid a skos:Concept;
+    skos:altLabel "Gebrek dat veiligheid in het gedrang brengt"@nl;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "veiligheid";
-    skos:prefLabel "Gebrek dat veiligheid in het gedrang brengt."@nl;
+    skos:prefLabel "Gebrek dat veiligheid in het gedrang brengt"@nl;
     skos:topConceptOf conceptscheme:verwaarlozing;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_veiligheid.
 verwaarlozing:vochtindringing a skos:Concept;
+    skos:altLabel "Gebrek dat leidt tot vochtindringing"@nl;
     skos:inScheme conceptscheme:verwaarlozing;
     skos:notation "vochtindringing";
-    skos:prefLabel "Gebrek dat leidt tot vochtindringing."@nl;
+    skos:prefLabel "Gebrek dat leidt tot vochtindringing"@nl;
     skos:topConceptOf conceptscheme:verwaarlozing;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_vochtindringing.

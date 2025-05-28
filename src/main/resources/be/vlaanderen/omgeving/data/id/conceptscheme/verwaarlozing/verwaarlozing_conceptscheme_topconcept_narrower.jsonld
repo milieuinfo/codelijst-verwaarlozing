@@ -396,18 +396,20 @@
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "altLabel": "Gebrek aan de toestand van een gebouwonderdeel",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "narrower": [
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren",
                             "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "altLabel": "Buitenmuren",
                             "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                             "notation": "buitenmuren",
-                            "prefLabel": "Gebrek aan de toestand van buitenmuren.",
+                            "prefLabel": "Gebrek aan de toestand van buitenmuren",
                             "semanticRelation": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
@@ -418,13 +420,14 @@
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk",
                             "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "altLabel": "Buitentimmerwerk",
                             "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                             "notation": "buitentimmerwerk",
-                            "prefLabel": "Gebrek aan de toestand van het buitentimmerwerk.",
+                            "prefLabel": "Gebrek aan de toestand van het buitentimmerwerk",
                             "semanticRelation": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
@@ -435,13 +438,14 @@
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakbedekking",
                             "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "altLabel": "Dakbedekking",
                             "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                             "notation": "dakbedekking",
-                            "prefLabel": "Gebrek aan de toestand van de dakbedekking.",
+                            "prefLabel": "Gebrek aan de toestand van de dakbedekking",
                             "semanticRelation": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
@@ -452,13 +456,14 @@
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgebinte",
                             "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "altLabel": "Dakgebinte",
                             "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                             "notation": "dakgebinte",
-                            "prefLabel": "Gebrek aan de toestand van het dakgebinte.",
+                            "prefLabel": "Gebrek aan de toestand van het dakgebinte",
                             "semanticRelation": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
@@ -469,13 +474,14 @@
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/dakgoten",
                             "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "altLabel": "Dakgoten",
                             "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                             "notation": "dakgoten",
-                            "prefLabel": "Gebrek aan de toestand van de dakgoten.",
+                            "prefLabel": "Gebrek aan de toestand van de dakgoten",
                             "semanticRelation": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
@@ -486,13 +492,14 @@
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/kroonlijst",
                             "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "altLabel": "Kroonlijst",
                             "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                             "notation": "kroonlijst",
-                            "prefLabel": "Gebrek aan de toestand van de kroonlijst.",
+                            "prefLabel": "Gebrek aan de toestand van de kroonlijst",
                             "semanticRelation": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
@@ -503,13 +510,14 @@
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/liften",
                             "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "altLabel": "Liften",
                             "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                             "notation": "liften",
-                            "prefLabel": "Gebrek aan de toestand van de liften.",
+                            "prefLabel": "Gebrek aan de toestand van de liften",
                             "semanticRelation": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
@@ -520,13 +528,14 @@
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/schoorstenen",
                             "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "altLabel": "Schoorstenen",
                             "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                             "notation": "schoorstenen",
-                            "prefLabel": "Gebrek aan de toestand van schoorstenen.",
+                            "prefLabel": "Gebrek aan de toestand van schoorstenen",
                             "semanticRelation": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
@@ -537,13 +546,14 @@
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen",
                             "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "altLabel": "Trappen",
                             "broader": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel",
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                             "notation": "trappen",
-                            "prefLabel": "Gebrek aan de toestand van de trappen.",
+                            "prefLabel": "Gebrek aan de toestand van de trappen",
                             "semanticRelation": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/gebouwonderdeel"
                             ],
@@ -564,7 +574,7 @@
                         "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/trappen"
                     ],
                     "notation": "gebouwonderdeel",
-                    "prefLabel": "Gebrek aan de toestand van een gebouwonderdeel.",
+                    "prefLabel": "Gebrek aan de toestand van een gebouwonderdeel",
                     "semanticRelation": [
                         "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitenmuren",
                         "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/buitentimmerwerk",
@@ -584,9 +594,10 @@
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/stabiliteit",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "altLabel": "Gebrek dat stabiliteit in het gedrang brengt",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "notation": "stabiliteit",
-                    "prefLabel": "Gebrek dat stabiliteit in het gedrang brengt.",
+                    "prefLabel": "Gebrek dat stabiliteit in het gedrang brengt",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
                     "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
@@ -595,9 +606,10 @@
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/veiligheid",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "altLabel": "Gebrek dat veiligheid in het gedrang brengt",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "notation": "veiligheid",
-                    "prefLabel": "Gebrek dat veiligheid in het gedrang brengt.",
+                    "prefLabel": "Gebrek dat veiligheid in het gedrang brengt",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
                     "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
@@ -606,9 +618,10 @@
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/vochtindringing",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "altLabel": "Gebrek dat leidt tot vochtindringing",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "notation": "vochtindringing",
-                    "prefLabel": "Gebrek dat leidt tot vochtindringing.",
+                    "prefLabel": "Gebrek dat leidt tot vochtindringing",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/verwaarlozing",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
                     "memberOf": "https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/verwaarlozing",
