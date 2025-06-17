@@ -365,7 +365,7 @@
     },
     "graph": [
         {
-            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
             "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
@@ -374,106 +374,106 @@
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "aanvraag_opschorting_heffing_aanvaard",
                     "prefLabel": "aanvraag_opschorting_heffing_aanvaard",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
                     "prefLabel": "aanvraag_opschorting_heffing_niet_aanvaard",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_aanvaard",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "aanvraag_schrapping_aanvaard",
                     "prefLabel": "aanvraag_schrapping_aanvaard",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "aanvraag_schrapping_niet_aanvaard",
                     "prefLabel": "aanvraag_schrapping_niet_aanvaard",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_ingewilligd",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "beroep_tegen_registratie_ingewilligd",
                     "prefLabel": "beroep_tegen_registratie_ingewilligd",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_onontvankelijk_verklaard",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
                     "prefLabel": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_verworpen",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "beroep_tegen_registratie_verworpen",
                     "prefLabel": "beroep_tegen_registratie_verworpen",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "geregistreerd_in_inventaris",
                     "prefLabel": "Geregistreerd in inventaris",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "geschrapt_uit_inventaris",
                     "prefLabel": "geschrapt_uit_inventaris",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/heffing_opgeschort",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "heffing_opgeschort",
                     "prefLabel": "heffing_opgeschort",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "niet_geregistreerd_in_inventaris",
                     "prefLabel": "Niet geregistreerd in inventaris",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/registratie_ingetrokken",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "registratie_ingetrokken",
                     "prefLabel": "registratie_ingetrokken",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 }
             ],
             "notation": "cs_beslissing",
@@ -482,7 +482,7 @@
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
         },
         {
-            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/procedure",
+            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
             "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
@@ -494,9 +494,9 @@
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard"
                     ],
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/procedure",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                     "prefLabel": "Aanvraag opschorting heffing",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/procedure"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
@@ -505,9 +505,9 @@
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_aanvaard",
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard"
                     ],
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/procedure",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                     "prefLabel": "Aanvraag schrapping",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/procedure"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
@@ -517,9 +517,9 @@
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_onontvankelijk_verklaard",
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_verworpen"
                     ],
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/procedure",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                     "prefLabel": "Beroep tegen registratie",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/procedure"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
                 },
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
@@ -528,9 +528,9 @@
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris",
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris"
                     ],
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/procedure",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                     "prefLabel": "Registreren",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/procedure"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
                 }
             ],
             "notation": "cs_procedure",
@@ -539,7 +539,7 @@
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
         },
         {
-            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
             "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
@@ -547,34 +547,34 @@
                 {
                     "id": "rol:curator",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
                     "prefLabel": "Curator",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
                 },
                 {
                     "id": "rol:eigenaar",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "definition": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
                     "note": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
                     "prefLabel": "Eigenaar",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
                 },
                 {
                     "id": "rol:instumenterend_ambtenaar",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "definition": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
                     "note": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
                     "prefLabel": "Instrumenterend ambtenaar",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
                 },
                 {
                     "id": "rol:raadsman",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
                     "prefLabel": "Raadsman",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol"
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
                 }
             ],
             "notation": "cs_rol",
@@ -583,7 +583,7 @@
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
         },
         {
-            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
             "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
@@ -592,7 +592,7 @@
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "altLabel": "Gebrek aan de toestand van een gebouwonderdeel",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "narrower": [
                         {
                             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitenmuren",
@@ -602,7 +602,7 @@
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
                             ],
-                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                             "notation": "buitenmuren",
                             "prefLabel": "Gebrek aan de toestand van buitenmuren",
                             "semanticRelation": [
@@ -619,7 +619,7 @@
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
                             ],
-                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                             "notation": "buitentimmerwerk",
                             "prefLabel": "Gebrek aan de toestand van het buitentimmerwerk",
                             "semanticRelation": [
@@ -636,7 +636,7 @@
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
                             ],
-                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                             "notation": "dakbedekking",
                             "prefLabel": "Gebrek aan de toestand van de dakbedekking",
                             "semanticRelation": [
@@ -653,7 +653,7 @@
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
                             ],
-                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                             "notation": "dakgebinte",
                             "prefLabel": "Gebrek aan de toestand van het dakgebinte",
                             "semanticRelation": [
@@ -670,7 +670,7 @@
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
                             ],
-                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                             "notation": "dakgoten",
                             "prefLabel": "Gebrek aan de toestand van de dakgoten",
                             "semanticRelation": [
@@ -687,7 +687,7 @@
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
                             ],
-                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                             "notation": "kroonlijst",
                             "prefLabel": "Gebrek aan de toestand van de kroonlijst",
                             "semanticRelation": [
@@ -704,7 +704,7 @@
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
                             ],
-                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                             "notation": "liften",
                             "prefLabel": "Gebrek aan de toestand van de liften",
                             "semanticRelation": [
@@ -721,7 +721,7 @@
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
                             ],
-                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                             "notation": "schoorstenen",
                             "prefLabel": "Gebrek aan de toestand van schoorstenen",
                             "semanticRelation": [
@@ -738,7 +738,7 @@
                             "broaderTransitive": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
                             ],
-                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                             "notation": "trappen",
                             "prefLabel": "Gebrek aan de toestand van de trappen",
                             "semanticRelation": [
@@ -772,7 +772,7 @@
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/schoorstenen",
                         "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/trappen"
                     ],
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
                     "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_gebouwonderdeel"
                 },
@@ -780,10 +780,10 @@
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/stabiliteit",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "altLabel": "Gebrek dat stabiliteit in het gedrang brengt",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "notation": "stabiliteit",
                     "prefLabel": "Gebrek dat stabiliteit in het gedrang brengt",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
                     "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_stabiliteit"
                 },
@@ -791,10 +791,10 @@
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "altLabel": "Gebrek dat veiligheid in het gedrang brengt",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "notation": "veiligheid",
                     "prefLabel": "Gebrek dat veiligheid in het gedrang brengt",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
                     "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_veiligheid"
                 },
@@ -802,10 +802,10 @@
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/vochtindringing",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "altLabel": "Gebrek dat leidt tot vochtindringing",
-                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "notation": "vochtindringing",
                     "prefLabel": "Gebrek dat leidt tot vochtindringing",
-                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "theme": "http://www.eionet.europa.eu/gemet/theme/5",
                     "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_vochtindringing"
                 }

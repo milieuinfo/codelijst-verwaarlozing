@@ -8,7 +8,7 @@
 @prefix assettype: <http://purl.org/adms/assettype/>.
 @prefix chemische_stof: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>.
 @prefix compound: <https://pubchem.ncbi.nlm.nih.gov/compound/>.
-@prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
+@prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/>.
 @prefix country: <http://publications.europa.eu/resource/authority/country/>.
 @prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
 @prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.

@@ -106,7 +106,7 @@ prefixes :
   assettype: http://purl.org/adms/assettype/
   chemische_stof: https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/
   compound : https://pubchem.ncbi.nlm.nih.gov/compound/
-  conceptscheme: https://data.omgeving.vlaanderen.be/id/conceptscheme/
+  conceptscheme: https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/
   country: http://publications.europa.eu/resource/authority/country/
   datasets: https://datasets.omgeving.vlaanderen.be/
   datatheme_be: http://vocab.belgif.be/auth/datatheme/
