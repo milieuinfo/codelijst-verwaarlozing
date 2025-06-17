@@ -108,7 +108,7 @@ beslissing:geregistreerd_in_inventaris a skos:Concept;
     rdfs:seeAlso procedure:registreren;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "geregistreerd_in_inventaris";
-    skos:prefLabel "geregistreerd in inventaris"@nl;
+    skos:prefLabel "Geregistreerd in inventaris"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:geschrapt_uit_inventaris a skos:Concept;
     skos:inScheme conceptscheme:beslissing;
@@ -124,7 +124,7 @@ beslissing:niet_geregistreerd_in_inventaris a skos:Concept;
     rdfs:seeAlso procedure:registreren;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "niet_geregistreerd_in_inventaris";
-    skos:prefLabel "niet_geregistreerd_in_inventaris"@nl;
+    skos:prefLabel "Niet geregistreerd in inventaris"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:registratie_ingetrokken a skos:Concept;
     skos:inScheme conceptscheme:beslissing;

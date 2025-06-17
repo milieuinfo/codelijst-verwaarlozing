@@ -44,7 +44,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#notation> "geregistreerd_in_inventaris" .
-<https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#prefLabel> "geregistreerd in inventaris"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geregistreerd in inventaris"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing> .
@@ -60,7 +60,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#notation> "niet_geregistreerd_in_inventaris" .
-<https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#prefLabel> "niet_geregistreerd_in_inventaris"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#prefLabel> "Niet geregistreerd in inventaris"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/registratie_ingetrokken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/registratie_ingetrokken> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing> .

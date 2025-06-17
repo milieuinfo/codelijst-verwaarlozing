@@ -433,7 +433,7 @@
             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
             "notation": "geregistreerd_in_inventaris",
-            "prefLabel": "geregistreerd in inventaris",
+            "prefLabel": "Geregistreerd in inventaris",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
         },
         {
@@ -460,7 +460,7 @@
             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
             "notation": "niet_geregistreerd_in_inventaris",
-            "prefLabel": "niet_geregistreerd_in_inventaris",
+            "prefLabel": "Niet geregistreerd in inventaris",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
         },
         {

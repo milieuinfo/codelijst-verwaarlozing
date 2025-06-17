@@ -456,7 +456,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "geregistreerd_in_inventaris",
-                                                            "prefLabel": "geregistreerd in inventaris",
+                                                            "prefLabel": "Geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         },
                                                         {
@@ -465,7 +465,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "niet_geregistreerd_in_inventaris",
-                                                            "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                            "prefLabel": "Niet geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         }
                                                     ],
@@ -628,7 +628,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "geregistreerd_in_inventaris",
-                                                            "prefLabel": "geregistreerd in inventaris",
+                                                            "prefLabel": "Geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         },
                                                         {
@@ -637,7 +637,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "niet_geregistreerd_in_inventaris",
-                                                            "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                            "prefLabel": "Niet geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         }
                                                     ],
@@ -800,7 +800,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "geregistreerd_in_inventaris",
-                                                            "prefLabel": "geregistreerd in inventaris",
+                                                            "prefLabel": "Geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         },
                                                         {
@@ -809,7 +809,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "niet_geregistreerd_in_inventaris",
-                                                            "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                            "prefLabel": "Niet geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         }
                                                     ],
@@ -972,7 +972,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "geregistreerd_in_inventaris",
-                                                            "prefLabel": "geregistreerd in inventaris",
+                                                            "prefLabel": "Geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         },
                                                         {
@@ -981,7 +981,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "niet_geregistreerd_in_inventaris",
-                                                            "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                            "prefLabel": "Niet geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         }
                                                     ],
@@ -1137,7 +1137,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "geregistreerd_in_inventaris",
-                                                            "prefLabel": "geregistreerd in inventaris",
+                                                            "prefLabel": "Geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         },
                                                         {
@@ -1146,7 +1146,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "niet_geregistreerd_in_inventaris",
-                                                            "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                            "prefLabel": "Niet geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         }
                                                     ],
@@ -1309,7 +1309,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "geregistreerd_in_inventaris",
-                                                            "prefLabel": "geregistreerd in inventaris",
+                                                            "prefLabel": "Geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         },
                                                         {
@@ -1318,7 +1318,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "niet_geregistreerd_in_inventaris",
-                                                            "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                            "prefLabel": "Niet geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         }
                                                     ],
@@ -1482,7 +1482,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "geregistreerd_in_inventaris",
-                                                            "prefLabel": "geregistreerd in inventaris",
+                                                            "prefLabel": "Geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         },
                                                         {
@@ -1491,7 +1491,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                             "notation": "niet_geregistreerd_in_inventaris",
-                                                            "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                            "prefLabel": "Niet geregistreerd in inventaris",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                         }
                                                     ],
@@ -1735,7 +1735,7 @@
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "niet_geregistreerd_in_inventaris",
-                        "prefLabel": "niet_geregistreerd_in_inventaris",
+                        "prefLabel": "Niet geregistreerd in inventaris",
                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                     }
                 ],
@@ -1745,7 +1745,7 @@
             },
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
             "notation": "geregistreerd_in_inventaris",
-            "prefLabel": "geregistreerd in inventaris",
+            "prefLabel": "Geregistreerd in inventaris",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
         },
         {
@@ -1923,7 +1923,7 @@
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "geregistreerd_in_inventaris",
-                        "prefLabel": "geregistreerd in inventaris",
+                        "prefLabel": "Geregistreerd in inventaris",
                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                     },
                     "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris"
@@ -1934,7 +1934,7 @@
             },
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
             "notation": "niet_geregistreerd_in_inventaris",
-            "prefLabel": "niet_geregistreerd_in_inventaris",
+            "prefLabel": "Niet geregistreerd in inventaris",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
         },
         {
@@ -2041,7 +2041,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                         "notation": "geregistreerd_in_inventaris",
-                                                        "prefLabel": "geregistreerd in inventaris",
+                                                        "prefLabel": "Geregistreerd in inventaris",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                     },
                                                     {
@@ -2050,7 +2050,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                         "notation": "niet_geregistreerd_in_inventaris",
-                                                        "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                        "prefLabel": "Niet geregistreerd in inventaris",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                     }
                                                 ],
@@ -2204,7 +2204,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                         "notation": "geregistreerd_in_inventaris",
-                                                        "prefLabel": "geregistreerd in inventaris",
+                                                        "prefLabel": "Geregistreerd in inventaris",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                     },
                                                     {
@@ -2213,7 +2213,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                         "notation": "niet_geregistreerd_in_inventaris",
-                                                        "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                        "prefLabel": "Niet geregistreerd in inventaris",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                     }
                                                 ],
@@ -2368,7 +2368,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                         "notation": "geregistreerd_in_inventaris",
-                                                        "prefLabel": "geregistreerd in inventaris",
+                                                        "prefLabel": "Geregistreerd in inventaris",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                     },
                                                     {
@@ -2377,7 +2377,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                                         "notation": "niet_geregistreerd_in_inventaris",
-                                                        "prefLabel": "niet_geregistreerd_in_inventaris",
+                                                        "prefLabel": "Niet geregistreerd in inventaris",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                                                     }
                                                 ],
@@ -2610,7 +2610,7 @@
                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing",
                                 "notation": "niet_geregistreerd_in_inventaris",
-                                "prefLabel": "niet_geregistreerd_in_inventaris",
+                                "prefLabel": "Niet geregistreerd in inventaris",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                             },
                             {
@@ -2628,7 +2628,7 @@
                         "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                     },
                     "notation": "geregistreerd_in_inventaris",
-                    "prefLabel": "geregistreerd in inventaris",
+                    "prefLabel": "Geregistreerd in inventaris",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/beslissing"
                 },
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris"

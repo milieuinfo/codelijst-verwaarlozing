@@ -25,8 +25,8 @@ procedure:aanvraag_opschorting_heffing,,Aanvraag opschorting heffing,,,conceptsc
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 conceptscheme:beslissing,cs_beslissing,Conceptschema over kenmerken van verwaarlozing aan gebouwen.,"Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,,,
-beslissing:geregistreerd_in_inventaris,geregistreerd_in_inventaris,geregistreerd in inventaris,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:registreren
-beslissing:niet_geregistreerd_in_inventaris,niet_geregistreerd_in_inventaris,niet_geregistreerd_in_inventaris,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:registreren
+beslissing:geregistreerd_in_inventaris,geregistreerd_in_inventaris,Geregistreerd in inventaris,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:registreren
+beslissing:niet_geregistreerd_in_inventaris,niet_geregistreerd_in_inventaris,Niet geregistreerd in inventaris,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:registreren
 beslissing:beroep_tegen_registratie_onontvankelijk_verklaard,beroep_tegen_registratie_onontvankelijk_verklaard,beroep_tegen_registratie_onontvankelijk_verklaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:beroep_tegen_registratie
 beslissing:beroep_tegen_registratie_ingewilligd,beroep_tegen_registratie_ingewilligd,beroep_tegen_registratie_ingewilligd,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:beroep_tegen_registratie
 beslissing:beroep_tegen_registratie_verworpen,beroep_tegen_registratie_verworpen,beroep_tegen_registratie_verworpen,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:beroep_tegen_registratie
