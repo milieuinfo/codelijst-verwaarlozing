@@ -407,92 +407,15 @@ const frame_concept_via_conceptscheme = {
 
 const frame_concept_via_collectie = {
     "@context": context,
-    "@type": ["http://www.w3.org/2004/02/skos/core#Collection", "http://www.w3.org/2004/02/skos/core#ConceptScheme"],
-    "member": {
+    "@type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+    "seeAlso": {
         "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-        "@embed": "@always",
-        "@omitDefault": true,
-        "inScheme": {
-            "@type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "topConceptOf": {
-            "@type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
-            "@embed": "@never",
-            "@omitDefault": true}
-        ,
-        "broader": {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "narrower": {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "theme": {
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "references":{
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "relation":{
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "broaderTransitive" : {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "broadMatch" : {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "closeMatch" : {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "exactMatch" : {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "mappingRelation" : {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "narrowerTransitive" : {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "narrowMatch" : {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "semanticRelation" : {
-            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "@embed": "@never",
-            "@omitDefault": true
-        },
-        "gekoppelde_eigenschap" : {
-            "@embed": "@never",
-            "@omitDefault": true
-        },
+        "@embed": "@never",
+
 
     },
 
-    "isDefinedBy":{
+    "topConceptOf":{
         "@embed": "@never",
         "@omitDefault": true
     },
@@ -749,6 +672,11 @@ const frame_skos_no_prefixes = {
         "@omitDefault": true
     },
     "exactMatch" : {
+        "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "seeAlso" : {
         "@type": "http://www.w3.org/2004/02/skos/core#Concept",
         "@embed": "@never",
         "@omitDefault": true

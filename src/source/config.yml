@@ -5,8 +5,11 @@ skos:
     dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
     parameter_rules : /n3/parameter-rules.n3
   prefixes :
-    concept : https://data.omgeving.vlaanderen.be/id/concept/verwaarlozing/
-    collectie : https://data.omgeving.vlaanderen.be/id/collection/verwaarlozing/
+    concept : https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/
+    uitgesproken_gebrek : https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/
+    beslissing : https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/
+    procedure : https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/
+    collectie : https://data.omgeving.vlaanderen.be/id/collection/leegstand/
   path: ./main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/
   name: verwaarlozing
   turtle: .ttl
