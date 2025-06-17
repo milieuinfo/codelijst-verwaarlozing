@@ -7010,6 +7010,50 @@
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
         },
         {
+            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+            "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
+            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+            "hasTopConcept": [
+                {
+                    "id": "rol:curator",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+                    "prefLabel": "Curator",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol"
+                },
+                {
+                    "id": "rol:eigenaar",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "definition": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+                    "note": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
+                    "prefLabel": "Eigenaar",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol"
+                },
+                {
+                    "id": "rol:instumenterend_ambtenaar",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "definition": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+                    "note": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
+                    "prefLabel": "Instrumenterend ambtenaar",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol"
+                },
+                {
+                    "id": "rol:raadsman",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol",
+                    "prefLabel": "Raadsman",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/rol"
+                }
+            ],
+            "notation": "cs_rol",
+            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+            "theme": "http://www.eionet.europa.eu/gemet/theme/5"
+        },
+        {
             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/uitgesproken_gebrek",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",

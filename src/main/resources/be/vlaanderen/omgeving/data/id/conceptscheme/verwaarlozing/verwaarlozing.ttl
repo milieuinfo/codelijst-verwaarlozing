@@ -292,6 +292,14 @@ conceptscheme:procedure xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     skos:note "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
     skos:prefLabel "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+conceptscheme:rol xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
+    a skos:ConceptScheme;
+    skos:definition "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
+    skos:hasTopConcept <rol:curator>, <rol:eigenaar>, <rol:instumenterend_ambtenaar>, <rol:raadsman>;
+    skos:notation "cs_rol";
+    skos:note "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
+    skos:prefLabel "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl;
+    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
 conceptscheme:uitgesproken_gebrek xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
     skos:definition "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
@@ -313,3 +321,23 @@ prop:vertoont_gebrek_ivm_stabiliteit a rdf:Property.
 prop:vertoont_gebrek_ivm_trappen a rdf:Property.
 prop:vertoont_gebrek_ivm_veiligheid a rdf:Property.
 prop:vertoont_gebrek_ivm_vochtindringing a rdf:Property.
+<rol:curator> a skos:Concept;
+    skos:inScheme conceptscheme:rol;
+    skos:prefLabel "Curator"@nl;
+    skos:topConceptOf conceptscheme:rol.
+<rol:eigenaar> a skos:Concept;
+    skos:definition "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik"@nl;
+    skos:inScheme conceptscheme:rol;
+    skos:note "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik"@nl;
+    skos:prefLabel "Eigenaar"@nl;
+    skos:topConceptOf conceptscheme:rol.
+<rol:instumenterend_ambtenaar> a skos:Concept;
+    skos:definition "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden"@nl;
+    skos:inScheme conceptscheme:rol;
+    skos:note "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden"@nl;
+    skos:prefLabel "Instrumenterend ambtenaar"@nl;
+    skos:topConceptOf conceptscheme:rol.
+<rol:raadsman> a skos:Concept;
+    skos:inScheme conceptscheme:rol;
+    skos:prefLabel "Raadsman"@nl;
+    skos:topConceptOf conceptscheme:rol.
