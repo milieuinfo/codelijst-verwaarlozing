@@ -38,7 +38,7 @@ const frame_concept_via_conceptscheme = {
             "@embed": "@never",
             "@omitDefault": true
         },
-        "closeMatch" : {
+        "seeAlso" : {
             "@type": "http://www.w3.org/2004/02/skos/core#Concept",
             "@embed": "@never",
             "@omitDefault": true
