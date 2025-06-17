@@ -518,6 +518,42 @@
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
         },
         {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "seeAlso": null,
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
+            "prefLabel": "Curator",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "seeAlso": null,
+            "definition": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
+            "note": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
+            "prefLabel": "Eigenaar",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "seeAlso": null,
+            "definition": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
+            "note": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
+            "prefLabel": "Instrumenterend ambtenaar",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "seeAlso": null,
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
+            "prefLabel": "Raadsman",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
+        },
+        {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitenmuren",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "seeAlso": null,
@@ -3291,42 +3327,6 @@
                 "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_vochtindringing",
                 "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             }
-        },
-        {
-            "id": "rol:curator",
-            "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": null,
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
-            "prefLabel": "Curator",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
-        },
-        {
-            "id": "rol:eigenaar",
-            "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": null,
-            "definition": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
-            "note": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
-            "prefLabel": "Eigenaar",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
-        },
-        {
-            "id": "rol:instumenterend_ambtenaar",
-            "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": null,
-            "definition": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
-            "note": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
-            "prefLabel": "Instrumenterend ambtenaar",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
-        },
-        {
-            "id": "rol:raadsman",
-            "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": null,
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
-            "prefLabel": "Raadsman",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
         }
     ]
 }

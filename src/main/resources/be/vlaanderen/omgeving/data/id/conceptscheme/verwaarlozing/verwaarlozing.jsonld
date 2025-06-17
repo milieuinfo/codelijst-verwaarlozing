@@ -2638,6 +2638,38 @@
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
         },
         {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
+            "prefLabel": "Curator",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "definition": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
+            "note": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
+            "prefLabel": "Eigenaar",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "definition": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
+            "note": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
+            "prefLabel": "Instrumenterend ambtenaar",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
+            "prefLabel": "Raadsman",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
+        },
+        {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitenmuren",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "altLabel": "Buitenmuren",
@@ -2952,10 +2984,10 @@
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
             "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
             "hasTopConcept": [
-                "rol:curator",
-                "rol:eigenaar",
-                "rol:instumenterend_ambtenaar",
-                "rol:raadsman"
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator",
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar",
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar",
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman"
             ],
             "notation": "cs_rol",
             "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
@@ -2977,38 +3009,6 @@
             "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
             "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
-        },
-        {
-            "id": "rol:curator",
-            "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
-            "prefLabel": "Curator",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
-        },
-        {
-            "id": "rol:eigenaar",
-            "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "definition": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
-            "note": "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",
-            "prefLabel": "Eigenaar",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
-        },
-        {
-            "id": "rol:instumenterend_ambtenaar",
-            "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "definition": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
-            "note": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
-            "prefLabel": "Instrumenterend ambtenaar",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
-        },
-        {
-            "id": "rol:raadsman",
-            "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
-            "prefLabel": "Raadsman",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
         }
     ]
 }

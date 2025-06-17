@@ -92,6 +92,26 @@
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren> <http://www.w3.org/2004/02/skos/core#prefLabel> "Registreren"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Curator"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar> <http://www.w3.org/2004/02/skos/core#definition> "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar> <http://www.w3.org/2004/02/skos/core#note> "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eigenaar"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#definition> "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#note> "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Instrumenterend ambtenaar"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raadsman"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitenmuren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitenmuren> <http://www.w3.org/2004/02/skos/core#altLabel> "Buitenmuren"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitenmuren> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel> .
@@ -274,10 +294,10 @@
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#definition> "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl .
-<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <rol:curator> .
-<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <rol:eigenaar> .
-<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <rol:instumenterend_ambtenaar> .
-<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <rol:raadsman> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#notation> "cs_rol" .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#note> "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl .
@@ -306,23 +326,3 @@
 <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_trappen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_veiligheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_vochtindringing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<rol:curator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<rol:curator> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
-<rol:curator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Curator"@nl .
-<rol:curator> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
-<rol:eigenaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<rol:eigenaar> <http://www.w3.org/2004/02/skos/core#definition> "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik"@nl .
-<rol:eigenaar> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
-<rol:eigenaar> <http://www.w3.org/2004/02/skos/core#note> "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik"@nl .
-<rol:eigenaar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eigenaar"@nl .
-<rol:eigenaar> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
-<rol:instumenterend_ambtenaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<rol:instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#definition> "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden"@nl .
-<rol:instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
-<rol:instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#note> "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden"@nl .
-<rol:instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Instrumenterend ambtenaar"@nl .
-<rol:instumenterend_ambtenaar> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
-<rol:raadsman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<rol:raadsman> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
-<rol:raadsman> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raadsman"@nl .
-<rol:raadsman> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .

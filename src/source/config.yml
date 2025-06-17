@@ -10,6 +10,7 @@ skos:
     beslissing : https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/
     procedure : https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/leegstand/
+    rol : https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/
   path: ./main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/
   name: verwaarlozing
   turtle: .ttl
