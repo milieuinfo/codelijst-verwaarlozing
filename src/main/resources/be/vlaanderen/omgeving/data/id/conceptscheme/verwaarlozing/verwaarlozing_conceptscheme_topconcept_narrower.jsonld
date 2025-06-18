@@ -376,7 +376,7 @@
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "aanvraag_opschorting_heffing_aanvaard",
-                    "prefLabel": "aanvraag_opschorting_heffing_aanvaard",
+                    "prefLabel": "aanvraag opschorting heffing aanvaard",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
@@ -385,7 +385,7 @@
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                    "prefLabel": "aanvraag_opschorting_heffing_niet_aanvaard",
+                    "prefLabel": "aanvraag opschorting heffing niet aanvaard",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
@@ -394,7 +394,7 @@
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "aanvraag_schrapping_aanvaard",
-                    "prefLabel": "aanvraag_schrapping_aanvaard",
+                    "prefLabel": "aanvraag schrapping aanvaard",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
@@ -403,7 +403,7 @@
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "aanvraag_schrapping_niet_aanvaard",
-                    "prefLabel": "aanvraag_schrapping_niet_aanvaard",
+                    "prefLabel": "aanvraag schrapping niet aanvaard",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
@@ -412,7 +412,7 @@
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "beroep_tegen_registratie_ingewilligd",
-                    "prefLabel": "beroep_tegen_registratie_ingewilligd",
+                    "prefLabel": "beroep tegen registratie ingewilligd",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
@@ -421,7 +421,7 @@
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                    "prefLabel": "beroep_tegen_registratie_onontvankelijk_verklaard",
+                    "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
@@ -430,7 +430,7 @@
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "beroep_tegen_registratie_verworpen",
-                    "prefLabel": "beroep_tegen_registratie_verworpen",
+                    "prefLabel": "beroep tegen registratie verworpen",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
@@ -447,7 +447,7 @@
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "geschrapt_uit_inventaris",
-                    "prefLabel": "geschrapt_uit_inventaris",
+                    "prefLabel": "geschrapt uit inventaris",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
@@ -455,7 +455,7 @@
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "heffing_opgeschort",
-                    "prefLabel": "heffing_opgeschort",
+                    "prefLabel": "heffing opgeschort",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 {
@@ -472,7 +472,7 @@
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                     "notation": "registratie_ingetrokken",
-                    "prefLabel": "registratie_ingetrokken",
+                    "prefLabel": "registratie ingetrokken",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 }
             ],
@@ -561,7 +561,7 @@
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
                 },
                 {
-                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instumenterend_ambtenaar",
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instrumenterend_ambtenaar",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "definition": "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",

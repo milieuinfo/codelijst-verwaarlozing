@@ -67,43 +67,43 @@ beslissing:aanvraag_opschorting_heffing_aanvaard a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "aanvraag_opschorting_heffing_aanvaard";
-    skos:prefLabel "aanvraag_opschorting_heffing_aanvaard"@nl;
+    skos:prefLabel "aanvraag opschorting heffing aanvaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:aanvraag_opschorting_heffing_niet_aanvaard a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "aanvraag_opschorting_heffing_niet_aanvaard";
-    skos:prefLabel "aanvraag_opschorting_heffing_niet_aanvaard"@nl;
+    skos:prefLabel "aanvraag opschorting heffing niet aanvaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:aanvraag_schrapping_aanvaard a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_schrapping;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "aanvraag_schrapping_aanvaard";
-    skos:prefLabel "aanvraag_schrapping_aanvaard"@nl;
+    skos:prefLabel "aanvraag schrapping aanvaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:aanvraag_schrapping_niet_aanvaard a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_schrapping;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "aanvraag_schrapping_niet_aanvaard";
-    skos:prefLabel "aanvraag_schrapping_niet_aanvaard"@nl;
+    skos:prefLabel "aanvraag schrapping niet aanvaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:beroep_tegen_registratie_ingewilligd a skos:Concept;
     rdfs:seeAlso procedure:beroep_tegen_registratie;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "beroep_tegen_registratie_ingewilligd";
-    skos:prefLabel "beroep_tegen_registratie_ingewilligd"@nl;
+    skos:prefLabel "beroep tegen registratie ingewilligd"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:beroep_tegen_registratie_onontvankelijk_verklaard a skos:Concept;
     rdfs:seeAlso procedure:beroep_tegen_registratie;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "beroep_tegen_registratie_onontvankelijk_verklaard";
-    skos:prefLabel "beroep_tegen_registratie_onontvankelijk_verklaard"@nl;
+    skos:prefLabel "beroep tegen registratie onontvankelijk verklaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:beroep_tegen_registratie_verworpen a skos:Concept;
     rdfs:seeAlso procedure:beroep_tegen_registratie;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "beroep_tegen_registratie_verworpen";
-    skos:prefLabel "beroep_tegen_registratie_verworpen"@nl;
+    skos:prefLabel "beroep tegen registratie verworpen"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:geregistreerd_in_inventaris a skos:Concept;
     rdfs:seeAlso procedure:registreren;
@@ -114,12 +114,12 @@ beslissing:geregistreerd_in_inventaris a skos:Concept;
 beslissing:geschrapt_uit_inventaris a skos:Concept;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "geschrapt_uit_inventaris";
-    skos:prefLabel "geschrapt_uit_inventaris"@nl;
+    skos:prefLabel "geschrapt uit inventaris"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:heffing_opgeschort a skos:Concept;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "heffing_opgeschort";
-    skos:prefLabel "heffing_opgeschort"@nl;
+    skos:prefLabel "heffing opgeschort"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:niet_geregistreerd_in_inventaris a skos:Concept;
     rdfs:seeAlso procedure:registreren;
@@ -130,7 +130,7 @@ beslissing:niet_geregistreerd_in_inventaris a skos:Concept;
 beslissing:registratie_ingetrokken a skos:Concept;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "registratie_ingetrokken";
-    skos:prefLabel "registratie_ingetrokken"@nl;
+    skos:prefLabel "registratie ingetrokken"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 procedure:aanvraag_opschorting_heffing a skos:Concept;
     rdfs:seeAlso beslissing:aanvraag_opschorting_heffing_aanvaard, beslissing:aanvraag_opschorting_heffing_niet_aanvaard;
@@ -162,7 +162,7 @@ rol:eigenaar a skos:Concept;
     skos:note "De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik"@nl;
     skos:prefLabel "Eigenaar"@nl;
     skos:topConceptOf conceptscheme:rol.
-rol:instumenterend_ambtenaar a skos:Concept;
+rol:instrumenterend_ambtenaar a skos:Concept;
     skos:definition "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden"@nl;
     skos:inScheme conceptscheme:rol;
     skos:note "Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden"@nl;
@@ -316,7 +316,7 @@ conceptscheme:procedure xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
 conceptscheme:rol xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
     skos:definition "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
-    skos:hasTopConcept rol:curator, rol:eigenaar, rol:instumenterend_ambtenaar, rol:raadsman;
+    skos:hasTopConcept rol:curator, rol:eigenaar, rol:instrumenterend_ambtenaar, rol:raadsman;
     skos:notation "cs_rol";
     skos:note "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
     skos:prefLabel "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl;
