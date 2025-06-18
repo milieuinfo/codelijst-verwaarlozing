@@ -17,29 +17,29 @@ vochtindringing,vochtindringing,Gebrek dat leidt tot vochtindringing,,,conceptsc
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
-conceptscheme:procedure,cs_procedure,Conceptschema over kenmerken van verwaarlozing aan gebouwen.,"Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,,,
+conceptscheme:procedure,cs_procedure,Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.,"Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,,,
 procedure:registreren,,Registreren,,,conceptscheme:procedure,conceptscheme:procedure,,,,,,,beslissing:geregistreerd_in_inventaris|beslissing:niet_geregistreerd_in_inventaris
 procedure:beroep_tegen_registratie,,Beroep tegen registratie,,,conceptscheme:procedure,conceptscheme:procedure,,,,,,,beslissing:beroep_tegen_registratie_onontvankelijk_verklaard|beslissing:beroep_tegen_registratie_ingewilligd|beslissing:beroep_tegen_registratie_verworpen
 procedure:aanvraag_schrapping,,Aanvraag schrapping,,,conceptscheme:procedure,conceptscheme:procedure,,,,,,,beslissing:aanvraag_schrapping_aanvaard|beslissing:aanvraag_schrapping_niet_aanvaard
 procedure:aanvraag_opschorting_heffing,,Aanvraag opschorting heffing,,,conceptscheme:procedure,conceptscheme:procedure,,,,,,,beslissing:aanvraag_opschorting_heffing_aanvaard|beslissing:aanvraag_opschorting_heffing_niet_aanvaard
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
-conceptscheme:beslissing,cs_beslissing,Conceptschema over kenmerken van verwaarlozing aan gebouwen.,"Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,,,
+conceptscheme:beslissing,cs_beslissing,Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.,"Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,,,
 beslissing:geregistreerd_in_inventaris,geregistreerd_in_inventaris,Geregistreerd in inventaris,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:registreren
 beslissing:niet_geregistreerd_in_inventaris,niet_geregistreerd_in_inventaris,Niet geregistreerd in inventaris,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:registreren
-beslissing:beroep_tegen_registratie_onontvankelijk_verklaard,beroep_tegen_registratie_onontvankelijk_verklaard,beroep tegen registratie onontvankelijk verklaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:beroep_tegen_registratie
-beslissing:beroep_tegen_registratie_ingewilligd,beroep_tegen_registratie_ingewilligd,beroep tegen registratie ingewilligd,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:beroep_tegen_registratie
-beslissing:beroep_tegen_registratie_verworpen,beroep_tegen_registratie_verworpen,beroep tegen registratie verworpen,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:beroep_tegen_registratie
-beslissing:aanvraag_schrapping_aanvaard,aanvraag_schrapping_aanvaard,aanvraag schrapping aanvaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:aanvraag_schrapping
-beslissing:aanvraag_schrapping_niet_aanvaard,aanvraag_schrapping_niet_aanvaard,aanvraag schrapping niet aanvaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:aanvraag_schrapping
-beslissing:aanvraag_opschorting_heffing_aanvaard,aanvraag_opschorting_heffing_aanvaard,aanvraag opschorting heffing aanvaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:aanvraag_opschorting_heffing
-beslissing:aanvraag_opschorting_heffing_niet_aanvaard,aanvraag_opschorting_heffing_niet_aanvaard,aanvraag opschorting heffing niet aanvaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:aanvraag_opschorting_heffing
-beslissing:registratie_ingetrokken,registratie_ingetrokken,registratie ingetrokken,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,
-beslissing:geschrapt_uit_inventaris,geschrapt_uit_inventaris,geschrapt uit inventaris,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,
-beslissing:heffing_opgeschort,heffing_opgeschort,heffing opgeschort,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,
+beslissing:beroep_tegen_registratie_onontvankelijk_verklaard,beroep_tegen_registratie_onontvankelijk_verklaard,Beroep tegen registratie onontvankelijk verklaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:beroep_tegen_registratie
+beslissing:beroep_tegen_registratie_ingewilligd,beroep_tegen_registratie_ingewilligd,Beroep tegen registratie ingewilligd,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:beroep_tegen_registratie
+beslissing:beroep_tegen_registratie_verworpen,beroep_tegen_registratie_verworpen,Beroep tegen registratie verworpen,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:beroep_tegen_registratie
+beslissing:aanvraag_schrapping_aanvaard,aanvraag_schrapping_aanvaard,Aanvraag schrapping aanvaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:aanvraag_schrapping
+beslissing:aanvraag_schrapping_niet_aanvaard,aanvraag_schrapping_niet_aanvaard,Aanvraag schrapping niet aanvaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:aanvraag_schrapping
+beslissing:aanvraag_opschorting_heffing_aanvaard,aanvraag_opschorting_heffing_aanvaard,Aanvraag opschorting heffing aanvaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:aanvraag_opschorting_heffing
+beslissing:aanvraag_opschorting_heffing_niet_aanvaard,aanvraag_opschorting_heffing_niet_aanvaard,Aanvraag opschorting heffing niet aanvaard,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,procedure:aanvraag_opschorting_heffing
+beslissing:registratie_ingetrokken,registratie_ingetrokken,Registratie ingetrokken,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,
+beslissing:geschrapt_uit_inventaris,Geschrapt_uit_inventaris,Geschrapt uit inventaris,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,
+beslissing:heffing_opgeschort,heffing_opgeschort,Heffing opgeschort,,,conceptscheme:beslissing,conceptscheme:beslissing,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
-conceptscheme:rol,cs_rol,Conceptschema over kenmerken van verwaarlozing aan gebouwen.,"Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,,,
+conceptscheme:rol,cs_rol,Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.,"Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",,,,,,omg_dataset:codelijst-verwaarlozing,thema:5,,,
 rol:eigenaar,,Eigenaar,"De houder van een van de volgende zakelijke rechten met betrekking tot een bedrijfsgebouw: de volle eigendom, het recht van opstal of van erfpacht, het vruchtgebruik",,conceptscheme:rol,conceptscheme:rol,,,,,,,
 rol:curator,,Curator, ,,conceptscheme:rol,conceptscheme:rol,,,,,,,
 rol:raadsman,,Raadsman, ,,conceptscheme:rol,conceptscheme:rol,,,,,,,

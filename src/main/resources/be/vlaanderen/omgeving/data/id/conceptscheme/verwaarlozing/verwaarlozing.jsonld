@@ -380,7 +380,7 @@
                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "hasTopConcept": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -398,7 +398,7 @@
                                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                 "notation": "aanvraag_schrapping_niet_aanvaard",
-                                                "prefLabel": "aanvraag schrapping niet aanvaard",
+                                                "prefLabel": "Aanvraag schrapping niet aanvaard",
                                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                             }
                                         ],
@@ -406,7 +406,7 @@
                                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "hasTopConcept": [
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
@@ -420,7 +420,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_ingewilligd",
-                                                            "prefLabel": "beroep tegen registratie ingewilligd",
+                                                            "prefLabel": "Beroep tegen registratie ingewilligd",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -429,7 +429,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                                            "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                                            "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -438,7 +438,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_verworpen",
-                                                            "prefLabel": "beroep tegen registratie verworpen",
+                                                            "prefLabel": "Beroep tegen registratie verworpen",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -475,8 +475,8 @@
                                                 }
                                             ],
                                             "notation": "cs_procedure",
-                                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                         },
                                         "prefLabel": "Aanvraag schrapping",
@@ -484,7 +484,7 @@
                                     },
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "aanvraag_schrapping_aanvaard",
-                                    "prefLabel": "aanvraag schrapping aanvaard",
+                                    "prefLabel": "Aanvraag schrapping aanvaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard",
@@ -496,8 +496,8 @@
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                    "notation": "geschrapt_uit_inventaris",
-                                    "prefLabel": "geschrapt uit inventaris",
+                                    "notation": "Geschrapt_uit_inventaris",
+                                    "prefLabel": "Geschrapt uit inventaris",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 {
@@ -505,7 +505,7 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "heffing_opgeschort",
-                                    "prefLabel": "heffing opgeschort",
+                                    "prefLabel": "Heffing opgeschort",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -514,17 +514,17 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "registratie_ingetrokken",
-                                    "prefLabel": "registratie ingetrokken",
+                                    "prefLabel": "Registratie ingetrokken",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 }
                             ],
                             "notation": "cs_beslissing",
-                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                        "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                        "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                     }
                 ],
@@ -534,7 +534,7 @@
             },
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "aanvraag_opschorting_heffing_aanvaard",
-            "prefLabel": "aanvraag opschorting heffing aanvaard",
+            "prefLabel": "Aanvraag opschorting heffing aanvaard",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -552,7 +552,7 @@
                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "hasTopConcept": [
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -570,7 +570,7 @@
                                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                 "notation": "aanvraag_schrapping_niet_aanvaard",
-                                                "prefLabel": "aanvraag schrapping niet aanvaard",
+                                                "prefLabel": "Aanvraag schrapping niet aanvaard",
                                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                             }
                                         ],
@@ -578,7 +578,7 @@
                                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "hasTopConcept": [
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
@@ -592,7 +592,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_ingewilligd",
-                                                            "prefLabel": "beroep tegen registratie ingewilligd",
+                                                            "prefLabel": "Beroep tegen registratie ingewilligd",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -601,7 +601,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                                            "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                                            "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -610,7 +610,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_verworpen",
-                                                            "prefLabel": "beroep tegen registratie verworpen",
+                                                            "prefLabel": "Beroep tegen registratie verworpen",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -647,8 +647,8 @@
                                                 }
                                             ],
                                             "notation": "cs_procedure",
-                                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                         },
                                         "prefLabel": "Aanvraag schrapping",
@@ -656,7 +656,7 @@
                                     },
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "aanvraag_schrapping_aanvaard",
-                                    "prefLabel": "aanvraag schrapping aanvaard",
+                                    "prefLabel": "Aanvraag schrapping aanvaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard",
@@ -668,8 +668,8 @@
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                    "notation": "geschrapt_uit_inventaris",
-                                    "prefLabel": "geschrapt uit inventaris",
+                                    "notation": "Geschrapt_uit_inventaris",
+                                    "prefLabel": "Geschrapt uit inventaris",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 {
@@ -677,7 +677,7 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "heffing_opgeschort",
-                                    "prefLabel": "heffing opgeschort",
+                                    "prefLabel": "Heffing opgeschort",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -686,17 +686,17 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "registratie_ingetrokken",
-                                    "prefLabel": "registratie ingetrokken",
+                                    "prefLabel": "Registratie ingetrokken",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 }
                             ],
                             "notation": "cs_beslissing",
-                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "aanvraag_opschorting_heffing_aanvaard",
-                        "prefLabel": "aanvraag opschorting heffing aanvaard",
+                        "prefLabel": "Aanvraag opschorting heffing aanvaard",
                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                     },
                     "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard"
@@ -707,7 +707,7 @@
             },
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-            "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+            "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -726,7 +726,7 @@
                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "hasTopConcept": [
                                 {
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -742,7 +742,7 @@
                                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                 "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                                "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                                "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                             }
                                         ],
@@ -750,7 +750,7 @@
                                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "hasTopConcept": [
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
@@ -764,7 +764,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_ingewilligd",
-                                                            "prefLabel": "beroep tegen registratie ingewilligd",
+                                                            "prefLabel": "Beroep tegen registratie ingewilligd",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -773,7 +773,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                                            "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                                            "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -782,7 +782,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_verworpen",
-                                                            "prefLabel": "beroep tegen registratie verworpen",
+                                                            "prefLabel": "Beroep tegen registratie verworpen",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -819,8 +819,8 @@
                                                 }
                                             ],
                                             "notation": "cs_procedure",
-                                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                         },
                                         "prefLabel": "Aanvraag opschorting heffing",
@@ -828,7 +828,7 @@
                                     },
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                    "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                    "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -842,8 +842,8 @@
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                    "notation": "geschrapt_uit_inventaris",
-                                    "prefLabel": "geschrapt uit inventaris",
+                                    "notation": "Geschrapt_uit_inventaris",
+                                    "prefLabel": "Geschrapt uit inventaris",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 {
@@ -851,7 +851,7 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "heffing_opgeschort",
-                                    "prefLabel": "heffing opgeschort",
+                                    "prefLabel": "Heffing opgeschort",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -860,17 +860,17 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "registratie_ingetrokken",
-                                    "prefLabel": "registratie ingetrokken",
+                                    "prefLabel": "Registratie ingetrokken",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 }
                             ],
                             "notation": "cs_beslissing",
-                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "aanvraag_schrapping_niet_aanvaard",
-                        "prefLabel": "aanvraag schrapping niet aanvaard",
+                        "prefLabel": "Aanvraag schrapping niet aanvaard",
                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                     }
                 ],
@@ -880,7 +880,7 @@
             },
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "aanvraag_schrapping_aanvaard",
-            "prefLabel": "aanvraag schrapping aanvaard",
+            "prefLabel": "Aanvraag schrapping aanvaard",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -898,7 +898,7 @@
                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "hasTopConcept": [
                                 {
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -914,7 +914,7 @@
                                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                 "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                                "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                                "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                             }
                                         ],
@@ -922,7 +922,7 @@
                                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "hasTopConcept": [
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
@@ -936,7 +936,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_ingewilligd",
-                                                            "prefLabel": "beroep tegen registratie ingewilligd",
+                                                            "prefLabel": "Beroep tegen registratie ingewilligd",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -945,7 +945,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                                            "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                                            "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -954,7 +954,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_verworpen",
-                                                            "prefLabel": "beroep tegen registratie verworpen",
+                                                            "prefLabel": "Beroep tegen registratie verworpen",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -991,8 +991,8 @@
                                                 }
                                             ],
                                             "notation": "cs_procedure",
-                                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                         },
                                         "prefLabel": "Aanvraag opschorting heffing",
@@ -1000,7 +1000,7 @@
                                     },
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                    "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                    "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -1014,8 +1014,8 @@
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                    "notation": "geschrapt_uit_inventaris",
-                                    "prefLabel": "geschrapt uit inventaris",
+                                    "notation": "Geschrapt_uit_inventaris",
+                                    "prefLabel": "Geschrapt uit inventaris",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 {
@@ -1023,7 +1023,7 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "heffing_opgeschort",
-                                    "prefLabel": "heffing opgeschort",
+                                    "prefLabel": "Heffing opgeschort",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -1032,17 +1032,17 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "registratie_ingetrokken",
-                                    "prefLabel": "registratie ingetrokken",
+                                    "prefLabel": "Registratie ingetrokken",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 }
                             ],
                             "notation": "cs_beslissing",
-                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "aanvraag_schrapping_aanvaard",
-                        "prefLabel": "aanvraag schrapping aanvaard",
+                        "prefLabel": "Aanvraag schrapping aanvaard",
                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                     },
                     "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard"
@@ -1053,7 +1053,7 @@
             },
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "aanvraag_schrapping_niet_aanvaard",
-            "prefLabel": "aanvraag schrapping niet aanvaard",
+            "prefLabel": "Aanvraag schrapping niet aanvaard",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -1072,7 +1072,7 @@
                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "hasTopConcept": [
                                 {
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -1088,7 +1088,7 @@
                                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                 "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                                "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                                "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                             }
                                         ],
@@ -1096,7 +1096,7 @@
                                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "hasTopConcept": [
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 {
@@ -1109,7 +1109,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -1118,7 +1118,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_niet_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping niet aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping niet aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -1156,8 +1156,8 @@
                                                 }
                                             ],
                                             "notation": "cs_procedure",
-                                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                         },
                                         "prefLabel": "Aanvraag opschorting heffing",
@@ -1165,7 +1165,7 @@
                                     },
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                    "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                    "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -1179,7 +1179,7 @@
                                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "beroep_tegen_registratie_verworpen",
-                                    "prefLabel": "beroep tegen registratie verworpen",
+                                    "prefLabel": "Beroep tegen registratie verworpen",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris",
@@ -1187,8 +1187,8 @@
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                    "notation": "geschrapt_uit_inventaris",
-                                    "prefLabel": "geschrapt uit inventaris",
+                                    "notation": "Geschrapt_uit_inventaris",
+                                    "prefLabel": "Geschrapt uit inventaris",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 {
@@ -1196,7 +1196,7 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "heffing_opgeschort",
-                                    "prefLabel": "heffing opgeschort",
+                                    "prefLabel": "Heffing opgeschort",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -1205,17 +1205,17 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "registratie_ingetrokken",
-                                    "prefLabel": "registratie ingetrokken",
+                                    "prefLabel": "Registratie ingetrokken",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 }
                             ],
                             "notation": "cs_beslissing",
-                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                        "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                        "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                     },
                     "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_verworpen"
@@ -1226,7 +1226,7 @@
             },
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "beroep_tegen_registratie_ingewilligd",
-            "prefLabel": "beroep tegen registratie ingewilligd",
+            "prefLabel": "Beroep tegen registratie ingewilligd",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -1244,7 +1244,7 @@
                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "hasTopConcept": [
                                 {
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -1260,7 +1260,7 @@
                                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                 "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                                "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                                "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                             }
                                         ],
@@ -1268,7 +1268,7 @@
                                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "hasTopConcept": [
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 {
@@ -1281,7 +1281,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -1290,7 +1290,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_niet_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping niet aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping niet aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -1328,8 +1328,8 @@
                                                 }
                                             ],
                                             "notation": "cs_procedure",
-                                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                         },
                                         "prefLabel": "Aanvraag opschorting heffing",
@@ -1337,7 +1337,7 @@
                                     },
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                    "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                    "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -1351,7 +1351,7 @@
                                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "beroep_tegen_registratie_verworpen",
-                                    "prefLabel": "beroep tegen registratie verworpen",
+                                    "prefLabel": "Beroep tegen registratie verworpen",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris",
@@ -1359,8 +1359,8 @@
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                    "notation": "geschrapt_uit_inventaris",
-                                    "prefLabel": "geschrapt uit inventaris",
+                                    "notation": "Geschrapt_uit_inventaris",
+                                    "prefLabel": "Geschrapt uit inventaris",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 {
@@ -1368,7 +1368,7 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "heffing_opgeschort",
-                                    "prefLabel": "heffing opgeschort",
+                                    "prefLabel": "Heffing opgeschort",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -1377,17 +1377,17 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "registratie_ingetrokken",
-                                    "prefLabel": "registratie ingetrokken",
+                                    "prefLabel": "Registratie ingetrokken",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 }
                             ],
                             "notation": "cs_beslissing",
-                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "beroep_tegen_registratie_ingewilligd",
-                        "prefLabel": "beroep tegen registratie ingewilligd",
+                        "prefLabel": "Beroep tegen registratie ingewilligd",
                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                     },
                     "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_onontvankelijk_verklaard",
@@ -1399,7 +1399,7 @@
             },
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-            "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+            "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -1417,7 +1417,7 @@
                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "hasTopConcept": [
                                 {
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -1433,7 +1433,7 @@
                                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                 "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                                "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                                "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                             }
                                         ],
@@ -1441,7 +1441,7 @@
                                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "hasTopConcept": [
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 {
@@ -1454,7 +1454,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -1463,7 +1463,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_niet_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping niet aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping niet aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -1501,8 +1501,8 @@
                                                 }
                                             ],
                                             "notation": "cs_procedure",
-                                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                         },
                                         "prefLabel": "Aanvraag opschorting heffing",
@@ -1510,7 +1510,7 @@
                                     },
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                    "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                    "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -1523,7 +1523,7 @@
                                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                    "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                    "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_verworpen",
@@ -1532,8 +1532,8 @@
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                    "notation": "geschrapt_uit_inventaris",
-                                    "prefLabel": "geschrapt uit inventaris",
+                                    "notation": "Geschrapt_uit_inventaris",
+                                    "prefLabel": "Geschrapt uit inventaris",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 {
@@ -1541,7 +1541,7 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "heffing_opgeschort",
-                                    "prefLabel": "heffing opgeschort",
+                                    "prefLabel": "Heffing opgeschort",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -1550,17 +1550,17 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "registratie_ingetrokken",
-                                    "prefLabel": "registratie ingetrokken",
+                                    "prefLabel": "Registratie ingetrokken",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 }
                             ],
                             "notation": "cs_beslissing",
-                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "beroep_tegen_registratie_ingewilligd",
-                        "prefLabel": "beroep tegen registratie ingewilligd",
+                        "prefLabel": "Beroep tegen registratie ingewilligd",
                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                     },
                     "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_onontvankelijk_verklaard",
@@ -1572,7 +1572,7 @@
             },
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "beroep_tegen_registratie_verworpen",
-            "prefLabel": "beroep tegen registratie verworpen",
+            "prefLabel": "Beroep tegen registratie verworpen",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -1591,7 +1591,7 @@
                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "hasTopConcept": [
                                 {
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -1607,7 +1607,7 @@
                                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                 "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                                "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                                "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                             }
                                         ],
@@ -1615,7 +1615,7 @@
                                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "hasTopConcept": [
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 {
@@ -1628,7 +1628,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -1637,7 +1637,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_niet_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping niet aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping niet aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -1655,7 +1655,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_ingewilligd",
-                                                            "prefLabel": "beroep tegen registratie ingewilligd",
+                                                            "prefLabel": "Beroep tegen registratie ingewilligd",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -1664,7 +1664,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                                            "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                                            "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -1673,7 +1673,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_verworpen",
-                                                            "prefLabel": "beroep tegen registratie verworpen",
+                                                            "prefLabel": "Beroep tegen registratie verworpen",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -1684,8 +1684,8 @@
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren"
                                             ],
                                             "notation": "cs_procedure",
-                                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                         },
                                         "prefLabel": "Aanvraag opschorting heffing",
@@ -1693,7 +1693,7 @@
                                     },
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                    "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                    "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -1707,8 +1707,8 @@
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                    "notation": "geschrapt_uit_inventaris",
-                                    "prefLabel": "geschrapt uit inventaris",
+                                    "notation": "Geschrapt_uit_inventaris",
+                                    "prefLabel": "Geschrapt uit inventaris",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 {
@@ -1716,7 +1716,7 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "heffing_opgeschort",
-                                    "prefLabel": "heffing opgeschort",
+                                    "prefLabel": "Heffing opgeschort",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -1725,13 +1725,13 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "registratie_ingetrokken",
-                                    "prefLabel": "registratie ingetrokken",
+                                    "prefLabel": "Registratie ingetrokken",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 }
                             ],
                             "notation": "cs_beslissing",
-                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "niet_geregistreerd_in_inventaris",
@@ -1752,8 +1752,8 @@
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-            "notation": "geschrapt_uit_inventaris",
-            "prefLabel": "geschrapt uit inventaris",
+            "notation": "Geschrapt_uit_inventaris",
+            "prefLabel": "Geschrapt uit inventaris",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -1761,7 +1761,7 @@
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "heffing_opgeschort",
-            "prefLabel": "heffing opgeschort",
+            "prefLabel": "Heffing opgeschort",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -1779,7 +1779,7 @@
                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "hasTopConcept": [
                                 {
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -1795,7 +1795,7 @@
                                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                 "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                                "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                                "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                             }
                                         ],
@@ -1803,7 +1803,7 @@
                                             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "hasTopConcept": [
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                                 {
@@ -1816,7 +1816,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -1825,7 +1825,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "aanvraag_schrapping_niet_aanvaard",
-                                                            "prefLabel": "aanvraag schrapping niet aanvaard",
+                                                            "prefLabel": "Aanvraag schrapping niet aanvaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -1843,7 +1843,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_ingewilligd",
-                                                            "prefLabel": "beroep tegen registratie ingewilligd",
+                                                            "prefLabel": "Beroep tegen registratie ingewilligd",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -1852,7 +1852,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                                            "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                                            "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         },
                                                         {
@@ -1861,7 +1861,7 @@
                                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                             "notation": "beroep_tegen_registratie_verworpen",
-                                                            "prefLabel": "beroep tegen registratie verworpen",
+                                                            "prefLabel": "Beroep tegen registratie verworpen",
                                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                         }
                                                     ],
@@ -1872,8 +1872,8 @@
                                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren"
                                             ],
                                             "notation": "cs_procedure",
-                                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                         },
                                         "prefLabel": "Aanvraag opschorting heffing",
@@ -1881,7 +1881,7 @@
                                     },
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                    "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                    "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -1895,8 +1895,8 @@
                                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                    "notation": "geschrapt_uit_inventaris",
-                                    "prefLabel": "geschrapt uit inventaris",
+                                    "notation": "Geschrapt_uit_inventaris",
+                                    "prefLabel": "Geschrapt uit inventaris",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 {
@@ -1904,7 +1904,7 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "heffing_opgeschort",
-                                    "prefLabel": "heffing opgeschort",
+                                    "prefLabel": "Heffing opgeschort",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 },
                                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -1913,13 +1913,13 @@
                                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                     "notation": "registratie_ingetrokken",
-                                    "prefLabel": "registratie ingetrokken",
+                                    "prefLabel": "Registratie ingetrokken",
                                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                 }
                             ],
                             "notation": "cs_beslissing",
-                            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                         },
                         "notation": "geregistreerd_in_inventaris",
@@ -1942,7 +1942,7 @@
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "registratie_ingetrokken",
-            "prefLabel": "registratie ingetrokken",
+            "prefLabel": "Registratie ingetrokken",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
         },
         {
@@ -1957,7 +1957,7 @@
                         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                         "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                         "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                        "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                        "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                         "hasTopConcept": [
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
                             {
@@ -1966,7 +1966,7 @@
                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             {
@@ -1983,7 +1983,7 @@
                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                             "notation": "aanvraag_schrapping_niet_aanvaard",
-                                            "prefLabel": "aanvraag schrapping niet aanvaard",
+                                            "prefLabel": "Aanvraag schrapping niet aanvaard",
                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                         }
                                     ],
@@ -1991,7 +1991,7 @@
                                         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                         "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                         "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                        "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                        "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                         "hasTopConcept": [
                                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
@@ -2005,7 +2005,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "beroep_tegen_registratie_ingewilligd",
-                                                        "prefLabel": "beroep tegen registratie ingewilligd",
+                                                        "prefLabel": "Beroep tegen registratie ingewilligd",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     },
                                                     {
@@ -2014,7 +2014,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                                        "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                                        "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     },
                                                     {
@@ -2023,7 +2023,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "beroep_tegen_registratie_verworpen",
-                                                        "prefLabel": "beroep tegen registratie verworpen",
+                                                        "prefLabel": "Beroep tegen registratie verworpen",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     }
                                                 ],
@@ -2060,8 +2060,8 @@
                                             }
                                         ],
                                         "notation": "cs_procedure",
-                                        "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                        "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                        "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                        "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                         "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                     },
                                     "prefLabel": "Aanvraag schrapping",
@@ -2069,7 +2069,7 @@
                                 },
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "aanvraag_schrapping_aanvaard",
-                                "prefLabel": "aanvraag schrapping aanvaard",
+                                "prefLabel": "Aanvraag schrapping aanvaard",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard",
@@ -2081,8 +2081,8 @@
                                 "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                "notation": "geschrapt_uit_inventaris",
-                                "prefLabel": "geschrapt uit inventaris",
+                                "notation": "Geschrapt_uit_inventaris",
+                                "prefLabel": "Geschrapt uit inventaris",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             {
@@ -2090,7 +2090,7 @@
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "heffing_opgeschort",
-                                "prefLabel": "heffing opgeschort",
+                                "prefLabel": "Heffing opgeschort",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -2099,17 +2099,17 @@
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "registratie_ingetrokken",
-                                "prefLabel": "registratie ingetrokken",
+                                "prefLabel": "Registratie ingetrokken",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             }
                         ],
                         "notation": "cs_beslissing",
-                        "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                        "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                        "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                        "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                         "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                     },
                     "notation": "aanvraag_opschorting_heffing_aanvaard",
-                    "prefLabel": "aanvraag opschorting heffing aanvaard",
+                    "prefLabel": "Aanvraag opschorting heffing aanvaard",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard"
@@ -2130,7 +2130,7 @@
                         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                         "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                         "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                        "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                        "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                         "hasTopConcept": [
                             {
                                 "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -2146,7 +2146,7 @@
                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                             "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                            "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                            "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                         }
                                     ],
@@ -2154,7 +2154,7 @@
                                         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                         "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                         "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                        "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                        "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                         "hasTopConcept": [
                                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
@@ -2168,7 +2168,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "beroep_tegen_registratie_ingewilligd",
-                                                        "prefLabel": "beroep tegen registratie ingewilligd",
+                                                        "prefLabel": "Beroep tegen registratie ingewilligd",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     },
                                                     {
@@ -2177,7 +2177,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                                        "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                                        "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     },
                                                     {
@@ -2186,7 +2186,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "beroep_tegen_registratie_verworpen",
-                                                        "prefLabel": "beroep tegen registratie verworpen",
+                                                        "prefLabel": "Beroep tegen registratie verworpen",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     }
                                                 ],
@@ -2223,8 +2223,8 @@
                                             }
                                         ],
                                         "notation": "cs_procedure",
-                                        "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                        "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                        "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                        "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                         "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                     },
                                     "prefLabel": "Aanvraag opschorting heffing",
@@ -2232,7 +2232,7 @@
                                 },
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -2243,7 +2243,7 @@
                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "aanvraag_schrapping_niet_aanvaard",
-                                "prefLabel": "aanvraag schrapping niet aanvaard",
+                                "prefLabel": "Aanvraag schrapping niet aanvaard",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_ingewilligd",
@@ -2254,8 +2254,8 @@
                                 "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                "notation": "geschrapt_uit_inventaris",
-                                "prefLabel": "geschrapt uit inventaris",
+                                "notation": "Geschrapt_uit_inventaris",
+                                "prefLabel": "Geschrapt uit inventaris",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             {
@@ -2263,7 +2263,7 @@
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "heffing_opgeschort",
-                                "prefLabel": "heffing opgeschort",
+                                "prefLabel": "Heffing opgeschort",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -2272,17 +2272,17 @@
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "registratie_ingetrokken",
-                                "prefLabel": "registratie ingetrokken",
+                                "prefLabel": "Registratie ingetrokken",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             }
                         ],
                         "notation": "cs_beslissing",
-                        "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                        "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                        "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                        "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                         "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                     },
                     "notation": "aanvraag_schrapping_aanvaard",
-                    "prefLabel": "aanvraag schrapping aanvaard",
+                    "prefLabel": "Aanvraag schrapping aanvaard",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard"
@@ -2303,7 +2303,7 @@
                         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                         "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                         "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                        "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                        "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                         "hasTopConcept": [
                             {
                                 "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -2319,7 +2319,7 @@
                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                             "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                            "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                            "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                         }
                                     ],
@@ -2327,7 +2327,7 @@
                                         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                         "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                         "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                        "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                        "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                         "hasTopConcept": [
                                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                             {
@@ -2340,7 +2340,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "aanvraag_schrapping_aanvaard",
-                                                        "prefLabel": "aanvraag schrapping aanvaard",
+                                                        "prefLabel": "Aanvraag schrapping aanvaard",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     },
                                                     {
@@ -2349,7 +2349,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "aanvraag_schrapping_niet_aanvaard",
-                                                        "prefLabel": "aanvraag schrapping niet aanvaard",
+                                                        "prefLabel": "Aanvraag schrapping niet aanvaard",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     }
                                                 ],
@@ -2387,8 +2387,8 @@
                                             }
                                         ],
                                         "notation": "cs_procedure",
-                                        "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                        "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                        "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                        "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                         "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                     },
                                     "prefLabel": "Aanvraag opschorting heffing",
@@ -2396,7 +2396,7 @@
                                 },
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -2409,7 +2409,7 @@
                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             {
@@ -2418,7 +2418,7 @@
                                 "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "beroep_tegen_registratie_verworpen",
-                                "prefLabel": "beroep tegen registratie verworpen",
+                                "prefLabel": "Beroep tegen registratie verworpen",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris",
@@ -2426,8 +2426,8 @@
                                 "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                "notation": "geschrapt_uit_inventaris",
-                                "prefLabel": "geschrapt uit inventaris",
+                                "notation": "Geschrapt_uit_inventaris",
+                                "prefLabel": "Geschrapt uit inventaris",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             {
@@ -2435,7 +2435,7 @@
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "heffing_opgeschort",
-                                "prefLabel": "heffing opgeschort",
+                                "prefLabel": "Heffing opgeschort",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
@@ -2444,17 +2444,17 @@
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "registratie_ingetrokken",
-                                "prefLabel": "registratie ingetrokken",
+                                "prefLabel": "Registratie ingetrokken",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             }
                         ],
                         "notation": "cs_beslissing",
-                        "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                        "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                        "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                        "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                         "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                     },
                     "notation": "beroep_tegen_registratie_ingewilligd",
-                    "prefLabel": "beroep tegen registratie ingewilligd",
+                    "prefLabel": "Beroep tegen registratie ingewilligd",
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                 },
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_onontvankelijk_verklaard",
@@ -2476,7 +2476,7 @@
                         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                         "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                         "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                        "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                        "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                         "hasTopConcept": [
                             {
                                 "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
@@ -2492,7 +2492,7 @@
                                             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                             "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
-                                            "prefLabel": "aanvraag opschorting heffing niet aanvaard",
+                                            "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
                                             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                         }
                                     ],
@@ -2500,7 +2500,7 @@
                                         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
                                         "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                                         "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-                                        "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+                                        "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                         "hasTopConcept": [
                                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                                             {
@@ -2513,7 +2513,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "aanvraag_schrapping_aanvaard",
-                                                        "prefLabel": "aanvraag schrapping aanvaard",
+                                                        "prefLabel": "Aanvraag schrapping aanvaard",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     },
                                                     {
@@ -2522,7 +2522,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "aanvraag_schrapping_niet_aanvaard",
-                                                        "prefLabel": "aanvraag schrapping niet aanvaard",
+                                                        "prefLabel": "Aanvraag schrapping niet aanvaard",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     }
                                                 ],
@@ -2540,7 +2540,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "beroep_tegen_registratie_ingewilligd",
-                                                        "prefLabel": "beroep tegen registratie ingewilligd",
+                                                        "prefLabel": "Beroep tegen registratie ingewilligd",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     },
                                                     {
@@ -2549,7 +2549,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
-                                                        "prefLabel": "beroep tegen registratie onontvankelijk verklaard",
+                                                        "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     },
                                                     {
@@ -2558,7 +2558,7 @@
                                                         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
                                                         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                                         "notation": "beroep_tegen_registratie_verworpen",
-                                                        "prefLabel": "beroep tegen registratie verworpen",
+                                                        "prefLabel": "Beroep tegen registratie verworpen",
                                                         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                                                     }
                                                 ],
@@ -2569,8 +2569,8 @@
                                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren"
                                         ],
                                         "notation": "cs_procedure",
-                                        "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                                        "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                                        "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                                        "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                                         "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                                     },
                                     "prefLabel": "Aanvraag opschorting heffing",
@@ -2578,7 +2578,7 @@
                                 },
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "aanvraag_opschorting_heffing_aanvaard",
-                                "prefLabel": "aanvraag opschorting heffing aanvaard",
+                                "prefLabel": "Aanvraag opschorting heffing aanvaard",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -2592,8 +2592,8 @@
                                 "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geschrapt_uit_inventaris",
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
-                                "notation": "geschrapt_uit_inventaris",
-                                "prefLabel": "geschrapt uit inventaris",
+                                "notation": "Geschrapt_uit_inventaris",
+                                "prefLabel": "Geschrapt uit inventaris",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             {
@@ -2601,7 +2601,7 @@
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "heffing_opgeschort",
-                                "prefLabel": "heffing opgeschort",
+                                "prefLabel": "Heffing opgeschort",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             },
                             {
@@ -2618,13 +2618,13 @@
                                 "type": "http://www.w3.org/2004/02/skos/core#Concept",
                                 "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
                                 "notation": "registratie_ingetrokken",
-                                "prefLabel": "registratie ingetrokken",
+                                "prefLabel": "Registratie ingetrokken",
                                 "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
                             }
                         ],
                         "notation": "cs_beslissing",
-                        "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-                        "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+                        "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+                        "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
                         "theme": "http://www.eionet.europa.eu/gemet/theme/5"
                     },
                     "notation": "geregistreerd_in_inventaris",
@@ -2942,7 +2942,7 @@
             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+            "definition": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
             "hasTopConcept": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
@@ -2958,15 +2958,15 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/registratie_ingetrokken"
             ],
             "notation": "cs_beslissing",
-            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+            "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+            "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+            "definition": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
             "hasTopConcept": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
@@ -2974,15 +2974,15 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren"
             ],
             "notation": "cs_procedure",
-            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+            "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+            "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
-            "definition": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
+            "definition": "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
             "hasTopConcept": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator",
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar",
@@ -2990,8 +2990,8 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman"
             ],
             "notation": "cs_rol",
-            "note": "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;",
-            "prefLabel": "Conceptschema over kenmerken van verwaarlozing aan gebouwen.",
+            "note": "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+            "prefLabel": "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5"
         },
         {

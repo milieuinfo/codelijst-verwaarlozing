@@ -67,43 +67,43 @@ beslissing:aanvraag_opschorting_heffing_aanvaard a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "aanvraag_opschorting_heffing_aanvaard";
-    skos:prefLabel "aanvraag opschorting heffing aanvaard"@nl;
+    skos:prefLabel "Aanvraag opschorting heffing aanvaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:aanvraag_opschorting_heffing_niet_aanvaard a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "aanvraag_opschorting_heffing_niet_aanvaard";
-    skos:prefLabel "aanvraag opschorting heffing niet aanvaard"@nl;
+    skos:prefLabel "Aanvraag opschorting heffing niet aanvaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:aanvraag_schrapping_aanvaard a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_schrapping;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "aanvraag_schrapping_aanvaard";
-    skos:prefLabel "aanvraag schrapping aanvaard"@nl;
+    skos:prefLabel "Aanvraag schrapping aanvaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:aanvraag_schrapping_niet_aanvaard a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_schrapping;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "aanvraag_schrapping_niet_aanvaard";
-    skos:prefLabel "aanvraag schrapping niet aanvaard"@nl;
+    skos:prefLabel "Aanvraag schrapping niet aanvaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:beroep_tegen_registratie_ingewilligd a skos:Concept;
     rdfs:seeAlso procedure:beroep_tegen_registratie;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "beroep_tegen_registratie_ingewilligd";
-    skos:prefLabel "beroep tegen registratie ingewilligd"@nl;
+    skos:prefLabel "Beroep tegen registratie ingewilligd"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:beroep_tegen_registratie_onontvankelijk_verklaard a skos:Concept;
     rdfs:seeAlso procedure:beroep_tegen_registratie;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "beroep_tegen_registratie_onontvankelijk_verklaard";
-    skos:prefLabel "beroep tegen registratie onontvankelijk verklaard"@nl;
+    skos:prefLabel "Beroep tegen registratie onontvankelijk verklaard"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:beroep_tegen_registratie_verworpen a skos:Concept;
     rdfs:seeAlso procedure:beroep_tegen_registratie;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "beroep_tegen_registratie_verworpen";
-    skos:prefLabel "beroep tegen registratie verworpen"@nl;
+    skos:prefLabel "Beroep tegen registratie verworpen"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:geregistreerd_in_inventaris a skos:Concept;
     rdfs:seeAlso procedure:registreren;
@@ -113,13 +113,13 @@ beslissing:geregistreerd_in_inventaris a skos:Concept;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:geschrapt_uit_inventaris a skos:Concept;
     skos:inScheme conceptscheme:beslissing;
-    skos:notation "geschrapt_uit_inventaris";
-    skos:prefLabel "geschrapt uit inventaris"@nl;
+    skos:notation "Geschrapt_uit_inventaris";
+    skos:prefLabel "Geschrapt uit inventaris"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:heffing_opgeschort a skos:Concept;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "heffing_opgeschort";
-    skos:prefLabel "heffing opgeschort"@nl;
+    skos:prefLabel "Heffing opgeschort"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 beslissing:niet_geregistreerd_in_inventaris a skos:Concept;
     rdfs:seeAlso procedure:registreren;
@@ -130,7 +130,7 @@ beslissing:niet_geregistreerd_in_inventaris a skos:Concept;
 beslissing:registratie_ingetrokken a skos:Concept;
     skos:inScheme conceptscheme:beslissing;
     skos:notation "registratie_ingetrokken";
-    skos:prefLabel "registratie ingetrokken"@nl;
+    skos:prefLabel "Registratie ingetrokken"@nl;
     skos:topConceptOf conceptscheme:beslissing.
 procedure:aanvraag_opschorting_heffing a skos:Concept;
     rdfs:seeAlso beslissing:aanvraag_opschorting_heffing_aanvaard, beslissing:aanvraag_opschorting_heffing_niet_aanvaard;
@@ -299,27 +299,27 @@ uitgesproken_gebrek:vochtindringing a skos:Concept;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_vochtindringing.
 conceptscheme:beslissing xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
-    skos:definition "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
+    skos:definition "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     skos:hasTopConcept beslissing:aanvraag_opschorting_heffing_aanvaard, beslissing:aanvraag_opschorting_heffing_niet_aanvaard, beslissing:aanvraag_schrapping_aanvaard, beslissing:aanvraag_schrapping_niet_aanvaard, beslissing:beroep_tegen_registratie_ingewilligd, beslissing:beroep_tegen_registratie_onontvankelijk_verklaard, beslissing:beroep_tegen_registratie_verworpen, beslissing:geregistreerd_in_inventaris, beslissing:geschrapt_uit_inventaris, beslissing:heffing_opgeschort, beslissing:niet_geregistreerd_in_inventaris, beslissing:registratie_ingetrokken;
     skos:notation "cs_beslissing";
-    skos:note "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
-    skos:prefLabel "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl;
+    skos:note "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
+    skos:prefLabel "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
 conceptscheme:procedure xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
-    skos:definition "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
+    skos:definition "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     skos:hasTopConcept procedure:aanvraag_opschorting_heffing, procedure:aanvraag_schrapping, procedure:beroep_tegen_registratie, procedure:registreren;
     skos:notation "cs_procedure";
-    skos:note "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
-    skos:prefLabel "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl;
+    skos:note "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
+    skos:prefLabel "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
 conceptscheme:rol xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
-    skos:definition "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
+    skos:definition "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     skos:hasTopConcept rol:curator, rol:eigenaar, rol:instrumenterend_ambtenaar, rol:raadsman;
     skos:notation "cs_rol";
-    skos:note "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
-    skos:prefLabel "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl;
+    skos:note "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
+    skos:prefLabel "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
 conceptscheme:uitgesproken_gebrek xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
