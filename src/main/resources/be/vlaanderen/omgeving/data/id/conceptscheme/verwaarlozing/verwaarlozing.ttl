@@ -4,6 +4,7 @@
 @prefix procedure: <https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/>.
 @prefix collectie: <https://data.omgeving.vlaanderen.be/id/collection/leegstand/>.
 @prefix rol: <https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/>.
+@prefix aanvraag_opschorting_heffing_reden: <https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/>.
 @prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix assettype: <http://purl.org/adms/assettype/>.
@@ -63,6 +64,36 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
+aanvraag_opschorting_heffing_reden:bodemsaneringsproject a skos:Concept;
+    rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
+    skos:inScheme conceptscheme:aanvraag_opschorting_heffing_reden;
+    skos:notation "bodemsaneringsproject";
+    skos:prefLabel "Conform verklaard bodemsaneringsproject"@nl;
+    skos:topConceptOf conceptscheme:aanvraag_opschorting_heffing_reden.
+aanvraag_opschorting_heffing_reden:brownfieldconvenant a skos:Concept;
+    rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
+    skos:inScheme conceptscheme:aanvraag_opschorting_heffing_reden;
+    skos:notation "brownfieldconvenant";
+    skos:prefLabel "Definitief gesloten brownfieldconvenant"@nl;
+    skos:topConceptOf conceptscheme:aanvraag_opschorting_heffing_reden.
+aanvraag_opschorting_heffing_reden:leegstaand_niet_verwaarloosd a skos:Concept;
+    rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
+    skos:inScheme conceptscheme:aanvraag_opschorting_heffing_reden;
+    skos:notation "leegstaand_niet_verwaarloosd";
+    skos:prefLabel "Leegstaande maar niet-verwaarloosde bedrijfsruimten"@nl;
+    skos:topConceptOf conceptscheme:aanvraag_opschorting_heffing_reden.
+aanvraag_opschorting_heffing_reden:nieuwe_eigenaars a skos:Concept;
+    rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
+    skos:inScheme conceptscheme:aanvraag_opschorting_heffing_reden;
+    skos:notation "nieuwe_eigenaars";
+    skos:prefLabel "Nieuwe eigenaars"@nl;
+    skos:topConceptOf conceptscheme:aanvraag_opschorting_heffing_reden.
+aanvraag_opschorting_heffing_reden:vernieuwing a skos:Concept;
+    rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
+    skos:inScheme conceptscheme:aanvraag_opschorting_heffing_reden;
+    skos:notation "vernieuwing";
+    skos:prefLabel "Vernieuwing, al of niet gekoppeld aan de beëindiging van de leegstand"@nl;
+    skos:topConceptOf conceptscheme:aanvraag_opschorting_heffing_reden.
 beslissing:aanvraag_opschorting_heffing_aanvaard a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
     skos:inScheme conceptscheme:beslissing;
@@ -297,6 +328,13 @@ uitgesproken_gebrek:vochtindringing a skos:Concept;
     skos:topConceptOf conceptscheme:uitgesproken_gebrek;
     dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_vochtindringing.
+conceptscheme:aanvraag_opschorting_heffing_reden xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
+    a skos:ConceptScheme;
+    skos:definition "Conceptschema over reden voor een procedure aanvraag opschorting heffing"@nl;
+    skos:hasTopConcept aanvraag_opschorting_heffing_reden:bodemsaneringsproject, aanvraag_opschorting_heffing_reden:brownfieldconvenant, aanvraag_opschorting_heffing_reden:leegstaand_niet_verwaarloosd, aanvraag_opschorting_heffing_reden:nieuwe_eigenaars, aanvraag_opschorting_heffing_reden:vernieuwing;
+    skos:notation "cs_aanvraag_opschorting_heffing_reden";
+    skos:note "Conceptschema over reden voor een procedure aanvraag opschorting heffing"@nl;
+    skos:prefLabel "Conceptschema over reden voor een procedure aanvraag opschorting heffing"@nl.
 conceptscheme:beslissing xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
     skos:definition "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;

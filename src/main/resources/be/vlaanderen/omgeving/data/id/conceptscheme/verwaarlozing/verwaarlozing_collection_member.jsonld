@@ -365,6 +365,51 @@
     },
     "graph": [
         {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/bodemsaneringsproject",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
+            "notation": "bodemsaneringsproject",
+            "prefLabel": "Conform verklaard bodemsaneringsproject",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/brownfieldconvenant",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
+            "notation": "brownfieldconvenant",
+            "prefLabel": "Definitief gesloten brownfieldconvenant",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/leegstaand_niet_verwaarloosd",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
+            "notation": "leegstaand_niet_verwaarloosd",
+            "prefLabel": "Leegstaande maar niet-verwaarloosde bedrijfsruimten",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/nieuwe_eigenaars",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
+            "notation": "nieuwe_eigenaars",
+            "prefLabel": "Nieuwe eigenaars",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/vernieuwing",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
+            "notation": "vernieuwing",
+            "prefLabel": "Vernieuwing, al of niet gekoppeld aan de beëindiging van de leegstand",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden"
+        },
+        {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
