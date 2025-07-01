@@ -44,3 +44,11 @@ rol:eigenaar,,Eigenaar,"De houder van een van de volgende zakelijke rechten met 
 rol:curator,,Curator, ,,conceptscheme:rol,conceptscheme:rol,,,,,,,
 rol:raadsman,,Raadsman, ,,conceptscheme:rol,conceptscheme:rol,,,,,,,
 rol:instrumenterend_ambtenaar,,Instrumenterend ambtenaar,Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden,,conceptscheme:rol,conceptscheme:rol,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+conceptscheme:aanvraag_opschorting_heffing_reden,cs_aanvraag_opschorting_heffing_reden,Conceptschema over reden voor een procedure aanvraag opschorting heffing,Conceptschema over reden voor een procedure aanvraag opschorting heffing,,,,,,omg_dataset:codelijst-verwaarlozing,,,,
+aanvraag_opschorting_heffing_reden:vernieuwing,vernieuwing,"Vernieuwing, al of niet gekoppeld aan de beëindiging van de leegstand",,,conceptscheme:aanvraag_opschorting_heffing_reden,conceptscheme:aanvraag_opschorting_heffing_reden,,,,,,,procedure:aanvraag_opschorting_heffing
+aanvraag_opschorting_heffing_reden:brownfieldconvenant,brownfieldconvenant,Definitief gesloten brownfieldconvenant,,,conceptscheme:aanvraag_opschorting_heffing_reden,conceptscheme:aanvraag_opschorting_heffing_reden,,,,,,,procedure:aanvraag_opschorting_heffing
+aanvraag_opschorting_heffing_reden:bodemsaneringsproject,bodemsaneringsproject,Conform verklaard bodemsaneringsproject,,,conceptscheme:aanvraag_opschorting_heffing_reden,conceptscheme:aanvraag_opschorting_heffing_reden,,,,,,,procedure:aanvraag_opschorting_heffing
+aanvraag_opschorting_heffing_reden:nieuwe_eigenaars,nieuwe_eigenaars,Nieuwe eigenaars,,,conceptscheme:aanvraag_opschorting_heffing_reden,conceptscheme:aanvraag_opschorting_heffing_reden,,,,,,,procedure:aanvraag_opschorting_heffing
+aanvraag_opschorting_heffing_reden:leegstaand_niet_verwaarloosd,leegstaand_niet_verwaarloosd,Leegstaande maar niet-verwaarloosde bedrijfsruimten,,,conceptscheme:aanvraag_opschorting_heffing_reden,conceptscheme:aanvraag_opschorting_heffing_reden,,,,,,,procedure:aanvraag_opschorting_heffing
