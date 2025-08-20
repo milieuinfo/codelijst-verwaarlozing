@@ -48,6 +48,7 @@
 @prefix omg_vcard: <https://data.omgeving.vlaanderen.be/id/vcard/>.
 @prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix provenancestatement: <https://data.omgeving.vlaanderen.be/id/provenancestatement/dataset/>.
 @prefix prop: <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#>.
 @prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.

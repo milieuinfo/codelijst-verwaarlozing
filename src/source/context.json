@@ -20,6 +20,11 @@
     "@id" : "http://purl.org/dc/terms/source",
     "@type" : "@id"
   },
+  "subject" : {
+    "@id" : "http://purl.org/dc/terms/subject",
+    "@type" : "@id"
+  },
+
   "sparql-service-description-name" : {
     "@id" : "http://www.w3.org/ns/sparql-service-description#name",
     "@type" : "@id"
@@ -255,6 +260,9 @@
   "prefLabel" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
     "@language" : "nl"
+  },
+  "provenance" : {
+    "@id" : "http://purl.org/dc/terms/provenance"
   },
   "notation" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#notation"

@@ -1,6 +1,6 @@
 import fs from "fs";
 import jsonld from "jsonld";
-import {  n3_reasoning } from 'maven-metadata-generator-npm';
+import { n3_reasoning } from 'maven-metadata-generator-npm/src/utils/functions.js';
 import { frame_concept_via_collectie, frame_concept_via_conceptscheme} from './utils/variables.js';
 
 
