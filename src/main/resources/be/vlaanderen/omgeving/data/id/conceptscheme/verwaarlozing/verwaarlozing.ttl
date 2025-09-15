@@ -89,6 +89,12 @@ aanvraag_opschorting_heffing_reden:nieuwe_eigenaars a skos:Concept;
     skos:notation "nieuwe_eigenaars";
     skos:prefLabel "Nieuwe eigenaars"@nl;
     skos:topConceptOf conceptscheme:aanvraag_opschorting_heffing_reden.
+aanvraag_opschorting_heffing_reden:verlenging_bij_vernieuwing a skos:Concept;
+    rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
+    skos:inScheme conceptscheme:aanvraag_opschorting_heffing_reden;
+    skos:notation "verlenging_bij_vernieuwing";
+    skos:prefLabel "Verlenging bij vernieuwing"@nl;
+    skos:topConceptOf conceptscheme:aanvraag_opschorting_heffing_reden.
 aanvraag_opschorting_heffing_reden:vernieuwing a skos:Concept;
     rdfs:seeAlso procedure:aanvraag_opschorting_heffing;
     skos:inScheme conceptscheme:aanvraag_opschorting_heffing_reden;
@@ -332,7 +338,7 @@ uitgesproken_gebrek:vochtindringing a skos:Concept;
 conceptscheme:aanvraag_opschorting_heffing_reden xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
     skos:definition "Conceptschema over reden voor een procedure aanvraag opschorting heffing"@nl;
-    skos:hasTopConcept aanvraag_opschorting_heffing_reden:bodemsaneringsproject, aanvraag_opschorting_heffing_reden:brownfieldconvenant, aanvraag_opschorting_heffing_reden:leegstaand_niet_verwaarloosd, aanvraag_opschorting_heffing_reden:nieuwe_eigenaars, aanvraag_opschorting_heffing_reden:vernieuwing;
+    skos:hasTopConcept aanvraag_opschorting_heffing_reden:bodemsaneringsproject, aanvraag_opschorting_heffing_reden:brownfieldconvenant, aanvraag_opschorting_heffing_reden:leegstaand_niet_verwaarloosd, aanvraag_opschorting_heffing_reden:nieuwe_eigenaars, aanvraag_opschorting_heffing_reden:verlenging_bij_vernieuwing, aanvraag_opschorting_heffing_reden:vernieuwing;
     skos:notation "cs_aanvraag_opschorting_heffing_reden";
     skos:note "Conceptschema over reden voor een procedure aanvraag opschorting heffing"@nl;
     skos:prefLabel "Conceptschema over reden voor een procedure aanvraag opschorting heffing"@nl.

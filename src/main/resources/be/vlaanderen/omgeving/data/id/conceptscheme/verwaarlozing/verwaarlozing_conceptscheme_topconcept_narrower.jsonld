@@ -414,6 +414,15 @@
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden"
                 },
                 {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/verlenging_bij_vernieuwing",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
+                    "notation": "verlenging_bij_vernieuwing",
+                    "prefLabel": "Verlenging bij vernieuwing",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden"
+                },
+                {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/vernieuwing",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
