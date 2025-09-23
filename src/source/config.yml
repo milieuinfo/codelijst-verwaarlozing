@@ -12,6 +12,7 @@ skos:
     collectie : https://data.omgeving.vlaanderen.be/id/collection/leegstand/
     rol : https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/
     aanvraag_opschorting_heffing_reden : https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/
+    stuk : https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/
   path: ./main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/
   name: verwaarlozing
   turtle: .ttl

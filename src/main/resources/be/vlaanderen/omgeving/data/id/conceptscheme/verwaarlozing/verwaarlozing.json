@@ -236,6 +236,421 @@
         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
     },
     {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "OPSCH_ANVRD",
+        "prefLabel": "Opschorting aanvaard beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard_begeleidende_brief",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "OPSCH_ANVRD_BEG_BRIEF",
+        "prefLabel": "Begeleidende brief bij opschorting aanvaard beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "OPSCH_NANVRD",
+        "prefLabel": "Opschorting niet aanvaard beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "OPSCH_NANVRD_BEG_BRIEF",
+        "prefLabel": "Begeleidende brief bij opschorting niet aanvaard beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_aanvaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "SCHR_ANVRD",
+        "prefLabel": "Schrapping aanvaard beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "SCHR_NANVRD",
+        "prefLabel": "Schrapping niet aanvaard beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard_begeleidende_brief",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "SCHR_NANVRD_BEG_BRIEF",
+        "prefLabel": "Begeleidende brief bij schrapping niet aanvaard beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_ingewilligd",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "BER_INGWD",
+        "prefLabel": "Beroep ingewilligd beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd_begeleidende_brief",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "BER_INGWD_BEG_BRIEF",
+        "prefLabel": "Begeleidende brief bij beroep ingewilligd beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_onontvankelijk_verklaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "BER_ON",
+        "prefLabel": "Beroep onontvankelijk beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "BER_ON_BEG_BRIEF",
+        "prefLabel": "Begeleidende brief bij beroep onontvankelijk beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_verworpen",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "BER_VERWN",
+        "prefLabel": "Beroep verworpen beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen_begeleidende_brief",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "BER_VERWN_BEG_BRIEF",
+        "prefLabel": "Begeleidende brief bij beroep verworpen beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "narrower": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/schrapping_aanvaard_begeleidende_brief"
+        ],
+        "narrowerTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/schrapping_aanvaard_begeleidende_brief"
+        ],
+        "notation": "beslissingsstuk",
+        "prefLabel": "Stuk dat voortkomt uit een beslissing",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest_begeleidende_brief",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/schrapping_aanvaard_begeleidende_brief"
+        ],
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/foto",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "FOTO",
+        "prefLabel": "Foto",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedure_inkomend_stuk",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "PRO_INKOMEND_STUK",
+        "prefLabel": "Inkomend stuk op een procedure",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "narrower": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedure_inkomend_stuk",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/retour_afzender"
+        ],
+        "narrowerTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedure_inkomend_stuk",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/retour_afzender"
+        ],
+        "notation": "procedurestuk",
+        "prefLabel": "Stuk gerelateerd aan een procedure",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedure_inkomend_stuk",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/retour_afzender"
+        ],
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "REG_ATT",
+        "prefLabel": "Registratie attest",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest_begeleidende_brief",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "REG_ATT_BEG_BRIEF",
+        "prefLabel": "Begeleidende brief bij een registratie attest",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/retour_afzender",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "RETOUR_AFZENDER",
+        "prefLabel": "Retour afzender",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/schrapping_aanvaard_begeleidende_brief",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "SCHR_ANVRD_BEG_BRIEF",
+        "prefLabel": "Begeleidende brief bij schrapping aanvaard beslissingsstuk",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "narrower": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/foto",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/varia",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/verslag"
+        ],
+        "narrowerTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/foto",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/varia",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/verslag"
+        ],
+        "notation": "stavingsstuk",
+        "prefLabel": "Stavingsstuk bij een vaststelling",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/foto",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/varia",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/verslag"
+        ],
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/varia",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "VARIA",
+        "prefLabel": "Varia",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk"
+        ]
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/verslag",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "VERSLAG",
+        "prefLabel": "Verslag",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk"
+        ]
+    },
+    {
         "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitenmuren",
         "type": "http://www.w3.org/2004/02/skos/core#Concept",
         "altLabel": "Buitenmuren",
@@ -503,8 +918,7 @@
         ],
         "notation": "cs_beslissing",
         "note": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
-        "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
-        "theme": "http://www.eionet.europa.eu/gemet/theme/5"
+        "prefLabel": "Conceptschema over beslissingen die genomen kunnen worden binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."
     },
     {
         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
@@ -519,8 +933,7 @@
         ],
         "notation": "cs_procedure",
         "note": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
-        "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
-        "theme": "http://www.eionet.europa.eu/gemet/theme/5"
+        "prefLabel": "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."
     },
     {
         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
@@ -535,8 +948,21 @@
         ],
         "notation": "cs_rol",
         "note": "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
-        "prefLabel": "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
-        "theme": "http://www.eionet.europa.eu/gemet/theme/5"
+        "prefLabel": "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
+        "definition": "Conceptschema over stukken in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+        "hasTopConcept": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/stavingsstuk",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk"
+        ],
+        "notation": "cs_stuk",
+        "note": "Conceptschema over stukken in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
+        "prefLabel": "Conceptschema over stukken in het kader van leegstaande en verwaarloosde bedrijfsruimten."
     },
     {
         "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
