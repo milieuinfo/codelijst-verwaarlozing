@@ -15,6 +15,7 @@ const context = JSON.parse(fs.readFileSync(config.source.path + config.source.co
 
 const context_prefixes = Object.assign({},context , prefixes)
 
+
 const frame_concept_via_conceptscheme = {
     "@context": context,
     "@type": ["http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/2004/02/skos/core#Collection"],
@@ -102,6 +103,11 @@ const frame_concept_via_conceptscheme = {
                 "@embed": "@never",
                 "@omitDefault": true
             },
+            "seeAlso" : {
+                "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+                "@embed": "@never",
+                "@omitDefault": true
+            },
             "memberOf": {
                 "@embed": "@never",
                 "@omitDefault": true
@@ -169,6 +175,11 @@ const frame_concept_via_conceptscheme = {
                     "@embed": "@never",
                     "@omitDefault": true
                 },
+                "seeAlso" : {
+                    "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "@embed": "@never",
+                    "@omitDefault": true
+                },
                 "closeMatch" : {
                     "@type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "@embed": "@never",
@@ -225,6 +236,11 @@ const frame_concept_via_conceptscheme = {
                     "@embed": "@always",
                     "@omitDefault": true,
                     "gekoppelde_eigenschap" : {
+                        "@embed": "@never",
+                        "@omitDefault": true
+                    },
+                    "seeAlso" : {
+                        "@type": "http://www.w3.org/2004/02/skos/core#Concept",
                         "@embed": "@never",
                         "@omitDefault": true
                     },
@@ -292,6 +308,11 @@ const frame_concept_via_conceptscheme = {
                             "@embed": "@never",
                             "@omitDefault": true
                         },
+                        "seeAlso" : {
+                            "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+                            "@embed": "@never",
+                            "@omitDefault": true
+                        },
                         "closeMatch" : {
                             "@type": "http://www.w3.org/2004/02/skos/core#Concept",
                             "@embed": "@never",
@@ -355,6 +376,11 @@ const frame_concept_via_conceptscheme = {
                                 "@embed": "@never",
                                 "@omitDefault": true
                             },
+                            "seeAlso" : {
+                                "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+                                "@embed": "@never",
+                                "@omitDefault": true
+                            },
                             "memberOf": {
                                 "@embed": "@never",
                                 "@omitDefault": true
@@ -391,6 +417,10 @@ const frame_concept_via_conceptscheme = {
                                 "@embed": "@never",
                                 "@omitDefault": true
                             },
+                            "broaderTransitive":{
+                                "@embed": "@never",
+                                "@omitDefault": true
+                            },
                             "related":{ "@embed": "@never",
                                 "@omitDefault": true
                             },
@@ -407,16 +437,23 @@ const frame_concept_via_conceptscheme = {
     }
 }
 
+
 const frame_concept_via_collectie = {
     "@context": context,
-    "@type": ["http://www.w3.org/2004/02/skos/core#Concept"],
-    "seeAlso": {
-        "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+    "@type": ["http://www.w3.org/2004/02/skos/core#Concept", "http://www.w3.org/2004/02/skos/core#Collection"],
+    "member": {
         "@embed": "@never",
-
-
+        "@omitDefault": true
+    },
+    "broader": {
+        "@embed": "@never",
+        "@omitDefault": true
     },
 
+    "seeAlso": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
     "topConceptOf":{
         "@embed": "@never",
         "@omitDefault": true
@@ -425,14 +462,71 @@ const frame_concept_via_collectie = {
         "@embed": "@never",
         "@omitDefault": true
     },
-
     "hasTopConcept": {
-        "@type": "http://www.w3.org/2004/02/skos/core#Concept",
         "@embed": "@never",
         "@omitDefault": true
     },
     "inScheme": {
         "@type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "gekoppelde_eigenschap" : {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "memberOf": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "closeMatch" : {
+        "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "semanticRelation" : {
+        "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "mappingRelation" : {
+        "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "exactMatch" : {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "hasVersion": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "narrower": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "isVersionOf": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "relatedMatch":{
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "broaderTransitive":{
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "related":{ "@embed": "@never",
+        "@omitDefault": true
+    },
+    "relation":{
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "narrowerTransitive" : {
+        "@type": "http://www.w3.org/2004/02/skos/core#Concept",
         "@embed": "@never",
         "@omitDefault": true
     },
