@@ -62,21 +62,21 @@ stuk:verslag,VERSLAG,Verslag,,,conceptscheme:stuk,,stuk:stavingsstuk,,,,,,
 stuk:varia,VARIA,Varia,,,conceptscheme:stuk,,stuk:stavingsstuk,,,,,,
 stuk:procedurestuk,procedurestuk,Stuk gerelateerd aan een procedure,,,conceptscheme:stuk,conceptscheme:stuk,,,,,,,conceptscheme:procedure
 stuk:beslissingsstuk,beslissingsstuk,Stuk dat voortkomt uit een beslissing,,,conceptscheme:stuk,conceptscheme:stuk,,,,,,,conceptscheme:beslissing
-stuk:registratie_attest,REG_ATT,Registratie attest,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:geregistreerd_in_inventaris
-stuk:registratie_attest_begeleidende_brief,REG_ATT_BEG_BRIEF,Begeleidende brief bij een registratie attest,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:registratie_attest
-stuk:beroep_tegen_registratie_onontvankelijk_verklaard,BER_ON,Beroep onontvankelijk beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:beroep_tegen_registratie_onontvankelijk_verklaard
-stuk:beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief,BER_ON_BEG_BRIEF,Begeleidende brief bij beroep onontvankelijk beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:beroep_tegen_registratie_onontvankelijk_verklaard
-stuk:beroep_tegen_registratie_ingewilligd,BER_INGWD,Beroep ingewilligd beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:beroep_tegen_registratie_ingewilligd
-stuk:beroep_tegen_registratie_ingewilligd_begeleidende_brief,BER_INGWD_BEG_BRIEF,Begeleidende brief bij beroep ingewilligd beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:beroep_tegen_registratie_ingewilligd
-stuk:beroep_tegen_registratie_verworpen,BER_VERWN,Beroep verworpen beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:beroep_tegen_registratie_verworpen
-stuk:beroep_tegen_registratie_verworpen_begeleidende_brief,BER_VERWN_BEG_BRIEF,Begeleidende brief bij beroep verworpen beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:beroep_tegen_registratie_verworpen
-stuk:aanvraag_schrapping_aanvaard,SCHR_ANVRD,Schrapping aanvaard beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_schrapping_aanvaard
-stuk:schrapping_aanvaard_begeleidende_brief,SCHR_ANVRD_BEG_BRIEF,Begeleidende brief bij schrapping aanvaard beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_schrapping_aanvaard
-stuk:aanvraag_schrapping_niet_aanvaard,SCHR_NANVRD,Schrapping niet aanvaard beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_schrapping_niet_aanvaard
-stuk:aanvraag_schrapping_niet_aanvaard_begeleidende_brief,SCHR_NANVRD_BEG_BRIEF,Begeleidende brief bij schrapping niet aanvaard beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_schrapping_niet_aanvaard
-stuk:aanvraag_opschorting_heffing_aanvaard,OPSCH_ANVRD,Opschorting aanvaard beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_opschorting_heffing_aanvaard
-stuk:aanvraag_opschorting_heffing_aanvaard_begeleidende_brief,OPSCH_ANVRD_BEG_BRIEF,Begeleidende brief bij opschorting aanvaard beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_opschorting_heffing_aanvaard
-stuk:aanvraag_opschorting_heffing_niet_aanvaard,OPSCH_NANVRD,Opschorting niet aanvaard beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_opschorting_heffing_niet_aanvaard
-stuk:aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief,OPSCH_NANVRD_BEG_BRIEF,Begeleidende brief bij opschorting niet aanvaard beslissingsstuk,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_opschorting_heffing_niet_aanvaard
-stuk:procedure_inkomend_stuk,PRO_INKOMEND_STUK,Inkomend stuk op een procedure,,,conceptscheme:stuk,,stuk:procedurestuk,,,,,,conceptscheme:procedure
-stuk:retour_afzender,RETOUR_AFZENDER,Retour afzender,,,conceptscheme:stuk,,stuk:procedurestuk,,,,,,conceptscheme:procedure
+stuk:registratieattest,REGATT,Registratieattest,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:geregistreerd_in_inventaris
+stuk:registratieattest_begeleidende_brief,REGATT_BEG_BRIEF,Begeleidende brief bij een registratieattest,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:registratie_attest
+stuk:beroep_tegen_registratie_onontvankelijk_verklaard,BER_ON,Beroep onontvankelijk verklaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:beroep_tegen_registratie_onontvankelijk_verklaard
+stuk:beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief,BER_ON_BEG_BRIEF,Begeleidende brief bij beroep onontvankelijk verklaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:beroep_tegen_registratie_onontvankelijk_verklaard
+stuk:beroep_tegen_registratie_ingewilligd,BER_INGWD,Beroep ingewilligd,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:beroep_tegen_registratie_ingewilligd
+stuk:beroep_tegen_registratie_ingewilligd_begeleidende_brief,BER_INGWD_BEG_BRIEF,Begeleidende brief bij beroep ingewilligd,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:beroep_tegen_registratie_ingewilligd
+stuk:beroep_tegen_registratie_verworpen,BER_VERWN,Beroep verworpen,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:beroep_tegen_registratie_verworpen
+stuk:beroep_tegen_registratie_verworpen_begeleidende_brief,BER_VERWN_BEG_BRIEF,Begeleidende brief bij beroep verworpen,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:beroep_tegen_registratie_verworpen
+stuk:aanvraag_schrapping_aanvaard,SCHR_ANVRD,Schrapping aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_schrapping_aanvaard
+stuk:schrapping_aanvaard_begeleidende_brief,SCHR_ANVRD_BEG_BRIEF,Begeleidende brief bij schrapping aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_schrapping_aanvaard
+stuk:aanvraag_schrapping_niet_aanvaard,SCHR_NANVRD,Schrapping niet aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_schrapping_niet_aanvaard
+stuk:aanvraag_schrapping_niet_aanvaard_begeleidende_brief,SCHR_NANVRD_BEG_BRIEF,Begeleidende brief bij schrapping niet aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_schrapping_niet_aanvaard
+stuk:aanvraag_opschorting_heffing_aanvaard,OPSCH_ANVRD,Opschorting aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_opschorting_heffing_aanvaard
+stuk:aanvraag_opschorting_heffing_aanvaard_begeleidende_brief,OPSCH_ANVRD_BEG_BRIEF,Begeleidende brief bij opschorting aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_opschorting_heffing_aanvaard
+stuk:aanvraag_opschorting_heffing_niet_aanvaard,OPSCH_NANVRD,Opschorting niet aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_opschorting_heffing_niet_aanvaard
+stuk:aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief,OPSCH_NANVRD_BEG_BRIEF,Begeleidende brief bij opschorting niet aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_opschorting_heffing_niet_aanvaard
+stuk:inkomend_procedurestuk,INKOMEND_PROCEDURESTUK,Inkomend procedurestuk,,,conceptscheme:stuk,,stuk:procedurestuk,,,,,,conceptscheme:procedure
+stuk:retour_afzender_procedurestuk,RETOUR_AFZENDER_PROCEDURESTUK,Retour afzender,,,conceptscheme:stuk,,stuk:procedurestuk,,,,,,conceptscheme:procedure
