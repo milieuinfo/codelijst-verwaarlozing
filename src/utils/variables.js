@@ -102,6 +102,11 @@ const frame_concept_via_conceptscheme = {
                 "@embed": "@never",
                 "@omitDefault": true
             },
+            "seeAlso" : {
+              "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+              "@embed": "@never",
+              "@omitDefault": true
+            },
             "memberOf": {
                 "@embed": "@never",
                 "@omitDefault": true
@@ -165,6 +170,11 @@ const frame_concept_via_conceptscheme = {
                     "@embed": "@never",
                     "@omitDefault": true
                 },
+                "seeAlso" : {
+                  "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+                  "@embed": "@never",
+                  "@omitDefault": true
+                },
                 "memberOf": {
                     "@embed": "@never",
                     "@omitDefault": true
@@ -227,6 +237,11 @@ const frame_concept_via_conceptscheme = {
                     "gekoppelde_eigenschap" : {
                         "@embed": "@never",
                         "@omitDefault": true
+                    },
+                    "seeAlso" : {
+                      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+                      "@embed": "@never",
+                      "@omitDefault": true
                     },
                     "memberOf": {
                         "@embed": "@never",
@@ -292,6 +307,11 @@ const frame_concept_via_conceptscheme = {
                             "@embed": "@never",
                             "@omitDefault": true
                         },
+                        "seeAlso" : {
+                          "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+                          "@embed": "@never",
+                          "@omitDefault": true
+                        },
                         "closeMatch" : {
                             "@type": "http://www.w3.org/2004/02/skos/core#Concept",
                             "@embed": "@never",
@@ -354,6 +374,11 @@ const frame_concept_via_conceptscheme = {
                             "gekoppelde_eigenschap" : {
                                 "@embed": "@never",
                                 "@omitDefault": true
+                            },
+                            "seeAlso" : {
+                              "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+                              "@embed": "@never",
+                              "@omitDefault": true
                             },
                             "memberOf": {
                                 "@embed": "@never",
