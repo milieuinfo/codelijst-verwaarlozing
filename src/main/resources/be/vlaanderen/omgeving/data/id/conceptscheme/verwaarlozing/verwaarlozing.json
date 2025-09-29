@@ -311,6 +311,21 @@
         ]
     },
     {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard_begeleidende_brief",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
+        "broaderTransitive": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ],
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
+        "notation": "SCHR_ANVRD_BEG_BRIEF",
+        "prefLabel": "Begeleidende brief bij schrapping aanvaard",
+        "semanticRelation": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
+        ]
+    },
+    {
         "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
         "type": "http://www.w3.org/2004/02/skos/core#Concept",
         "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard",
@@ -440,6 +455,7 @@
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
@@ -449,8 +465,7 @@
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest",
-            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest_begeleidende_brief",
-            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/schrapping_aanvaard_begeleidende_brief"
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest_begeleidende_brief"
         ],
         "narrowerTransitive": [
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard",
@@ -458,6 +473,7 @@
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
@@ -467,8 +483,7 @@
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest",
-            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest_begeleidende_brief",
-            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/schrapping_aanvaard_begeleidende_brief"
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest_begeleidende_brief"
         ],
         "notation": "beslissingsstuk",
         "prefLabel": "Stuk dat voortkomt uit een beslissing",
@@ -478,6 +493,7 @@
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
@@ -487,8 +503,7 @@
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen_begeleidende_brief",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest",
-            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest_begeleidende_brief",
-            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/schrapping_aanvaard_begeleidende_brief"
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest_begeleidende_brief"
         ],
         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk"
     },
@@ -581,21 +596,6 @@
         "prefLabel": "Retour afzender",
         "semanticRelation": [
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk"
-        ]
-    },
-    {
-        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/schrapping_aanvaard_begeleidende_brief",
-        "type": "http://www.w3.org/2004/02/skos/core#Concept",
-        "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
-        "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
-        "broaderTransitive": [
-            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
-        ],
-        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
-        "notation": "SCHR_ANVRD_BEG_BRIEF",
-        "prefLabel": "Begeleidende brief bij schrapping aanvaard",
-        "semanticRelation": [
-            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
         ]
     },
     {

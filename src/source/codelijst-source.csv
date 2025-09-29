@@ -71,7 +71,7 @@ stuk:beroep_tegen_registratie_ingewilligd_begeleidende_brief,BER_INGWD_BEG_BRIEF
 stuk:beroep_tegen_registratie_verworpen,BER_VERWN,Beroep verworpen,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:beroep_tegen_registratie_verworpen
 stuk:beroep_tegen_registratie_verworpen_begeleidende_brief,BER_VERWN_BEG_BRIEF,Begeleidende brief bij beroep verworpen,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:beroep_tegen_registratie_verworpen
 stuk:aanvraag_schrapping_aanvaard,SCHR_ANVRD,Schrapping aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_schrapping_aanvaard
-stuk:schrapping_aanvaard_begeleidende_brief,SCHR_ANVRD_BEG_BRIEF,Begeleidende brief bij schrapping aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_schrapping_aanvaard
+stuk:aanvraag_schrapping_aanvaard_begeleidende_brief,SCHR_ANVRD_BEG_BRIEF,Begeleidende brief bij schrapping aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_schrapping_aanvaard
 stuk:aanvraag_schrapping_niet_aanvaard,SCHR_NANVRD,Schrapping niet aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_schrapping_niet_aanvaard
 stuk:aanvraag_schrapping_niet_aanvaard_begeleidende_brief,SCHR_NANVRD_BEG_BRIEF,Begeleidende brief bij schrapping niet aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,stuk:aanvraag_schrapping_niet_aanvaard
 stuk:aanvraag_opschorting_heffing_aanvaard,OPSCH_ANVRD,Opschorting aanvaard,,,conceptscheme:stuk,,stuk:beslissingsstuk,,,,,,beslissing:aanvraag_opschorting_heffing_aanvaard

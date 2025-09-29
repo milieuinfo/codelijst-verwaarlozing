@@ -251,6 +251,14 @@ stuk:aanvraag_schrapping_aanvaard a skos:Concept;
     skos:notation "SCHR_ANVRD";
     skos:prefLabel "Schrapping aanvaard"@nl;
     skos:semanticRelation stuk:beslissingsstuk.
+stuk:aanvraag_schrapping_aanvaard_begeleidende_brief a skos:Concept;
+    rdfs:seeAlso stuk:aanvraag_schrapping_aanvaard;
+    skos:broader stuk:beslissingsstuk;
+    skos:broaderTransitive stuk:beslissingsstuk;
+    skos:inScheme conceptscheme:stuk;
+    skos:notation "SCHR_ANVRD_BEG_BRIEF";
+    skos:prefLabel "Begeleidende brief bij schrapping aanvaard"@nl;
+    skos:semanticRelation stuk:beslissingsstuk.
 stuk:aanvraag_schrapping_niet_aanvaard a skos:Concept;
     rdfs:seeAlso beslissing:aanvraag_schrapping_niet_aanvaard;
     skos:broader stuk:beslissingsstuk;
@@ -318,11 +326,11 @@ stuk:beroep_tegen_registratie_verworpen_begeleidende_brief a skos:Concept;
 stuk:beslissingsstuk a skos:Concept;
     rdfs:seeAlso conceptscheme:beslissing;
     skos:inScheme conceptscheme:stuk;
-    skos:narrower stuk:aanvraag_opschorting_heffing_aanvaard, stuk:aanvraag_opschorting_heffing_aanvaard_begeleidende_brief, stuk:aanvraag_opschorting_heffing_niet_aanvaard, stuk:aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief, stuk:aanvraag_schrapping_aanvaard, stuk:aanvraag_schrapping_niet_aanvaard, stuk:aanvraag_schrapping_niet_aanvaard_begeleidende_brief, stuk:beroep_tegen_registratie_ingewilligd, stuk:beroep_tegen_registratie_ingewilligd_begeleidende_brief, stuk:beroep_tegen_registratie_onontvankelijk_verklaard, stuk:beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief, stuk:beroep_tegen_registratie_verworpen, stuk:beroep_tegen_registratie_verworpen_begeleidende_brief, stuk:registratieattest, stuk:registratieattest_begeleidende_brief, stuk:schrapping_aanvaard_begeleidende_brief;
-    skos:narrowerTransitive stuk:aanvraag_opschorting_heffing_aanvaard, stuk:aanvraag_opschorting_heffing_aanvaard_begeleidende_brief, stuk:aanvraag_opschorting_heffing_niet_aanvaard, stuk:aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief, stuk:aanvraag_schrapping_aanvaard, stuk:aanvraag_schrapping_niet_aanvaard, stuk:aanvraag_schrapping_niet_aanvaard_begeleidende_brief, stuk:beroep_tegen_registratie_ingewilligd, stuk:beroep_tegen_registratie_ingewilligd_begeleidende_brief, stuk:beroep_tegen_registratie_onontvankelijk_verklaard, stuk:beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief, stuk:beroep_tegen_registratie_verworpen, stuk:beroep_tegen_registratie_verworpen_begeleidende_brief, stuk:registratieattest, stuk:registratieattest_begeleidende_brief, stuk:schrapping_aanvaard_begeleidende_brief;
+    skos:narrower stuk:aanvraag_opschorting_heffing_aanvaard, stuk:aanvraag_opschorting_heffing_aanvaard_begeleidende_brief, stuk:aanvraag_opschorting_heffing_niet_aanvaard, stuk:aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief, stuk:aanvraag_schrapping_aanvaard, stuk:aanvraag_schrapping_aanvaard_begeleidende_brief, stuk:aanvraag_schrapping_niet_aanvaard, stuk:aanvraag_schrapping_niet_aanvaard_begeleidende_brief, stuk:beroep_tegen_registratie_ingewilligd, stuk:beroep_tegen_registratie_ingewilligd_begeleidende_brief, stuk:beroep_tegen_registratie_onontvankelijk_verklaard, stuk:beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief, stuk:beroep_tegen_registratie_verworpen, stuk:beroep_tegen_registratie_verworpen_begeleidende_brief, stuk:registratieattest, stuk:registratieattest_begeleidende_brief;
+    skos:narrowerTransitive stuk:aanvraag_opschorting_heffing_aanvaard, stuk:aanvraag_opschorting_heffing_aanvaard_begeleidende_brief, stuk:aanvraag_opschorting_heffing_niet_aanvaard, stuk:aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief, stuk:aanvraag_schrapping_aanvaard, stuk:aanvraag_schrapping_aanvaard_begeleidende_brief, stuk:aanvraag_schrapping_niet_aanvaard, stuk:aanvraag_schrapping_niet_aanvaard_begeleidende_brief, stuk:beroep_tegen_registratie_ingewilligd, stuk:beroep_tegen_registratie_ingewilligd_begeleidende_brief, stuk:beroep_tegen_registratie_onontvankelijk_verklaard, stuk:beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief, stuk:beroep_tegen_registratie_verworpen, stuk:beroep_tegen_registratie_verworpen_begeleidende_brief, stuk:registratieattest, stuk:registratieattest_begeleidende_brief;
     skos:notation "beslissingsstuk";
     skos:prefLabel "Stuk dat voortkomt uit een beslissing"@nl;
-    skos:semanticRelation stuk:aanvraag_opschorting_heffing_aanvaard, stuk:aanvraag_opschorting_heffing_aanvaard_begeleidende_brief, stuk:aanvraag_opschorting_heffing_niet_aanvaard, stuk:aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief, stuk:aanvraag_schrapping_aanvaard, stuk:aanvraag_schrapping_niet_aanvaard, stuk:aanvraag_schrapping_niet_aanvaard_begeleidende_brief, stuk:beroep_tegen_registratie_ingewilligd, stuk:beroep_tegen_registratie_ingewilligd_begeleidende_brief, stuk:beroep_tegen_registratie_onontvankelijk_verklaard, stuk:beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief, stuk:beroep_tegen_registratie_verworpen, stuk:beroep_tegen_registratie_verworpen_begeleidende_brief, stuk:registratieattest, stuk:registratieattest_begeleidende_brief, stuk:schrapping_aanvaard_begeleidende_brief;
+    skos:semanticRelation stuk:aanvraag_opschorting_heffing_aanvaard, stuk:aanvraag_opschorting_heffing_aanvaard_begeleidende_brief, stuk:aanvraag_opschorting_heffing_niet_aanvaard, stuk:aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief, stuk:aanvraag_schrapping_aanvaard, stuk:aanvraag_schrapping_aanvaard_begeleidende_brief, stuk:aanvraag_schrapping_niet_aanvaard, stuk:aanvraag_schrapping_niet_aanvaard_begeleidende_brief, stuk:beroep_tegen_registratie_ingewilligd, stuk:beroep_tegen_registratie_ingewilligd_begeleidende_brief, stuk:beroep_tegen_registratie_onontvankelijk_verklaard, stuk:beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief, stuk:beroep_tegen_registratie_verworpen, stuk:beroep_tegen_registratie_verworpen_begeleidende_brief, stuk:registratieattest, stuk:registratieattest_begeleidende_brief;
     skos:topConceptOf conceptscheme:stuk.
 stuk:foto a skos:Concept;
     skos:broader stuk:stavingsstuk;
@@ -372,14 +380,6 @@ stuk:retour_afzender_procedurestuk a skos:Concept;
     skos:notation "RETOUR_AFZENDER_PROCEDURESTUK";
     skos:prefLabel "Retour afzender"@nl;
     skos:semanticRelation stuk:procedurestuk.
-stuk:schrapping_aanvaard_begeleidende_brief a skos:Concept;
-    rdfs:seeAlso stuk:aanvraag_schrapping_aanvaard;
-    skos:broader stuk:beslissingsstuk;
-    skos:broaderTransitive stuk:beslissingsstuk;
-    skos:inScheme conceptscheme:stuk;
-    skos:notation "SCHR_ANVRD_BEG_BRIEF";
-    skos:prefLabel "Begeleidende brief bij schrapping aanvaard"@nl;
-    skos:semanticRelation stuk:beslissingsstuk.
 stuk:stavingsstuk a skos:Concept;
     skos:inScheme conceptscheme:stuk;
     skos:narrower stuk:foto, stuk:varia, stuk:verslag;
