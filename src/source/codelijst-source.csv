@@ -44,6 +44,7 @@ rol:eigenaar,,Eigenaar,"De houder van een van de volgende zakelijke rechten met 
 rol:curator,,Curator, ,,conceptscheme:rol,conceptscheme:rol,,,,,,,
 rol:raadsman,,Raadsman, ,,conceptscheme:rol,conceptscheme:rol,,,,,,,
 rol:instrumenterend_ambtenaar,,Instrumenterend ambtenaar,Iedere persoon of instelling die ertoe gemachtigd is aktes van eigendomsoverdracht te verlijden,,conceptscheme:rol,conceptscheme:rol,,,,,,,
+rol:bewindvoerder,,Bewindvoerder, ,,conceptscheme:rol,conceptscheme:rol,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 conceptscheme:aanvraag_opschorting_heffing_reden,cs_aanvraag_opschorting_heffing_reden,Conceptschema over reden voor een procedure aanvraag opschorting heffing,Conceptschema over reden voor een procedure aanvraag opschorting heffing,,,,,,omg_dataset:codelijst-verwaarlozing,,,,

@@ -204,6 +204,13 @@
         "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
     },
     {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/bewindvoerder",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
+        "prefLabel": "Bewindvoerder",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
+    },
+    {
         "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator",
         "type": "http://www.w3.org/2004/02/skos/core#Concept",
         "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol",
@@ -940,6 +947,7 @@
         "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
         "definition": "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten.",
         "hasTopConcept": [
+            "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/bewindvoerder",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/curator",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/eigenaar",
             "https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/instrumenterend_ambtenaar",

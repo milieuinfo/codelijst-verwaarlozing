@@ -191,6 +191,10 @@ procedure:registreren a skos:Concept;
     skos:inScheme conceptscheme:procedure;
     skos:prefLabel "Registreren"@nl;
     skos:topConceptOf conceptscheme:procedure.
+rol:bewindvoerder a skos:Concept;
+    skos:inScheme conceptscheme:rol;
+    skos:prefLabel "Bewindvoerder"@nl;
+    skos:topConceptOf conceptscheme:rol.
 rol:curator a skos:Concept;
     skos:inScheme conceptscheme:rol;
     skos:prefLabel "Curator"@nl;
@@ -551,7 +555,7 @@ conceptscheme:procedure xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
 conceptscheme:rol xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
     skos:definition "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
-    skos:hasTopConcept rol:curator, rol:eigenaar, rol:instrumenterend_ambtenaar, rol:raadsman;
+    skos:hasTopConcept rol:bewindvoerder, rol:curator, rol:eigenaar, rol:instrumenterend_ambtenaar, rol:raadsman;
     skos:notation "cs_rol";
     skos:note "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     skos:prefLabel "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl.
