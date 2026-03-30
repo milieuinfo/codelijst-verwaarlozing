@@ -1,8 +1,8 @@
 types : verwaarlozing
 skos:
   rules :
-    skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
-    dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
+    skos_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/skos-rules.n3
+    dcterms_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
     parameter_rules : /n3/parameter-rules.n3
   prefixes :
     concept : https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/
@@ -10,6 +10,7 @@ skos:
     beslissing : https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/
     procedure : https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/leegstand/
+    schrapping : https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/
     rol : https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/
     aanvraag_opschorting_heffing_reden : https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/
     stuk : https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/

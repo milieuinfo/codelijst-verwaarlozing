@@ -659,6 +659,81 @@
             "prefLabel": "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."
         },
         {
+            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+            "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",
+            "definition": "Redenen van schrapping",
+            "hasTopConcept": [
+                {
+                    "id": "Schrapping:50",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+                    "notation": "+50%",
+                    "prefLabel": "Benutting van meer dan 50% conform de vergunde bestemming van het gebouw",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/functiewijziging",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+                    "notation": "functiewijziging",
+                    "prefLabel": "Functiewijziging doorgevoerd",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/gesloopt",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+                    "notation": "gesloopt",
+                    "prefLabel": "De bedrijfsruimte is gesloopt",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+                    "notation": "heffing",
+                    "prefLabel": "procedure heffing",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/nieuwe_invulling",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+                    "notation": "nieuwe_invulling",
+                    "prefLabel": "Nieuwe invulling gegeven conform de vergunde bestemming",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/onteigening",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+                    "notation": "onteigening",
+                    "prefLabel": "Er is een onteigening",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/opgeheven",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+                    "notation": "opgeheven",
+                    "prefLabel": "Verwaarlozing is opgeheven",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/rechtbank",
+                    "type": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+                    "notation": "rechtbank",
+                    "prefLabel": "Procedure rechtbank",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
+                }
+            ],
+            "notation": "cs_schrapping",
+            "note": "Redenen van schrapping",
+            "prefLabel": "Conceptschema over redenen van schapping in het kader van leegstaande en verwaarloosde bedrijfsruimten."
+        },
+        {
             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
             "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
             "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing",

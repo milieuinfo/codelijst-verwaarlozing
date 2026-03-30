@@ -1,4 +1,4 @@
-import { create_metadata } from 'maven-metadata-generator-npm';
+import { create_metadata } from '@milieuinfo/maven-metadata-generator-npm';
 import {
     metadataSource,
     metadataOptions,

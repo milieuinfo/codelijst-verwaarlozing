@@ -3,6 +3,7 @@
 @prefix beslissing: <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/>.
 @prefix procedure: <https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/>.
 @prefix collectie: <https://data.omgeving.vlaanderen.be/id/collection/leegstand/>.
+@prefix schrapping: <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/>.
 @prefix rol: <https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/>.
 @prefix aanvraag_opschorting_heffing_reden: <https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/>.
 @prefix stuk: <https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/>.
@@ -215,6 +216,46 @@ rol:raadsman a skos:Concept;
     skos:inScheme conceptscheme:rol;
     skos:prefLabel "Raadsman"@nl;
     skos:topConceptOf conceptscheme:rol.
+schrapping:benutting_meer_dan_vijftig_percent a skos:Concept;
+    skos:inScheme conceptscheme:schrapping;
+    skos:notation "+50%";
+    skos:prefLabel "Benutting van meer dan 50% conform de vergunde bestemming van het gebouw"@nl;
+    skos:topConceptOf conceptscheme:schrapping.
+schrapping:functiewijziging a skos:Concept;
+    skos:inScheme conceptscheme:schrapping;
+    skos:notation "functiewijziging";
+    skos:prefLabel "Functiewijziging doorgevoerd"@nl;
+    skos:topConceptOf conceptscheme:schrapping.
+schrapping:gesloopt a skos:Concept;
+    skos:inScheme conceptscheme:schrapping;
+    skos:notation "gesloopt";
+    skos:prefLabel "De bedrijfsruimte is gesloopt"@nl;
+    skos:topConceptOf conceptscheme:schrapping.
+schrapping:heffing a skos:Concept;
+    skos:inScheme conceptscheme:schrapping;
+    skos:notation "heffing";
+    skos:prefLabel "procedure heffing"@nl;
+    skos:topConceptOf conceptscheme:schrapping.
+schrapping:nieuwe_invulling a skos:Concept;
+    skos:inScheme conceptscheme:schrapping;
+    skos:notation "nieuwe_invulling";
+    skos:prefLabel "Nieuwe invulling gegeven conform de vergunde bestemming"@nl;
+    skos:topConceptOf conceptscheme:schrapping.
+schrapping:onteigening a skos:Concept;
+    skos:inScheme conceptscheme:schrapping;
+    skos:notation "onteigening";
+    skos:prefLabel "Er is een onteigening"@nl;
+    skos:topConceptOf conceptscheme:schrapping.
+schrapping:opgeheven a skos:Concept;
+    skos:inScheme conceptscheme:schrapping;
+    skos:notation "opgeheven";
+    skos:prefLabel "Verwaarlozing is opgeheven"@nl;
+    skos:topConceptOf conceptscheme:schrapping.
+schrapping:rechtbank a skos:Concept;
+    skos:inScheme conceptscheme:schrapping;
+    skos:notation "rechtbank";
+    skos:prefLabel "Procedure rechtbank"@nl;
+    skos:topConceptOf conceptscheme:schrapping.
 stuk:aanvraag_opschorting_heffing_aanvaard a skos:Concept;
     rdfs:seeAlso beslissing:aanvraag_opschorting_heffing_aanvaard;
     skos:broader stuk:beslissingsstuk;
@@ -414,7 +455,7 @@ uitgesproken_gebrek:buitenmuren a skos:Concept;
     skos:notation "buitenmuren";
     skos:prefLabel "Gebrek aan de toestand van buitenmuren"@nl;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_buitenmuren.
 uitgesproken_gebrek:buitentimmerwerk a skos:Concept;
     skos:altLabel "Buitentimmerwerk"@nl;
@@ -424,7 +465,7 @@ uitgesproken_gebrek:buitentimmerwerk a skos:Concept;
     skos:notation "buitentimmerwerk";
     skos:prefLabel "Gebrek aan de toestand van het buitentimmerwerk"@nl;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_buitentimmerwerk.
 uitgesproken_gebrek:dakbedekking a skos:Concept;
     skos:altLabel "Dakbedekking"@nl;
@@ -434,7 +475,7 @@ uitgesproken_gebrek:dakbedekking a skos:Concept;
     skos:notation "dakbedekking";
     skos:prefLabel "Gebrek aan de toestand van de dakbedekking"@nl;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakbedekking.
 uitgesproken_gebrek:dakgebinte a skos:Concept;
     skos:altLabel "Dakgebinte"@nl;
@@ -444,7 +485,7 @@ uitgesproken_gebrek:dakgebinte a skos:Concept;
     skos:notation "dakgebinte";
     skos:prefLabel "Gebrek aan de toestand van het dakgebinte"@nl;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakgebinte.
 uitgesproken_gebrek:dakgoten a skos:Concept;
     skos:altLabel "Dakgoten"@nl;
@@ -454,7 +495,7 @@ uitgesproken_gebrek:dakgoten a skos:Concept;
     skos:notation "dakgoten";
     skos:prefLabel "Gebrek aan de toestand van de dakgoten"@nl;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakgoten.
 uitgesproken_gebrek:gebouwonderdeel a skos:Concept;
     skos:altLabel "Gebrek aan de toestand van een gebouwonderdeel"@nl;
@@ -465,7 +506,7 @@ uitgesproken_gebrek:gebouwonderdeel a skos:Concept;
     skos:prefLabel "Gebrek aan de toestand van een gebouwonderdeel"@nl;
     skos:semanticRelation uitgesproken_gebrek:buitenmuren, uitgesproken_gebrek:buitentimmerwerk, uitgesproken_gebrek:dakbedekking, uitgesproken_gebrek:dakgebinte, uitgesproken_gebrek:dakgoten, uitgesproken_gebrek:kroonlijst, uitgesproken_gebrek:liften, uitgesproken_gebrek:schoorstenen, uitgesproken_gebrek:trappen;
     skos:topConceptOf conceptscheme:uitgesproken_gebrek;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_gebouwonderdeel.
 uitgesproken_gebrek:kroonlijst a skos:Concept;
     skos:altLabel "Kroonlijst"@nl;
@@ -475,7 +516,7 @@ uitgesproken_gebrek:kroonlijst a skos:Concept;
     skos:notation "kroonlijst";
     skos:prefLabel "Gebrek aan de toestand van de kroonlijst"@nl;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_kroonlijst.
 uitgesproken_gebrek:liften a skos:Concept;
     skos:altLabel "Liften"@nl;
@@ -485,7 +526,7 @@ uitgesproken_gebrek:liften a skos:Concept;
     skos:notation "liften";
     skos:prefLabel "Gebrek aan de toestand van de liften"@nl;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_liften.
 uitgesproken_gebrek:schoorstenen a skos:Concept;
     skos:altLabel "Schoorstenen"@nl;
@@ -495,7 +536,7 @@ uitgesproken_gebrek:schoorstenen a skos:Concept;
     skos:notation "schoorstenen";
     skos:prefLabel "Gebrek aan de toestand van schoorstenen"@nl;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_schoorstenen.
 uitgesproken_gebrek:stabiliteit a skos:Concept;
     skos:altLabel "Gebrek dat stabiliteit in het gedrang brengt"@nl;
@@ -503,7 +544,7 @@ uitgesproken_gebrek:stabiliteit a skos:Concept;
     skos:notation "stabiliteit";
     skos:prefLabel "Gebrek dat stabiliteit in het gedrang brengt"@nl;
     skos:topConceptOf conceptscheme:uitgesproken_gebrek;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_stabiliteit.
 uitgesproken_gebrek:trappen a skos:Concept;
     skos:altLabel "Trappen"@nl;
@@ -513,7 +554,7 @@ uitgesproken_gebrek:trappen a skos:Concept;
     skos:notation "trappen";
     skos:prefLabel "Gebrek aan de toestand van de trappen"@nl;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_trappen.
 uitgesproken_gebrek:veiligheid a skos:Concept;
     skos:altLabel "Gebrek dat veiligheid in het gedrang brengt"@nl;
@@ -521,7 +562,7 @@ uitgesproken_gebrek:veiligheid a skos:Concept;
     skos:notation "veiligheid";
     skos:prefLabel "Gebrek dat veiligheid in het gedrang brengt"@nl;
     skos:topConceptOf conceptscheme:uitgesproken_gebrek;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_veiligheid.
 uitgesproken_gebrek:vochtindringing a skos:Concept;
     skos:altLabel "Gebrek dat leidt tot vochtindringing"@nl;
@@ -529,7 +570,7 @@ uitgesproken_gebrek:vochtindringing a skos:Concept;
     skos:notation "vochtindringing";
     skos:prefLabel "Gebrek dat leidt tot vochtindringing"@nl;
     skos:topConceptOf conceptscheme:uitgesproken_gebrek;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>;
+    dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_vochtindringing.
 conceptscheme:aanvraag_opschorting_heffing_reden xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
@@ -559,6 +600,13 @@ conceptscheme:rol xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     skos:notation "cs_rol";
     skos:note "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     skos:prefLabel "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl.
+conceptscheme:schrapping xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
+    a skos:ConceptScheme;
+    skos:definition "Redenen van schrapping"@nl;
+    skos:hasTopConcept schrapping:benutting_meer_dan_vijftig_percent, schrapping:functiewijziging, schrapping:gesloopt, schrapping:heffing, schrapping:nieuwe_invulling, schrapping:onteigening, schrapping:opgeheven, schrapping:rechtbank;
+    skos:notation "cs_schrapping";
+    skos:note "Redenen van schrapping"@nl;
+    skos:prefLabel "Conceptschema over redenen van schapping in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl.
 conceptscheme:stuk xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
     skos:definition "Conceptschema over stukken in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
@@ -573,7 +621,7 @@ conceptscheme:uitgesproken_gebrek xkos:belongsTo omg_dataset:codelijst-verwaarlo
     skos:notation "cs_uitgesproken_gebrek";
     skos:note "Het vertonen van uitgesproken gebreken van algemene of beperkte omvang van bedrijfsverwaarlozing. De Vlaamse regering bepaalt de gebreken van algemene en beperkte omvang, alsook de criteria voor de beoordeling van de gebreken en de minimumnorm van de te vertonen gebreken om een bedrijfsruimte al dan niet als geheel of gedeeltelijk verwaarloosd te beschouwen;"@nl;
     skos:prefLabel "Conceptschema over kenmerken van verwaarlozing aan gebouwen."@nl;
-    dcat:theme <http://www.eionet.europa.eu/gemet/theme/5>.
+    dcat:theme thema:5.
 prop:vertoont_gebrek_ivm_buitenmuren a rdf:Property.
 prop:vertoont_gebrek_ivm_buitentimmerwerk a rdf:Property.
 prop:vertoont_gebrek_ivm_dakbedekking a rdf:Property.

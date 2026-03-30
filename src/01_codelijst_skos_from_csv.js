@@ -1,5 +1,5 @@
 'use strict';
-import { generate_skos } from 'maven-metadata-generator-npm';
+import { generate_skos } from '@milieuinfo/maven-metadata-generator-npm';
 import {
     skosOptions,
     skosSource

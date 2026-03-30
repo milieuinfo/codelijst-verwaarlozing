@@ -152,6 +152,46 @@
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raadsman"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/raadsman> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/benutting_meer_dan_vijftig_percent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/benutting_meer_dan_vijftig_percent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/benutting_meer_dan_vijftig_percent> <http://www.w3.org/2004/02/skos/core#notation> "+50%" .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/benutting_meer_dan_vijftig_percent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Benutting van meer dan 50% conform de vergunde bestemming van het gebouw"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/benutting_meer_dan_vijftig_percent> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/functiewijziging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/functiewijziging> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/functiewijziging> <http://www.w3.org/2004/02/skos/core#notation> "functiewijziging" .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/functiewijziging> <http://www.w3.org/2004/02/skos/core#prefLabel> "Functiewijziging doorgevoerd"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/functiewijziging> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/gesloopt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/gesloopt> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/gesloopt> <http://www.w3.org/2004/02/skos/core#notation> "gesloopt" .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/gesloopt> <http://www.w3.org/2004/02/skos/core#prefLabel> "De bedrijfsruimte is gesloopt"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/gesloopt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/2004/02/skos/core#notation> "heffing" .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/2004/02/skos/core#prefLabel> "procedure heffing"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/nieuwe_invulling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/nieuwe_invulling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/nieuwe_invulling> <http://www.w3.org/2004/02/skos/core#notation> "nieuwe_invulling" .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/nieuwe_invulling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieuwe invulling gegeven conform de vergunde bestemming"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/nieuwe_invulling> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/onteigening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/onteigening> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/onteigening> <http://www.w3.org/2004/02/skos/core#notation> "onteigening" .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/onteigening> <http://www.w3.org/2004/02/skos/core#prefLabel> "Er is een onteigening"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/onteigening> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/opgeheven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/opgeheven> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/opgeheven> <http://www.w3.org/2004/02/skos/core#notation> "opgeheven" .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/opgeheven> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verwaarlozing is opgeheven"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/opgeheven> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/rechtbank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/rechtbank> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/rechtbank> <http://www.w3.org/2004/02/skos/core#notation> "rechtbank" .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/rechtbank> <http://www.w3.org/2004/02/skos/core#prefLabel> "Procedure rechtbank"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/rechtbank> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk> .
@@ -597,6 +637,20 @@
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#notation> "cs_rol" .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#note> "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#definition> "Redenen van schrapping"@nl .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/benutting_meer_dan_vijftig_percent> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/functiewijziging> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/gesloopt> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/nieuwe_invulling> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/onteigening> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/opgeheven> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/rechtbank> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#notation> "cs_schrapping" .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#note> "Redenen van schrapping"@nl .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conceptschema over redenen van schapping in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.omgeving.vlaanderen.be/id/dataset/codelijst-verwaarlozing> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk> <http://www.w3.org/2004/02/skos/core#definition> "Conceptschema over stukken in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl .
