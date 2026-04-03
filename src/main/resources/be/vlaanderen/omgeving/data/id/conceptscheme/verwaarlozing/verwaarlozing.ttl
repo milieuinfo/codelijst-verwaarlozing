@@ -234,7 +234,7 @@ schrapping:gesloopt a skos:Concept;
 schrapping:heffing a skos:Concept;
     skos:inScheme conceptscheme:schrapping;
     skos:notation "heffing";
-    skos:prefLabel "procedure heffing"@nl;
+    skos:prefLabel "Procedure heffing"@nl;
     skos:topConceptOf conceptscheme:schrapping.
 schrapping:nieuwe_invulling a skos:Concept;
     skos:inScheme conceptscheme:schrapping;

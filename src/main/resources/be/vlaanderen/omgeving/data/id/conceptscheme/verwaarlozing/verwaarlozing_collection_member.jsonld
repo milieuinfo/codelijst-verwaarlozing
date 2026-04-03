@@ -372,14 +372,6 @@
     },
     "graph": [
         {
-            "id": "Schrapping:50",
-            "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
-            "notation": "+50%",
-            "prefLabel": "Benutting van meer dan 50% conform de vergunde bestemming van het gebouw",
-            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
-        },
-        {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/bodemsaneringsproject",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
@@ -623,6 +615,14 @@
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/rol"
         },
         {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/benutting_meer_dan_vijftig_percent",
+            "type": "http://www.w3.org/2004/02/skos/core#Concept",
+            "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
+            "notation": "+50%",
+            "prefLabel": "Benutting van meer dan 50% conform de vergunde bestemming van het gebouw",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
+        },
+        {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/functiewijziging",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
@@ -643,7 +643,7 @@
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
             "notation": "heffing",
-            "prefLabel": "procedure heffing",
+            "prefLabel": "Procedure heffing",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
         },
         {

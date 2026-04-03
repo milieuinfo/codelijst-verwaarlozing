@@ -170,7 +170,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/2004/02/skos/core#notation> "heffing" .
-<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/2004/02/skos/core#prefLabel> "procedure heffing"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Procedure heffing"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/heffing> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/nieuwe_invulling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/nieuwe_invulling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping> .

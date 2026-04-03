@@ -643,7 +643,7 @@
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping",
             "notation": "heffing",
-            "prefLabel": "procedure heffing",
+            "prefLabel": "Procedure heffing",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/schrapping"
         },
         {
