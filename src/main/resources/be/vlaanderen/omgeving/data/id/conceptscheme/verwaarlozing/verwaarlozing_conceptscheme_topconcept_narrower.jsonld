@@ -615,7 +615,7 @@
             "definition": "Redenen van verwijderen uit inventaris",
             "hasTopConcept": [
                 {
-                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:benutting_meer_dan_vijftig_percent",
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/reden_van_verwijderen_uit_inventaris/benutting_meer_dan_vijftig_percent",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris",
                     "notation": "+50%",
@@ -623,7 +623,7 @@
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris"
                 },
                 {
-                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:functiewijziging",
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/reden_van_verwijderen_uit_inventaris/functiewijziging",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris",
                     "notation": "functiewijziging",
@@ -631,7 +631,7 @@
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris"
                 },
                 {
-                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:gesloopt",
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/reden_van_verwijderen_uit_inventaris/gesloopt",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris",
                     "notation": "gesloopt",
@@ -639,7 +639,7 @@
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris"
                 },
                 {
-                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:heffing",
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/reden_van_verwijderen_uit_inventaris/heffing",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris",
                     "notation": "heffing",
@@ -647,7 +647,7 @@
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris"
                 },
                 {
-                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:nieuwe_invulling",
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/reden_van_verwijderen_uit_inventaris/nieuwe_invulling",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris",
                     "notation": "nieuwe_invulling",
@@ -655,7 +655,7 @@
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris"
                 },
                 {
-                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:onteigening",
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/reden_van_verwijderen_uit_inventaris/onteigening",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris",
                     "notation": "onteigening",
@@ -663,7 +663,7 @@
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris"
                 },
                 {
-                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:opgeheven",
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/reden_van_verwijderen_uit_inventaris/opgeheven",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris",
                     "notation": "opgeheven",
@@ -671,7 +671,7 @@
                     "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris"
                 },
                 {
-                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:rechtbank",
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/reden_van_verwijderen_uit_inventaris/rechtbank",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/reden_van_verwijderen_uit_inventaris",
                     "notation": "rechtbank",

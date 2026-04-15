@@ -10,7 +10,7 @@ skos:
     beslissing : https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/
     procedure : https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/leegstand/
-    schrapping : https://data.omgeving.vlaanderen.be/id/concept/leegstand/schrapping/
+    reden_van_verwijderen_uit_inventaris : https://data.omgeving.vlaanderen.be/id/concept/leegstand/reden_van_verwijderen_uit_inventaris/
     rol : https://data.omgeving.vlaanderen.be/id/concept/leegstand/rol/
     aanvraag_opschorting_heffing_reden : https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/
     stuk : https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/
