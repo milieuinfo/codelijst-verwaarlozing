@@ -216,46 +216,6 @@ rol:raadsman a skos:Concept;
     skos:inScheme conceptscheme:rol;
     skos:prefLabel "Raadsman"@nl;
     skos:topConceptOf conceptscheme:rol.
-schrapping:benutting_meer_dan_vijftig_percent a skos:Concept;
-    skos:inScheme conceptscheme:schrapping;
-    skos:notation "+50%";
-    skos:prefLabel "Benutting van meer dan 50% conform de vergunde bestemming van het gebouw"@nl;
-    skos:topConceptOf conceptscheme:schrapping.
-schrapping:functiewijziging a skos:Concept;
-    skos:inScheme conceptscheme:schrapping;
-    skos:notation "functiewijziging";
-    skos:prefLabel "Functiewijziging doorgevoerd"@nl;
-    skos:topConceptOf conceptscheme:schrapping.
-schrapping:gesloopt a skos:Concept;
-    skos:inScheme conceptscheme:schrapping;
-    skos:notation "gesloopt";
-    skos:prefLabel "De bedrijfsruimte is gesloopt"@nl;
-    skos:topConceptOf conceptscheme:schrapping.
-schrapping:heffing a skos:Concept;
-    skos:inScheme conceptscheme:schrapping;
-    skos:notation "heffing";
-    skos:prefLabel "Procedure heffing"@nl;
-    skos:topConceptOf conceptscheme:schrapping.
-schrapping:nieuwe_invulling a skos:Concept;
-    skos:inScheme conceptscheme:schrapping;
-    skos:notation "nieuwe_invulling";
-    skos:prefLabel "Nieuwe invulling gegeven conform de vergunde bestemming"@nl;
-    skos:topConceptOf conceptscheme:schrapping.
-schrapping:onteigening a skos:Concept;
-    skos:inScheme conceptscheme:schrapping;
-    skos:notation "onteigening";
-    skos:prefLabel "Er is een onteigening"@nl;
-    skos:topConceptOf conceptscheme:schrapping.
-schrapping:opgeheven a skos:Concept;
-    skos:inScheme conceptscheme:schrapping;
-    skos:notation "opgeheven";
-    skos:prefLabel "Verwaarlozing is opgeheven"@nl;
-    skos:topConceptOf conceptscheme:schrapping.
-schrapping:rechtbank a skos:Concept;
-    skos:inScheme conceptscheme:schrapping;
-    skos:notation "rechtbank";
-    skos:prefLabel "Procedure rechtbank"@nl;
-    skos:topConceptOf conceptscheme:schrapping.
 stuk:aanvraag_opschorting_heffing_aanvaard a skos:Concept;
     rdfs:seeAlso beslissing:aanvraag_opschorting_heffing_aanvaard;
     skos:broader stuk:beslissingsstuk;
@@ -528,6 +488,46 @@ uitgesproken_gebrek:liften a skos:Concept;
     skos:semanticRelation uitgesproken_gebrek:gebouwonderdeel;
     dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_liften.
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:benutting_meer_dan_vijftig_percent> a skos:Concept;
+    skos:inScheme conceptscheme:reden_van_verwijderen_uit_inventaris;
+    skos:notation "+50%";
+    skos:prefLabel "Benutting van meer dan 50% conform de vergunde bestemming van het gebouw"@nl;
+    skos:topConceptOf conceptscheme:reden_van_verwijderen_uit_inventaris.
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:functiewijziging> a skos:Concept;
+    skos:inScheme conceptscheme:reden_van_verwijderen_uit_inventaris;
+    skos:notation "functiewijziging";
+    skos:prefLabel "Functiewijziging doorgevoerd"@nl;
+    skos:topConceptOf conceptscheme:reden_van_verwijderen_uit_inventaris.
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:gesloopt> a skos:Concept;
+    skos:inScheme conceptscheme:reden_van_verwijderen_uit_inventaris;
+    skos:notation "gesloopt";
+    skos:prefLabel "De bedrijfsruimte is gesloopt"@nl;
+    skos:topConceptOf conceptscheme:reden_van_verwijderen_uit_inventaris.
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:heffing> a skos:Concept;
+    skos:inScheme conceptscheme:reden_van_verwijderen_uit_inventaris;
+    skos:notation "heffing";
+    skos:prefLabel "Procedure heffing"@nl;
+    skos:topConceptOf conceptscheme:reden_van_verwijderen_uit_inventaris.
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:nieuwe_invulling> a skos:Concept;
+    skos:inScheme conceptscheme:reden_van_verwijderen_uit_inventaris;
+    skos:notation "nieuwe_invulling";
+    skos:prefLabel "Nieuwe invulling gegeven conform de vergunde bestemming"@nl;
+    skos:topConceptOf conceptscheme:reden_van_verwijderen_uit_inventaris.
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:onteigening> a skos:Concept;
+    skos:inScheme conceptscheme:reden_van_verwijderen_uit_inventaris;
+    skos:notation "onteigening";
+    skos:prefLabel "Er is een onteigening"@nl;
+    skos:topConceptOf conceptscheme:reden_van_verwijderen_uit_inventaris.
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:opgeheven> a skos:Concept;
+    skos:inScheme conceptscheme:reden_van_verwijderen_uit_inventaris;
+    skos:notation "opgeheven";
+    skos:prefLabel "Verwaarlozing is opgeheven"@nl;
+    skos:topConceptOf conceptscheme:reden_van_verwijderen_uit_inventaris.
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:rechtbank> a skos:Concept;
+    skos:inScheme conceptscheme:reden_van_verwijderen_uit_inventaris;
+    skos:notation "rechtbank";
+    skos:prefLabel "Procedure rechtbank"@nl;
+    skos:topConceptOf conceptscheme:reden_van_verwijderen_uit_inventaris.
 uitgesproken_gebrek:schoorstenen a skos:Concept;
     skos:altLabel "Schoorstenen"@nl;
     skos:broader uitgesproken_gebrek:gebouwonderdeel;
@@ -593,6 +593,13 @@ conceptscheme:procedure xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     skos:notation "cs_procedure";
     skos:note "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     skos:prefLabel "Conceptschema over procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl.
+conceptscheme:reden_van_verwijderen_uit_inventaris xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
+    a skos:ConceptScheme;
+    skos:definition "Redenen van verwijderen uit inventaris"@nl;
+    skos:hasTopConcept <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:benutting_meer_dan_vijftig_percent>, <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:functiewijziging>, <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:gesloopt>, <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:heffing>, <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:nieuwe_invulling>, <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:onteigening>, <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:opgeheven>, <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/reden_van_verwijderen_uit_inventaris:rechtbank>;
+    skos:notation "cs_reden_van_verwijderen_uit_inventaris";
+    skos:note "Redenen van verwijderen uit inventaris"@nl;
+    skos:prefLabel "Conceptschema over redenen van verwijderen uit inventaris in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl.
 conceptscheme:rol xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
     skos:definition "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
@@ -600,13 +607,6 @@ conceptscheme:rol xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     skos:notation "cs_rol";
     skos:note "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
     skos:prefLabel "Conceptschema over rollen van agenten binnen procedures in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl.
-conceptscheme:schrapping xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
-    a skos:ConceptScheme;
-    skos:definition "Redenen van schrapping"@nl;
-    skos:hasTopConcept schrapping:benutting_meer_dan_vijftig_percent, schrapping:functiewijziging, schrapping:gesloopt, schrapping:heffing, schrapping:nieuwe_invulling, schrapping:onteigening, schrapping:opgeheven, schrapping:rechtbank;
-    skos:notation "cs_schrapping";
-    skos:note "Redenen van schrapping"@nl;
-    skos:prefLabel "Conceptschema over redenen van schapping in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl.
 conceptscheme:stuk xkos:belongsTo omg_dataset:codelijst-verwaarlozing;
     a skos:ConceptScheme;
     skos:definition "Conceptschema over stukken in het kader van leegstaande en verwaarloosde bedrijfsruimten."@nl;
