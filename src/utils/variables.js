@@ -9,8 +9,6 @@ const config = yaml.load(fs.readFileSync('./source/config.yml', 'utf8'));
 
 const virtuoso = config.deploy.virtuoso ;
 
-const prefixes = Object.assign( {}, config.skos.prefixes, config.prefixes, { '@base' : config.skos.prefixes.concept })
-
 const context = JSON.parse(fs.readFileSync(config.source.path + config.source.context));
 
 
