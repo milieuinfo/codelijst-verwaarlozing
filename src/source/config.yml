@@ -21,13 +21,13 @@ skos:
   jsonld_framed: _prefix.jsonld
   csv: .csv
   json: .json
-  xlsx: .xlsx
   nt: .nt
   parquet: .parquet
 
 source:
   path: ./source/
-  codelijst_csv: codelijst-source.csv
+  codelijst_csv:
+    - codelijst-source.csv
   context: context.json
 
 dcat:
@@ -97,12 +97,6 @@ metadata :
       description: "Codelijsten ivm. verwaarlozing en leegstand van gebouwen, geserialiseerd als parquet bestand."
       mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
       format: http://publications.europa.eu/resource/authority/file-type/PARQUET
-      type: http://www.w3.org/ns/dcat#Distribution
-    xlsx:
-      title: "Codelijsten ivm. verwaarlozing en leegstand van gebouwen, geserialiseerd als excel-formaat."
-      description: "Codelijsten ivm. verwaarlozing en leegstand van gebouwen, geserialiseerd als excel bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-      format: http://publications.europa.eu/resource/authority/file-type/XLSX
       type: http://www.w3.org/ns/dcat#Distribution
     csv :
       title: "Codelijsten ivm. verwaarlozing en leegstand van gebouwen, geserialiseerd als csv-formaat."

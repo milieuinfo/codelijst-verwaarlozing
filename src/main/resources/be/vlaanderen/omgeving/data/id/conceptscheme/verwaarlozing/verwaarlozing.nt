@@ -488,7 +488,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/dakgoten> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/dakgoten> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgoten> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel> <http://www.w3.org/2004/02/skos/core#altLabel> "Gebrek aan de toestand van een gebouwonderdeel"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel> <http://www.w3.org/2004/02/skos/core#altLabel> "Gebouwonderdeel"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitenmuren> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitentimmerwerk> .
@@ -553,7 +553,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/schoorstenen> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/schoorstenen> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_schoorstenen> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/stabiliteit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/stabiliteit> <http://www.w3.org/2004/02/skos/core#altLabel> "Gebrek dat stabiliteit in het gedrang brengt"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/stabiliteit> <http://www.w3.org/2004/02/skos/core#altLabel> "Stabiliteit"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/stabiliteit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/stabiliteit> <http://www.w3.org/2004/02/skos/core#notation> "stabiliteit" .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/stabiliteit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek dat stabiliteit in het gedrang brengt"@nl .
@@ -571,7 +571,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/trappen> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/trappen> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_trappen> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid> <http://www.w3.org/2004/02/skos/core#altLabel> "Gebrek dat veiligheid in het gedrang brengt"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid> <http://www.w3.org/2004/02/skos/core#altLabel> "Veiligheid"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid> <http://www.w3.org/2004/02/skos/core#notation> "veiligheid" .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek dat veiligheid in het gedrang brengt"@nl .
@@ -579,7 +579,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/theme/5> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#gekoppelde_eigenschap> <https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_veiligheid> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/vochtindringing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/vochtindringing> <http://www.w3.org/2004/02/skos/core#altLabel> "Gebrek dat leidt tot vochtindringing"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/vochtindringing> <http://www.w3.org/2004/02/skos/core#altLabel> "Vochtindringing"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/vochtindringing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek> .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/vochtindringing> <http://www.w3.org/2004/02/skos/core#notation> "vochtindringing" .
 <https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/vochtindringing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gebrek dat leidt tot vochtindringing"@nl .

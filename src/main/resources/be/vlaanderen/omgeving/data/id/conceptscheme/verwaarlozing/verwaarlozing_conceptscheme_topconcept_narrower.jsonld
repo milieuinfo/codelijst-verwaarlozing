@@ -1146,7 +1146,7 @@
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
-                    "altLabel": "Gebrek aan de toestand van een gebouwonderdeel",
+                    "altLabel": "Gebouwonderdeel",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "narrower": [
                         {
@@ -1334,7 +1334,7 @@
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/stabiliteit",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
-                    "altLabel": "Gebrek dat stabiliteit in het gedrang brengt",
+                    "altLabel": "Stabiliteit",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "notation": "stabiliteit",
                     "prefLabel": "Gebrek dat stabiliteit in het gedrang brengt",
@@ -1345,7 +1345,7 @@
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
-                    "altLabel": "Gebrek dat veiligheid in het gedrang brengt",
+                    "altLabel": "Veiligheid",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "notation": "veiligheid",
                     "prefLabel": "Gebrek dat veiligheid in het gedrang brengt",
@@ -1356,7 +1356,7 @@
                 {
                     "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/vochtindringing",
                     "type": "http://www.w3.org/2004/02/skos/core#Concept",
-                    "altLabel": "Gebrek dat leidt tot vochtindringing",
+                    "altLabel": "Vochtindringing",
                     "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
                     "notation": "vochtindringing",
                     "prefLabel": "Gebrek dat leidt tot vochtindringing",

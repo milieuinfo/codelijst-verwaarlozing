@@ -498,7 +498,7 @@ uitgesproken_gebrek:dakgoten a skos:Concept;
     dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_dakgoten.
 uitgesproken_gebrek:gebouwonderdeel a skos:Concept;
-    skos:altLabel "Gebrek aan de toestand van een gebouwonderdeel"@nl;
+    skos:altLabel "Gebouwonderdeel"@nl;
     skos:inScheme conceptscheme:uitgesproken_gebrek;
     skos:narrower uitgesproken_gebrek:buitenmuren, uitgesproken_gebrek:buitentimmerwerk, uitgesproken_gebrek:dakbedekking, uitgesproken_gebrek:dakgebinte, uitgesproken_gebrek:dakgoten, uitgesproken_gebrek:kroonlijst, uitgesproken_gebrek:liften, uitgesproken_gebrek:schoorstenen, uitgesproken_gebrek:trappen;
     skos:narrowerTransitive uitgesproken_gebrek:buitenmuren, uitgesproken_gebrek:buitentimmerwerk, uitgesproken_gebrek:dakbedekking, uitgesproken_gebrek:dakgebinte, uitgesproken_gebrek:dakgoten, uitgesproken_gebrek:kroonlijst, uitgesproken_gebrek:liften, uitgesproken_gebrek:schoorstenen, uitgesproken_gebrek:trappen;
@@ -539,7 +539,7 @@ uitgesproken_gebrek:schoorstenen a skos:Concept;
     dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_schoorstenen.
 uitgesproken_gebrek:stabiliteit a skos:Concept;
-    skos:altLabel "Gebrek dat stabiliteit in het gedrang brengt"@nl;
+    skos:altLabel "Stabiliteit"@nl;
     skos:inScheme conceptscheme:uitgesproken_gebrek;
     skos:notation "stabiliteit";
     skos:prefLabel "Gebrek dat stabiliteit in het gedrang brengt"@nl;
@@ -557,7 +557,7 @@ uitgesproken_gebrek:trappen a skos:Concept;
     dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_trappen.
 uitgesproken_gebrek:veiligheid a skos:Concept;
-    skos:altLabel "Gebrek dat veiligheid in het gedrang brengt"@nl;
+    skos:altLabel "Veiligheid"@nl;
     skos:inScheme conceptscheme:uitgesproken_gebrek;
     skos:notation "veiligheid";
     skos:prefLabel "Gebrek dat veiligheid in het gedrang brengt"@nl;
@@ -565,7 +565,7 @@ uitgesproken_gebrek:veiligheid a skos:Concept;
     dcat:theme thema:5;
     prop:gekoppelde_eigenschap prop:vertoont_gebrek_ivm_veiligheid.
 uitgesproken_gebrek:vochtindringing a skos:Concept;
-    skos:altLabel "Gebrek dat leidt tot vochtindringing"@nl;
+    skos:altLabel "Vochtindringing"@nl;
     skos:inScheme conceptscheme:uitgesproken_gebrek;
     skos:notation "vochtindringing";
     skos:prefLabel "Gebrek dat leidt tot vochtindringing"@nl;
