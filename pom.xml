@@ -102,6 +102,17 @@
             </configuration>
           </execution>
           <execution>
+            <!-- genereert de SKOS-bestanden opnieuw uit src/source; Jenkins controleert
+                 daarna dat ze identiek zijn aan de gecommitte versie -->
+            <id>create skos</id>
+            <goals>
+              <goal>pnpm</goal>
+            </goals>
+            <configuration>
+              <arguments>run create_skos</arguments>
+            </configuration>
+          </execution>
+          <execution>
             <id>create metadata</id>
             <goals>
               <goal>pnpm</goal>

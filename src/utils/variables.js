@@ -540,6 +540,18 @@ const frame_concept_via_collectie = {
 const frame_skos_prefixes = {
     "@context": context,
     "@type": ["http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/2004/02/skos/core#Collection", "http://www.w3.org/2004/02/skos/core#Concept"],
+    "theme": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "gekoppelde_eigenschap": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "belongsTo": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
     "member": {
         "@type": "http://www.w3.org/2004/02/skos/core#Concept",
         "@embed": "@always",
@@ -715,6 +727,14 @@ const frame_skos_prefixes = {
 const frame_skos_no_prefixes = {
     "@context": context,
     "@type": ["http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/2004/02/skos/core#Collection", "http://www.w3.org/2004/02/skos/core#Concept"],
+    "theme": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "belongsTo": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
     "member": {
         "@type": "http://www.w3.org/2004/02/skos/core#Concept",
         "@embed": "@never",

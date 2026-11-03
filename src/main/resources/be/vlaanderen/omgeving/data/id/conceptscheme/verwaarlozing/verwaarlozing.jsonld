@@ -237,7 +237,8 @@
         },
         "seeAlso": {
             "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-            "@type": "@id"
+            "@type": "@id",
+            "@container": "@set"
         },
         "inScheme": {
             "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
@@ -374,7 +375,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/bodemsaneringsproject",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
             "notation": "bodemsaneringsproject",
             "prefLabel": "Conform verklaard bodemsaneringsproject",
@@ -383,7 +386,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/brownfieldconvenant",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
             "notation": "brownfieldconvenant",
             "prefLabel": "Definitief gesloten brownfieldconvenant",
@@ -392,7 +397,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/leegstaand_niet_verwaarloosd",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
             "notation": "leegstaand_niet_verwaarloosd",
             "prefLabel": "Leegstaande maar niet-verwaarloosde bedrijfsruimten",
@@ -401,7 +408,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/nieuwe_eigenaars",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
             "notation": "nieuwe_eigenaars",
             "prefLabel": "Nieuwe eigenaars",
@@ -410,7 +419,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/verlenging_bij_vernieuwing",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
             "notation": "verlenging_bij_vernieuwing",
             "prefLabel": "Verlenging bij vernieuwing",
@@ -419,7 +430,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/aanvraag_opschorting_heffing_reden/vernieuwing",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
             "notation": "vernieuwing",
             "prefLabel": "Vernieuwing, al of niet gekoppeld aan de beëindiging van de leegstand",
@@ -428,7 +441,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "aanvraag_opschorting_heffing_aanvaard",
             "prefLabel": "Aanvraag opschorting heffing aanvaard",
@@ -437,7 +452,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_opschorting_heffing"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "aanvraag_opschorting_heffing_niet_aanvaard",
             "prefLabel": "Aanvraag opschorting heffing niet aanvaard",
@@ -446,7 +463,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_aanvaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "aanvraag_schrapping_aanvaard",
             "prefLabel": "Aanvraag schrapping aanvaard",
@@ -455,7 +474,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/aanvraag_schrapping"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "aanvraag_schrapping_niet_aanvaard",
             "prefLabel": "Aanvraag schrapping niet aanvaard",
@@ -464,7 +485,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_ingewilligd",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "beroep_tegen_registratie_ingewilligd",
             "prefLabel": "Beroep tegen registratie ingewilligd",
@@ -473,7 +496,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_onontvankelijk_verklaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "beroep_tegen_registratie_onontvankelijk_verklaard",
             "prefLabel": "Beroep tegen registratie onontvankelijk verklaard",
@@ -482,7 +507,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_verworpen",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/beroep_tegen_registratie"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "beroep_tegen_registratie_verworpen",
             "prefLabel": "Beroep tegen registratie verworpen",
@@ -491,7 +518,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "geregistreerd_in_inventaris",
             "prefLabel": "Geregistreerd in inventaris",
@@ -516,7 +545,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/niet_geregistreerd_in_inventaris",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/procedure/registreren"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
             "notation": "niet_geregistreerd_in_inventaris",
             "prefLabel": "Niet geregistreerd in inventaris",
@@ -681,7 +712,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_aanvaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -696,7 +729,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard_begeleidende_brief",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -711,7 +746,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_opschorting_heffing_niet_aanvaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -726,7 +763,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard_begeleidende_brief",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_niet_aanvaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -741,7 +780,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_aanvaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_aanvaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -756,7 +797,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard_begeleidende_brief",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_aanvaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -771,7 +814,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/aanvraag_schrapping_niet_aanvaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -786,7 +831,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard_begeleidende_brief",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_schrapping_niet_aanvaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -801,7 +848,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_ingewilligd",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_ingewilligd"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -816,7 +865,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd_begeleidende_brief",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_ingewilligd"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -831,7 +882,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_onontvankelijk_verklaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_onontvankelijk_verklaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -846,7 +899,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard_begeleidende_brief",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_onontvankelijk_verklaard"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -861,7 +916,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_verworpen",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/beroep_tegen_registratie_verworpen"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -876,7 +933,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen_begeleidende_brief",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beroep_tegen_registratie_verworpen"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -891,7 +950,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/beslissing"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
             "narrower": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/aanvraag_opschorting_heffing_aanvaard",
@@ -968,7 +1029,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/inkomend_procedurestuk",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk"
@@ -983,7 +1046,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
+            ],
             "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/stuk",
             "narrower": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/inkomend_procedurestuk",
@@ -1004,7 +1069,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/beslissing/geregistreerd_in_inventaris"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -1019,7 +1086,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratieattest_begeleidende_brief",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/registratie_attest"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/beslissingsstuk"
@@ -1034,7 +1103,9 @@
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/retour_afzender_procedurestuk",
             "type": "http://www.w3.org/2004/02/skos/core#Concept",
-            "seeAlso": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure",
+            "seeAlso": [
+                "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/procedure"
+            ],
             "broader": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk",
             "broaderTransitive": [
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/stuk/procedurestuk"
@@ -1112,10 +1183,7 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
             ],
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitenmuren",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitenmuren"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/buitentimmerwerk",
@@ -1132,10 +1200,7 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
             ],
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitentimmerwerk",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_buitentimmerwerk"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/dakbedekking",
@@ -1152,10 +1217,7 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
             ],
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakbedekking",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakbedekking"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/dakgebinte",
@@ -1172,10 +1234,7 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
             ],
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgebinte",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgebinte"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/dakgoten",
@@ -1192,10 +1251,7 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
             ],
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgoten",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_dakgoten"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel",
@@ -1239,10 +1295,7 @@
             ],
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_gebouwonderdeel",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_gebouwonderdeel"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/kroonlijst",
@@ -1259,10 +1312,7 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
             ],
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_kroonlijst",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_kroonlijst"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/liften",
@@ -1279,10 +1329,7 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
             ],
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_liften",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_liften"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/schoorstenen",
@@ -1299,10 +1346,7 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
             ],
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_schoorstenen",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_schoorstenen"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/stabiliteit",
@@ -1313,10 +1357,7 @@
             "prefLabel": "Gebrek dat stabiliteit in het gedrang brengt",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_stabiliteit",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_stabiliteit"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/trappen",
@@ -1333,10 +1374,7 @@
                 "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/gebouwonderdeel"
             ],
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_trappen",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_trappen"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/veiligheid",
@@ -1347,10 +1385,7 @@
             "prefLabel": "Gebrek dat veiligheid in het gedrang brengt",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_veiligheid",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_veiligheid"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/concept/leegstand/uitgesproken_gebrek/vochtindringing",
@@ -1361,10 +1396,7 @@
             "prefLabel": "Gebrek dat leidt tot vochtindringing",
             "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/uitgesproken_gebrek",
             "theme": "http://www.eionet.europa.eu/gemet/theme/5",
-            "gekoppelde_eigenschap": {
-                "id": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_vochtindringing",
-                "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            }
+            "gekoppelde_eigenschap": "https://data.omgeving.vlaanderen.be/ns/verwaarlozing#vertoont_gebrek_ivm_vochtindringing"
         },
         {
             "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/leegstand/aanvraag_opschorting_heffing_reden",
